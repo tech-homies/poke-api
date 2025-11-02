@@ -7,15 +7,15 @@ import { CreateTrainerDto } from './dto/create-trainer.dto';
 export class TrainersService {
   private trainers: Trainer[] = trainers;
 
-  public findAll(): Trainer[] {
+  findAll(): Trainer[] {
     return this.trainers;
   }
 
-  public findOne(id: number): Trainer | undefined {
+  findOne(id: number): Trainer | undefined {
     return this.trainers.find((trainer) => trainer.id === id);
   }
 
-  public create(createTrainerDto: CreateTrainerDto): Trainer {
+  create(createTrainerDto: CreateTrainerDto): Trainer {
     const newId = Math.max(...this.trainers.map((t) => t.id), 0) + 1;
     const newTrainer: Trainer = {
       id: newId,

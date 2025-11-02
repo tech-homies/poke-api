@@ -11,7 +11,6 @@ import {
 } from '@nestjs/common';
 import {
   ApiBadRequestResponse,
-  ApiBody,
   ApiNoContentResponse,
   ApiOkResponse,
   ApiOperation,
@@ -19,15 +18,8 @@ import {
 } from '@nestjs/swagger';
 import { TeamDto } from './dto/team.dto';
 import { TeamsService } from './teams.service';
-import { TeamSizeExceededException } from './exception/team-size-exceeded.exception';
-import { DuplicatePokemonException } from './exception/duplicate-pokemon.exception';
 
 @Controller('trainers/:trainerId/team')
-@ApiParam({
-  name: 'trainerId',
-  description: 'ID du dresseur',
-  example: 1,
-})
 export class TeamsController {
   constructor(private readonly teamService: TeamsService) {}
 
@@ -35,6 +27,11 @@ export class TeamsController {
   @ApiOkResponse({
     description: "L'équipe du dresseur a été récupérée avec succès",
     type: TeamDto,
+  })
+  @ApiParam({
+    name: 'trainerId',
+    description: 'ID du dresseur',
+    example: 1,
   })
   @Get()
   getTeamByTrainerId(
@@ -51,25 +48,28 @@ export class TeamsController {
     description:
       "La taille de l'équipe dépasse la limite autorisée ou des pokémons en double ont été détectés",
   })
+  @ApiParam({
+    name: 'trainerId',
+    description: 'ID du dresseur',
+    example: 1,
+  })
   @HttpCode(HttpStatus.NO_CONTENT)
   @Put()
   updateTeamByTrainerId(
     @Param('trainerId', ParseIntPipe) trainerId: number,
     @Body() teamDto: TeamDto,
   ): void {
-    if (teamDto.pokemons.length > 3) {
-      throw new TeamSizeExceededException(3);
-    }
-    if (new Set(teamDto.pokemons).size !== teamDto.pokemons.length) {
-      throw new DuplicatePokemonException();
-    }
-
     return this.teamService.updateTeamByTrainerId(trainerId, teamDto);
   }
 
   @ApiOperation({ summary: "Supprimer l'équipe d'un dresseur par son ID" })
   @ApiNoContentResponse({
     description: "L'équipe du dresseur a été supprimée avec succès",
+  })
+  @ApiParam({
+    name: 'trainerId',
+    description: 'ID du dresseur',
+    example: 1,
   })
   @HttpCode(HttpStatus.NO_CONTENT)
   @Delete()
