@@ -2,46 +2,41 @@ import {
   ArgumentsHost,
   Catch,
   ExceptionFilter,
+  HttpException,
   HttpStatus,
 } from '@nestjs/common';
 import { Response } from 'express';
-import { DuplicatePokemonException } from '../../teams/exceptions/duplicate-pokemon.exception';
-import { TeamSizeExceededException } from '../../teams/exceptions/team-size-exceeded.exception';
 
 /**
- * Filtre global qui centralise la gestion des exceptions personnalisées de validation métier
- * Les exceptions HTTP standard (NotFoundException, BadRequestException, etc.) sont gérées par NestJS
- * Ce filtre ne traite que les exceptions métier spécifiques nécessitant une logique personnalisée
+ * Filtre global optionnel pour intercepter toutes les exceptions HTTP
+ * Peut être utilisé pour ajouter une logique de logging ou de transformation personnalisée
+ * Pour l'instant, toutes les exceptions métier étendent correctement les exceptions HTTP de NestJS
+ * et sont donc gérées automatiquement sans nécessiter de logique personnalisée
  */
-@Catch(
-  // Exceptions liées aux équipes (teams)
-  DuplicatePokemonException,
-  TeamSizeExceededException,
-)
+@Catch()
 export class AllExceptionsFilter implements ExceptionFilter {
-  catch(exception: Error, host: ArgumentsHost) {
+  catch(exception: unknown, host: ArgumentsHost) {
     const ctx = host.switchToHttp();
     const response = ctx.getResponse<Response>();
 
-    // Code de statut HTTP par défaut
-    const message = exception.message;
-    let error = 'Internal Server Error';
-    let statusCode = HttpStatus.INTERNAL_SERVER_ERROR;
+    // Gestion des exceptions HTTP standard de NestJS
+    if (exception instanceof HttpException) {
+      const status = exception.getStatus();
+      const exceptionResponse = exception.getResponse();
 
-    // Détermination du code de statut HTTP approprié selon le type d'exception
-    if (exception instanceof TeamSizeExceededException) {
-      error = 'Bad Request';
-      statusCode = HttpStatus.BAD_REQUEST;
-    } else if (exception instanceof DuplicatePokemonException) {
-      error = 'Conflict';
-      statusCode = HttpStatus.CONFLICT;
+      response.status(status).json(exceptionResponse);
+      return;
     }
 
-    // Construction de la réponse d'erreur standardisée
-    response.status(statusCode).json({
+    // Gestion des erreurs inattendues
+    const status = HttpStatus.INTERNAL_SERVER_ERROR;
+    const message =
+      exception instanceof Error ? exception.message : 'Internal server error';
+
+    response.status(status).json({
+      statusCode: status,
       message: [message],
-      error,
-      statusCode,
+      error: 'Internal Server Error',
     });
   }
 }
