@@ -5,9 +5,10 @@ import { PokemonTypesModule } from './pokemon-types/pokemon-types.module';
 import { PokemonsModule } from './pokemons/pokemons.module';
 import { DelayMiddleware } from './middlewares/delay.middleware';
 import { TrainersModule } from './trainers/trainers.module';
+import { TeamsModule } from './teams/teams.module';
 
 @Module({
-  imports: [PokemonTypesModule, PokemonsModule, TrainersModule],
+  imports: [PokemonTypesModule, PokemonsModule, TrainersModule, TeamsModule],
   providers: [{ provide: APP_FILTER, useClass: AllExceptionsFilter }],
 })
 export class AppModule {
