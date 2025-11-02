@@ -1,6 +1,6 @@
-import { PokemonTypeDto } from './pokemon-type.dto';
+import { PokemonType } from './entities/pokemon-type.entity';
 
-export const pokemonTypes: PokemonTypeDto[] = [
+export const pokemonTypes: PokemonType[] = [
   {
     id: 0,
     name: { fr: 'Acier', en: 'Steel', jp: '\u306f\u304c\u306d' },

@@ -1,6 +1,6 @@
-import { PokemonDto } from './pokemon.dto';
+import { Pokemon } from './entities/pokemon.entity';
 
-export const pokemons: PokemonDto[] = [
+export const pokemons: Pokemon[] = [
   {
     pokedex_id: 0,
     generation: 1,

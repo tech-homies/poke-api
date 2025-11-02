@@ -1,11 +1,9 @@
-type Locale = 'fr' | 'en' | 'jp';
-
-export class PokemonTypeDto {
+export type PokemonType = {
   id: number;
-  name: Record<Locale, string>;
+  name: { fr: string; en: string; jp: string };
   sprites: string;
   resistances: {
     name: string;
     multiplier: number;
   }[];
-}
+};
