@@ -8,6 +8,8 @@ import { Response } from 'express';
 import { PokemonTypeNotFoundException } from '../../pokemon-types/exceptions/pokemon-type-not-found.exception';
 import { PokemonNotFoundException } from '../../pokemons/exceptions/pokemon-not-found.exception';
 import { TrainerNotFoundException } from '../../trainers/exceptions/trainer-not-found.exception';
+import { DuplicatePokemonException } from '../../teams/exception/duplicate-pokemon.exception';
+import { TeamSizeExceededException } from '../../teams/exception/team-size-exceeded.exception';
 
 /**
  * Filtre global qui centralise la gestion de toutes les exceptions personnalisées de l'application
@@ -21,12 +23,19 @@ import { TrainerNotFoundException } from '../../trainers/exceptions/trainer-not-
   // Exceptions liées aux pokémons
   PokemonNotFoundException,
 
-  // Exceptions liées aux dresseurs
+  // Exceptions liées aux dresseurs (trainers)
   TrainerNotFoundException,
+
+  // Exceptions liées aux équipes (teams)
+  DuplicatePokemonException,
+  TeamSizeExceededException,
 )
 export class AllExceptionsFilter implements ExceptionFilter {
   // Exceptions correspondant aux erreurs de validation/mauvaise requête (400 Bad Request)
-  private readonly badRequestExceptions = [];
+  private readonly badRequestExceptions = [
+    DuplicatePokemonException,
+    TeamSizeExceededException,
+  ];
 
   // Exceptions correspondant aux ressources non trouvées (404 Not Found)
   private readonly notFoundExceptions = [
