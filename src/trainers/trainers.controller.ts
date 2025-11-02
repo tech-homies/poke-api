@@ -1,20 +1,22 @@
 import {
+  Body,
   Controller,
   Get,
-  HttpStatus,
   Param,
   ParseIntPipe,
+  Post,
 } from '@nestjs/common';
 import { TrainersService } from './trainers.service';
 import {
+  ApiCreatedResponse,
   ApiNotFoundResponse,
   ApiOkResponse,
   ApiOperation,
   ApiParam,
-  ApiResponse,
 } from '@nestjs/swagger';
 import { TrainerDto } from './dto/trainer.dto';
 import { TrainerNotFoundException } from './exceptions/trainer-not-found.exception';
+import { CreateTrainerDto } from './dto/create-trainer.dto';
 
 @Controller('trainers')
 export class TrainersController {
@@ -50,5 +52,15 @@ export class TrainersController {
       throw new TrainerNotFoundException(id);
     }
     return trainer;
+  }
+
+  @ApiOperation({ summary: 'Créer un nouveau dresseur' })
+  @ApiCreatedResponse({
+    description: 'Dresseur créé avec succès',
+    type: TrainerDto,
+  })
+  @Post()
+  create(@Body() createTrainerDto: CreateTrainerDto): TrainerDto {
+    return this.trainersService.create(createTrainerDto);
   }
 }
