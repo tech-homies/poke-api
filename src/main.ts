@@ -20,7 +20,20 @@ async function bootstrap() {
     .setVersion('1.0')
     .build();
   const documentFactory = () => SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('api', app, documentFactory);
+  SwaggerModule.setup(
+    '', // 👈 path du Swagger (root path ici)
+    app,
+    documentFactory,
+    // 👇 Utilisation de Swagger UI v5 via un CDN pour que cela fonctionne sur Vercel
+    {
+      customCssUrl: 'https://unpkg.com/swagger-ui-dist@5/swagger-ui.css',
+      customfavIcon: 'https://unpkg.com/swagger-ui-dist@5/favicon-32x32.png',
+      customJs: [
+        'https://unpkg.com/swagger-ui-dist@5/swagger-ui-bundle.js',
+        'https://unpkg.com/swagger-ui-dist@5/swagger-ui-standalone-preset.js',
+      ],
+    },
+  );
 
   await app.listen(process.env.PORT ?? 3000);
 }
