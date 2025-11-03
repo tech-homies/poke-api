@@ -5,23 +5,23 @@ import { CreateTrainerDto } from './dto/create-trainer.dto';
 
 @Injectable()
 export class TrainersService {
-  private trainers: Trainer[] = trainers;
+  #trainers: Trainer[] = trainers;
 
-  public findAll(): Trainer[] {
-    return this.trainers;
+  findAll(): Trainer[] {
+    return this.#trainers;
   }
 
-  public findOne(id: number): Trainer | undefined {
-    return this.trainers.find((trainer) => trainer.id === id);
+  findOne(id: number): Trainer | undefined {
+    return this.#trainers.find((trainer) => trainer.id === id);
   }
 
-  public create(createTrainerDto: CreateTrainerDto): Trainer {
-    const newId = Math.max(...this.trainers.map((t) => t.id), 0) + 1;
+  create(createTrainerDto: CreateTrainerDto): Trainer {
+    const newId = Math.max(...this.#trainers.map((t) => t.id), 0) + 1;
     const newTrainer: Trainer = {
       id: newId,
       ...createTrainerDto,
     };
-    this.trainers = this.trainers.concat(newTrainer);
+    this.#trainers = this.#trainers.concat(newTrainer);
     return newTrainer;
   }
 }

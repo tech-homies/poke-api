@@ -7,10 +7,10 @@ import { DuplicatePokemonException } from './exceptions/duplicate-pokemon.except
 
 @Injectable()
 export class TeamsService {
-  private teams: Record<Trainer['id'], Pokemon['pokedex_id'][]> = [];
+  #teams: Record<Trainer['id'], Pokemon['pokedex_id'][]> = [];
 
   deleteTeamByTrainerId(trainerId: number): void {
-    this.teams[trainerId] = [];
+    this.#teams[trainerId] = [];
   }
 
   updateTeamByTrainerId(trainerId: number, teamDto: TeamDto): void {
@@ -24,13 +24,13 @@ export class TeamsService {
       throw new DuplicatePokemonException();
     }
 
-    this.teams[trainerId] = teamDto.pokemons;
+    this.#teams[trainerId] = teamDto.pokemons;
   }
 
   getTeamByTrainerId(trainerId: number): TeamDto {
     return {
       trainerId,
-      pokemons: this.teams[trainerId],
+      pokemons: this.#teams[trainerId],
     };
   }
 }

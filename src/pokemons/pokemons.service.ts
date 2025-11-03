@@ -4,13 +4,13 @@ import { Pokemon } from './entities/pokemon.entity';
 
 @Injectable()
 export class PokemonsService {
-  private pokemons: Pokemon[] = pokemons;
+  #pokemons: Pokemon[] = pokemons;
 
-  public findAll(): Pokemon[] {
-    return this.pokemons;
+  findAll(): Pokemon[] {
+    return this.#pokemons;
   }
 
-  public findOne(pokedexId: number): Pokemon | undefined {
-    return this.pokemons.find((pokemon) => pokemon.pokedex_id === pokedexId);
+  findOne(pokedexId: number): Pokemon | undefined {
+    return this.#pokemons.find((pokemon) => pokemon.pokedex_id === pokedexId);
   }
 }
