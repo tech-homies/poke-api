@@ -12,6 +12,8 @@ export class TeamDto {
   @ApiProperty({
     description: "Liste des identifiants des pokémons dans l'équipe",
     example: [1, 4, 7],
+    type: 'integer',
+    isArray: true,
   })
   @IsNotEmpty({ each: true })
   @IsInt({ each: true })

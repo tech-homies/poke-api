@@ -35,7 +35,11 @@ export class PokemonTypeDto {
   @IsNotEmpty()
   name: { fr: string; en: string; jp: string };
 
-  @ApiProperty({ description: `URL de l'image du type de pokémon` })
+  @ApiProperty({
+    description: `URL de l'image du type de pokémon`,
+    example:
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
+  })
   @IsUrl()
   @IsNotEmpty()
   sprites: string;
@@ -58,6 +62,10 @@ export class PokemonTypeDto {
         },
       },
     },
+    example: [
+      { name: 'Feu', multiplier: 0.5 },
+      { name: 'Eau', multiplier: 2 },
+    ],
   })
   @IsArray()
   resistances: {
