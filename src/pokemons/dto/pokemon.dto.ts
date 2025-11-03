@@ -77,13 +77,15 @@ export class PokemonDto {
       regular: {
         type: 'string',
         description: 'Sprite normal',
-        example: 'https://example.com/sprites/1.png',
+        example:
+          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/1/regular.png',
       },
       shiny: {
         type: 'string',
         nullable: true,
         description: 'Sprite chromatique (ou null)',
-        example: null,
+        example:
+          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/1/shiny.png',
       },
       gmax: {
         type: 'object',
@@ -92,7 +94,8 @@ export class PokemonDto {
           regular: {
             type: 'string',
             description: 'Sprite Gigamax normal',
-            example: 'https://example.com/sprites/gmax/1.png',
+            example:
+              'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/3/gmax-regular.png',
           },
           shiny: {
             type: 'string',

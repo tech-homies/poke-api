@@ -38,7 +38,7 @@ export class PokemonTypeDto {
   @ApiProperty({
     description: `URL de l'image du type de pokémon`,
     example:
-      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/acier.png',
   })
   @IsUrl()
   @IsNotEmpty()

@@ -5,7 +5,7 @@ export const pokemonTypes: PokemonType[] = [
     id: 0,
     name: { fr: 'Acier', en: 'Steel', jp: '\u306f\u304c\u306d' },
     sprites:
-      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/acier.png',
     resistances: [
       { name: 'Normal', multiplier: 0.5 },
       { name: 'Plante', multiplier: 0.5 },
@@ -35,7 +35,7 @@ export const pokemonTypes: PokemonType[] = [
       jp: '\u304b\u304f\u3068\u3046',
     },
     sprites:
-      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/combat.png',
     resistances: [
       { name: 'Normal', multiplier: 1 },
       { name: 'Plante', multiplier: 1 },
@@ -65,7 +65,7 @@ export const pokemonTypes: PokemonType[] = [
       jp: '\u30c9\u30e9\u30b4\u30f3',
     },
     sprites:
-      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/dragon.png',
     resistances: [
       { name: 'Normal', multiplier: 1 },
       { name: 'Plante', multiplier: 0.5 },
@@ -91,7 +91,7 @@ export const pokemonTypes: PokemonType[] = [
     id: 3,
     name: { fr: 'Eau', en: 'Water', jp: '\u307f\u305a' },
     sprites:
-      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/eau.png',
     resistances: [
       { name: 'Normal', multiplier: 1 },
       { name: 'Plante', multiplier: 2 },
@@ -121,7 +121,7 @@ export const pokemonTypes: PokemonType[] = [
       jp: '\u3067\u3093\u304d',
     },
     sprites:
-      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/electrik.png',
     resistances: [
       { name: 'Normal', multiplier: 1 },
       { name: 'Plante', multiplier: 1 },
@@ -151,7 +151,7 @@ export const pokemonTypes: PokemonType[] = [
       jp: '\u30d5\u30a7\u30a2\u30ea\u30fc',
     },
     sprites:
-      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/fee.png',
     resistances: [
       { name: 'Normal', multiplier: 1 },
       { name: 'Plante', multiplier: 1 },
@@ -177,7 +177,7 @@ export const pokemonTypes: PokemonType[] = [
     id: 6,
     name: { fr: 'Feu', en: 'Fire', jp: '\u307b\u306e\u304a' },
     sprites:
-      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/feu.png',
     resistances: [
       { name: 'Normal', multiplier: 1 },
       { name: 'Plante', multiplier: 0.5 },
@@ -203,7 +203,7 @@ export const pokemonTypes: PokemonType[] = [
     id: 7,
     name: { fr: 'Glace', en: 'Ice', jp: '\u3053\u304a\u308a' },
     sprites:
-      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/glace.png',
     resistances: [
       { name: 'Normal', multiplier: 1 },
       { name: 'Plante', multiplier: 1 },
@@ -229,7 +229,7 @@ export const pokemonTypes: PokemonType[] = [
     id: 8,
     name: { fr: 'Insecte', en: 'Bug', jp: '\u3080\u3057' },
     sprites:
-      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/insecte.png',
     resistances: [
       { name: 'Normal', multiplier: 1 },
       { name: 'Plante', multiplier: 0.5 },
@@ -259,7 +259,7 @@ export const pokemonTypes: PokemonType[] = [
       jp: '\u30ce\u30fc\u30de\u30eb',
     },
     sprites:
-      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/normal.png',
     resistances: [
       { name: 'Normal', multiplier: 1 },
       { name: 'Plante', multiplier: 1 },
@@ -285,7 +285,7 @@ export const pokemonTypes: PokemonType[] = [
     id: 10,
     name: { fr: 'Plante', en: 'Grass', jp: '\u304f\u3055' },
     sprites:
-      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/plante.png',
     resistances: [
       { name: 'Normal', multiplier: 1 },
       { name: 'Plante', multiplier: 0.5 },
@@ -311,7 +311,7 @@ export const pokemonTypes: PokemonType[] = [
     id: 11,
     name: { fr: 'Poison', en: 'Poison', jp: '\u3069\u304f' },
     sprites:
-      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/poison.png',
     resistances: [
       { name: 'Normal', multiplier: 1 },
       { name: 'Plante', multiplier: 0.5 },
@@ -337,7 +337,7 @@ export const pokemonTypes: PokemonType[] = [
     id: 12,
     name: { fr: 'Psy', en: 'Psychic', jp: '\u30a8\u30b9\u30d1\u30fc' },
     sprites:
-      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/psy.png',
     resistances: [
       { name: 'Normal', multiplier: 1 },
       { name: 'Plante', multiplier: 1 },
@@ -363,7 +363,7 @@ export const pokemonTypes: PokemonType[] = [
     id: 13,
     name: { fr: 'Roche', en: 'Rock', jp: '\u3044\u308f' },
     sprites:
-      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/roche.png',
     resistances: [
       { name: 'Normal', multiplier: 0.5 },
       { name: 'Plante', multiplier: 2 },
@@ -389,7 +389,7 @@ export const pokemonTypes: PokemonType[] = [
     id: 14,
     name: { fr: 'Sol', en: 'Ground', jp: '\u3058\u3081\u3093' },
     sprites:
-      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/sol.png',
     resistances: [
       { name: 'Normal', multiplier: 1 },
       { name: 'Plante', multiplier: 2 },
@@ -419,7 +419,7 @@ export const pokemonTypes: PokemonType[] = [
       jp: '\u30b4\u30fc\u30b9\u30c8',
     },
     sprites:
-      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/spectre.png',
     resistances: [
       { name: 'Normal', multiplier: 0 },
       { name: 'Plante', multiplier: 1 },
@@ -445,7 +445,7 @@ export const pokemonTypes: PokemonType[] = [
     id: 16,
     name: { fr: 'T\u00e9n\u00e8bres', en: 'Dark', jp: '\u3042\u304f' },
     sprites:
-      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/tenebres.png',
     resistances: [
       { name: 'Normal', multiplier: 1 },
       { name: 'Plante', multiplier: 1 },
@@ -471,7 +471,7 @@ export const pokemonTypes: PokemonType[] = [
     id: 17,
     name: { fr: 'Vol', en: 'Flying', jp: '\u3072\u3053\u3046' },
     sprites:
-      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
+      'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/vol.png',
     resistances: [
       { name: 'Normal', multiplier: 1 },
       { name: 'Plante', multiplier: 0.5 },
