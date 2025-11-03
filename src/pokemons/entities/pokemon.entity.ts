@@ -1,3 +1,5 @@
+import { PokemonType } from '../../pokemon-types/entities/pokemon-type.entity';
+
 type Stats = {
   hp: number;
   atk: number;
@@ -35,7 +37,7 @@ export type Pokemon = {
       shiny: string | null;
     } | null;
   };
-  types: { name: string; image: string }[];
+  types: PokemonType['id'][];
   talents: Talent[];
   stats: Stats;
   resistances: Resistance[];

@@ -1,5 +1,6 @@
 import { IsInt, IsNotEmpty, IsString, Min } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
+import { PokemonType } from '../../pokemon-types/entities/pokemon-type.entity';
 
 export type Stats = {
   hp: number;
@@ -76,7 +77,15 @@ export class PokemonDto {
       shiny: string | null;
     } | null;
   };
-  types: { name: string; image: string }[];
+
+  @ApiProperty({
+    description: 'Types du pokémon',
+    example: [1, 2],
+    type: Number,
+    isArray: true,
+  })
+  types: PokemonType['id'][];
+
   talents: Talent[];
   stats: Stats;
   resistances: Resistance[];

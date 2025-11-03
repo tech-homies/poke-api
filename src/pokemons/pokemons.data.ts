@@ -52,18 +52,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/1/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [10, 11],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Chlorophylle', tc: true },
@@ -128,18 +117,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/2/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [10, 11],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Chlorophylle', tc: true },
@@ -206,18 +184,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/3/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [10, 11],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Chlorophylle', tc: true },
@@ -292,13 +259,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/4/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Force Soleil', tc: true },
@@ -363,13 +324,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/5/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Force Soleil', tc: true },
@@ -436,18 +391,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/6/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [6, 17],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Force Soleil', tc: true },
@@ -531,13 +475,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/7/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Cuvette', tc: true },
@@ -602,13 +540,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/8/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Cuvette', tc: true },
@@ -675,13 +607,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/9/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Cuvette', tc: true },
@@ -756,13 +682,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/10/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [
       { name: '\u00c9cran Poudre', tc: false },
       { name: 'Fuite', tc: true },
@@ -827,13 +747,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/11/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [{ name: 'Mue', tc: false }],
     stats: {
       hp: 50,
@@ -897,18 +811,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/12/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [8, 17],
     talents: [
       { name: '\u0152il Compos\u00e9', tc: false },
       { name: 'Lentiteint\u00e9e', tc: true },
@@ -973,18 +876,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/13/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [8, 11],
     talents: [
       { name: '\u00c9cran Poudre', tc: false },
       { name: 'Fuite', tc: true },
@@ -1049,18 +941,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/14/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [8, 11],
     talents: [{ name: 'Mue', tc: false }],
     stats: {
       hp: 45,
@@ -1119,18 +1000,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/15/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [8, 11],
     talents: [
       { name: 'Essaim', tc: false },
       { name: 'Sniper', tc: true },
@@ -1191,18 +1061,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/16/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Pieds Confus', tc: false },
@@ -1268,18 +1127,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/17/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Pieds Confus', tc: false },
@@ -1342,18 +1190,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/18/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Pieds Confus', tc: false },
@@ -1429,13 +1266,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/19/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Fuite', tc: false },
       { name: 'Cran', tc: false },
@@ -1503,13 +1334,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/20/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Fuite', tc: false },
       { name: 'Cran', tc: false },
@@ -1581,18 +1406,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/21/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Sniper', tc: true },
@@ -1654,18 +1468,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/22/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Sniper', tc: true },
@@ -1723,13 +1526,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/23/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [11],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Mue', tc: false },
@@ -1792,13 +1589,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/24/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [11],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Mue', tc: false },
@@ -1866,13 +1657,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/25/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Statik', tc: false },
       { name: 'Paratonnerre', tc: true },
@@ -1934,13 +1719,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/26/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Statik', tc: false },
       { name: 'Paratonnerre', tc: true },
@@ -2018,13 +1797,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/27/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [14],
     talents: [
       { name: 'Voile Sable', tc: false },
       { name: 'Baigne Sable', tc: true },
@@ -2095,13 +1868,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/28/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [14],
     talents: [
       { name: 'Voile Sable', tc: false },
       { name: 'Baigne Sable', tc: true },
@@ -2172,13 +1939,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/29/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [11],
     talents: [
       { name: 'Point Poison', tc: false },
       { name: 'Rivalit\u00e9', tc: false },
@@ -2244,13 +2005,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/30/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [11],
     talents: [
       { name: 'Point Poison', tc: false },
       { name: 'Rivalit\u00e9', tc: false },
@@ -2313,18 +2068,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/31/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [11, 14],
     talents: [
       { name: 'Point Poison', tc: false },
       { name: 'Rivalit\u00e9', tc: false },
@@ -2390,13 +2134,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/32/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [11],
     talents: [
       { name: 'Point Poison', tc: false },
       { name: 'Rivalit\u00e9', tc: false },
@@ -2462,13 +2200,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/33/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [11],
     talents: [
       { name: 'Point Poison', tc: false },
       { name: 'Rivalit\u00e9', tc: false },
@@ -2531,18 +2263,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/34/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [11, 14],
     talents: [
       { name: 'Point Poison', tc: false },
       { name: 'Rivalit\u00e9', tc: false },
@@ -2608,13 +2329,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/35/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [
       { name: 'Joli Sourire', tc: false },
       { name: 'Garde Magik', tc: false },
@@ -2683,13 +2398,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/36/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [
       { name: 'Joli Sourire', tc: false },
       { name: 'Garde Magik', tc: false },
@@ -2755,13 +2464,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/37/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Torche', tc: false },
       { name: 'S\u00e9cheresse', tc: true },
@@ -2832,13 +2535,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/38/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Torche', tc: false },
       { name: 'S\u00e9cheresse', tc: true },
@@ -2909,18 +2606,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/39/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [9, 5],
     talents: [
       { name: 'Joli Sourire', tc: false },
       { name: 'Battant', tc: false },
@@ -2983,18 +2669,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/40/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [9, 5],
     talents: [
       { name: 'Joli Sourire', tc: false },
       { name: 'Battant', tc: false },
@@ -3060,18 +2735,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/41/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [11, 17],
     talents: [
       { name: 'Attention', tc: false },
       { name: 'Infiltration', tc: true },
@@ -3136,18 +2800,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/42/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [11, 17],
     talents: [
       { name: 'Attention', tc: false },
       { name: 'Infiltration', tc: true },
@@ -3209,18 +2862,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/43/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [10, 11],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Fuite', tc: true },
@@ -3286,18 +2928,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/44/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [10, 11],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Puanteur', tc: true },
@@ -3362,18 +2993,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/45/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [10, 11],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Pose Spore', tc: true },
@@ -3434,18 +3054,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/46/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [8, 10],
     talents: [
       { name: 'Pose Spore', tc: false },
       { name: 'Peau S\u00e8che', tc: false },
@@ -3508,18 +3117,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/47/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [8, 10],
     talents: [
       { name: 'Pose Spore', tc: false },
       { name: 'Peau S\u00e8che', tc: false },
@@ -3582,18 +3180,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/48/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [8, 11],
     talents: [
       { name: '\u0152il Compos\u00e9', tc: false },
       { name: 'Lentiteint\u00e9e', tc: false },
@@ -3656,18 +3243,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/49/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [8, 11],
     talents: [
       { name: '\u00c9cran Poudre', tc: false },
       { name: 'Lentiteint\u00e9e', tc: false },
@@ -3730,13 +3306,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/50/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [14],
     talents: [
       { name: 'Voile Sable', tc: false },
       { name: 'Pi\u00e8ge Sable', tc: false },
@@ -3808,13 +3378,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/51/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [14],
     talents: [
       { name: 'Voile Sable', tc: false },
       { name: 'Pi\u00e8ge Sable', tc: false },
@@ -3891,13 +3455,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/52/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Ramassage', tc: false },
       { name: 'Technicien', tc: false },
@@ -3977,13 +3535,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/53/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: '\u00c9chauffement', tc: false },
       { name: 'Technicien', tc: false },
@@ -4055,13 +3607,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/54/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Moiteur', tc: false },
       { name: 'Ciel Gris', tc: false },
@@ -4124,13 +3670,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/55/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Moiteur', tc: false },
       { name: 'Ciel Gris', tc: false },
@@ -4193,13 +3733,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/56/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Esprit Vital', tc: false },
       { name: 'Col\u00e9rique', tc: false },
@@ -4270,13 +3804,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/57/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Esprit Vital', tc: false },
       { name: 'Col\u00e9rique', tc: false },
@@ -4346,13 +3874,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/58/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Torche', tc: false },
@@ -4424,13 +3946,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/59/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Torche', tc: false },
@@ -4502,13 +4018,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/60/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Absorbe-Eau', tc: false },
       { name: 'Moiteur', tc: false },
@@ -4579,13 +4089,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/61/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Absorbe-Eau', tc: false },
       { name: 'Moiteur', tc: false },
@@ -4655,18 +4159,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/62/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [3, 1],
     talents: [
       { name: 'Absorbe-Eau', tc: false },
       { name: 'Moiteur', tc: false },
@@ -4728,13 +4221,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/63/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Synchro', tc: false },
       { name: 'Attention', tc: false },
@@ -4804,13 +4291,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/64/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Synchro', tc: false },
       { name: 'Attention', tc: false },
@@ -4879,13 +4360,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/65/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Synchro', tc: false },
       { name: 'Attention', tc: false },
@@ -4965,13 +4440,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/66/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Cran', tc: false },
       { name: 'Annule Garde', tc: false },
@@ -5041,13 +4510,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/67/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Cran', tc: false },
       { name: 'Annule Garde', tc: false },
@@ -5121,13 +4584,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/68/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Cran', tc: false },
       { name: 'Annule Garde', tc: false },
@@ -5197,18 +4654,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/69/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [10, 11],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Gloutonnerie', tc: true },
@@ -5273,18 +4719,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/70/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [10, 11],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Gloutonnerie', tc: true },
@@ -5346,18 +4781,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/71/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [10, 11],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Gloutonnerie', tc: true },
@@ -5426,18 +4850,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/72/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [3, 11],
     talents: [
       { name: 'Corps Sain', tc: false },
       { name: 'Suintement', tc: false },
@@ -5500,18 +4913,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/73/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [3, 11],
     talents: [
       { name: 'Corps Sain', tc: false },
       { name: 'Suintement', tc: false },
@@ -5574,18 +4976,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/74/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [13, 14],
     talents: [
       { name: 'T\u00eate de Roc', tc: false },
       { name: 'Fermet\u00e9', tc: false },
@@ -5664,18 +5055,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/75/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [13, 14],
     talents: [
       { name: 'T\u00eate de Roc', tc: false },
       { name: 'Fermet\u00e9', tc: false },
@@ -5753,18 +5133,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/76/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [13, 14],
     talents: [
       { name: 'T\u00eate de Roc', tc: false },
       { name: 'Fermet\u00e9', tc: false },
@@ -5843,13 +5212,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/77/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Fuite', tc: false },
       { name: 'Torche', tc: false },
@@ -5921,13 +5284,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/78/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Fuite', tc: false },
       { name: 'Torche', tc: false },
@@ -5995,18 +5352,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/79/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [3, 12],
     talents: [
       { name: 'Ben\u00eat', tc: false },
       { name: 'Tempo Perso', tc: false },
@@ -6085,18 +5431,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/80/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [3, 12],
     talents: [
       { name: 'Ben\u00eat', tc: false },
       { name: 'Tempo Perso', tc: false },
@@ -6178,18 +5513,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/81/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [4, 0],
     talents: [
       { name: 'Magn\u00e9pi\u00e8ge', tc: false },
       { name: 'Fermet\u00e9', tc: false },
@@ -6260,18 +5584,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/82/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [4, 0],
     talents: [
       { name: 'Magn\u00e9pi\u00e8ge', tc: false },
       { name: 'Fermet\u00e9', tc: false },
@@ -6341,18 +5654,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/83/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Attention', tc: false },
       { name: 'Regard Vif', tc: false },
@@ -6416,18 +5718,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/84/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Fuite', tc: false },
       { name: 'Matinal', tc: false },
@@ -6490,18 +5781,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/85/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Fuite', tc: false },
       { name: 'Matinal', tc: false },
@@ -6560,13 +5840,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/86/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Isograisse', tc: false },
       { name: 'Hydratation', tc: false },
@@ -6629,18 +5903,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/87/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [3, 7],
     talents: [
       { name: 'Isograisse', tc: false },
       { name: 'Hydratation', tc: false },
@@ -6703,13 +5966,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/88/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [11],
     talents: [
       { name: 'Puanteur', tc: false },
       { name: 'Glu', tc: false },
@@ -6781,13 +6038,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/89/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [11],
     talents: [
       { name: 'Puanteur', tc: false },
       { name: 'Glu', tc: false },
@@ -6859,13 +6110,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/90/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Coque Armure', tc: false },
       { name: 'Multi-Coups', tc: false },
@@ -6928,18 +6173,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/91/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [3, 7],
     talents: [
       { name: 'Coque Armure', tc: false },
       { name: 'Multi-Coups', tc: false },
@@ -6998,18 +6232,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/92/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [15, 11],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 30,
@@ -7075,18 +6298,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/93/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [15, 11],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 45,
@@ -7156,18 +6368,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/94/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [15, 11],
     talents: [
       { name: 'Corps Maudit', tc: false },
       { name: 'L\u00e9vitation', tc: true },
@@ -7242,18 +6443,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/95/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [13, 14],
     talents: [
       { name: 'T\u00eate de Roc', tc: false },
       { name: 'Fermet\u00e9', tc: false },
@@ -7323,13 +6513,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/96/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Insomnia', tc: false },
       { name: 'Pr\u00e9diction', tc: false },
@@ -7392,13 +6576,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/97/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Insomnia', tc: false },
       { name: 'Pr\u00e9diction', tc: false },
@@ -7457,13 +6635,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/98/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Hyper Cutter', tc: false },
       { name: 'Coque Armure', tc: false },
@@ -7531,13 +6703,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/99/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Hyper Cutter', tc: false },
       { name: 'Coque Armure', tc: false },
@@ -7600,13 +6766,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/100/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Statik', tc: false },
       { name: 'Anti-Bruit', tc: false },
@@ -7684,13 +6844,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/101/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Statik', tc: false },
       { name: 'Anti-Bruit', tc: false },
@@ -7762,18 +6916,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/102/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [10, 12],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'R\u00e9colte', tc: true },
@@ -7835,18 +6978,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/103/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [10, 12],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'R\u00e9colte', tc: true },
@@ -7917,13 +7049,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/104/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [14],
     talents: [
       { name: 'T\u00eate de Roc', tc: false },
       { name: 'Paratonnerre', tc: false },
@@ -7986,13 +7112,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/105/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [14],
     talents: [
       { name: 'T\u00eate de Roc', tc: false },
       { name: 'Paratonnerre', tc: false },
@@ -8064,13 +7184,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/106/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: '\u00c9chauffement', tc: false },
       { name: 'T\u00e9m\u00e9raire', tc: false },
@@ -8139,13 +7253,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/107/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Poing de Fer', tc: false },
@@ -8214,13 +7322,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/108/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Ben\u00eat', tc: false },
       { name: 'Tempo Perso', tc: false },
@@ -8289,13 +7391,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/109/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [11],
     talents: [
       { name: 'L\u00e9vitation', tc: false },
       { name: 'Gaz Inhibiteur', tc: false },
@@ -8358,13 +7454,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/110/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [11],
     talents: [
       { name: 'L\u00e9vitation', tc: false },
       { name: 'Gaz Inhibiteur', tc: false },
@@ -8436,18 +7526,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/111/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [14, 13],
     talents: [
       { name: 'Paratonnerre', tc: false },
       { name: 'T\u00eate de Roc', tc: false },
@@ -8521,18 +7600,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/112/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [14, 13],
     talents: [
       { name: 'Paratonnerre', tc: false },
       { name: 'T\u00eate de Roc', tc: false },
@@ -8601,13 +7669,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/113/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'M\u00e9dic Nature', tc: false },
       { name: 'S\u00e9r\u00e9nit\u00e9', tc: false },
@@ -8677,13 +7739,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/114/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Feuille Garde', tc: false },
@@ -8752,13 +7808,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/115/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Matinal', tc: false },
       { name: 'Querelleur', tc: false },
@@ -8831,13 +7881,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/116/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Sniper', tc: false },
@@ -8911,13 +7955,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/117/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Point Poison', tc: false },
       { name: 'Sniper', tc: false },
@@ -8986,13 +8024,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/118/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Ignifu-Voile', tc: false },
@@ -9055,13 +8087,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/119/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Ignifu-Voile', tc: false },
@@ -9130,13 +8156,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/120/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'M\u00e9dic Nature', tc: false },
       { name: 'Lumiattirance', tc: false },
@@ -9199,18 +8219,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/121/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [3, 12],
     talents: [
       { name: 'M\u00e9dic Nature', tc: false },
       { name: 'Lumiattirance', tc: false },
@@ -9273,18 +8282,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/122/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [12, 5],
     talents: [
       { name: 'Anti-Bruit', tc: false },
       { name: 'Filtre', tc: false },
@@ -9362,18 +8360,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/123/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [8, 17],
     talents: [
       { name: 'Essaim', tc: false },
       { name: 'Technicien', tc: false },
@@ -9448,18 +8435,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/124/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [7, 12],
     talents: [
       { name: 'Ben\u00eat', tc: false },
       { name: 'Pr\u00e9diction', tc: false },
@@ -9522,13 +8498,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/125/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Statik', tc: false },
       { name: 'Esprit Vital', tc: true },
@@ -9597,13 +8567,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/126/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Corps Ardent', tc: false },
       { name: 'Esprit Vital', tc: true },
@@ -9671,13 +8635,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/127/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [
       { name: 'Hyper Cutter', tc: false },
       { name: 'Brise Moule', tc: false },
@@ -9750,13 +8708,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/128/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Col\u00e9rique', tc: false },
@@ -9824,13 +8776,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/129/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Phobique', tc: true },
@@ -9894,18 +8840,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/130/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [3, 17],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Impudence', tc: true },
@@ -9982,18 +8917,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/131/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [3, 7],
     talents: [
       { name: 'Absorbe-Eau', tc: false },
       { name: 'Coque Armure', tc: false },
@@ -10052,13 +8976,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/132/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: '\u00c9chauffement', tc: false },
       { name: 'Imposteur', tc: true },
@@ -10121,13 +9039,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/133/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Fuite', tc: false },
       { name: 'Adaptabilit\u00e9', tc: false },
@@ -10222,13 +9134,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/134/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Absorbe-Eau', tc: false },
       { name: 'Hydratation', tc: true },
@@ -10290,13 +9196,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/135/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Absorbe-Volt', tc: false },
       { name: 'Pied V\u00e9loce', tc: true },
@@ -10364,13 +9264,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/136/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Torche', tc: false },
       { name: 'Cran', tc: true },
@@ -10432,13 +9326,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/137/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Calque', tc: false },
       { name: 'T\u00e9l\u00e9charge', tc: false },
@@ -10513,18 +9401,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/138/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [13, 3],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Coque Armure', tc: false },
@@ -10587,18 +9464,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/139/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [13, 3],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Coque Armure', tc: false },
@@ -10657,18 +9523,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/140/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [13, 3],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Armurbaston', tc: false },
@@ -10731,18 +9586,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/141/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [13, 3],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Armurbaston', tc: false },
@@ -10805,18 +9649,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/142/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [13, 17],
     talents: [
       { name: 'T\u00eate de Roc', tc: false },
       { name: 'Pression', tc: false },
@@ -10894,13 +9727,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/143/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Vaccin', tc: false },
       { name: 'Isograisse', tc: false },
@@ -10963,18 +9790,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/144/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [7, 17],
     talents: [
       { name: 'Pression', tc: false },
       { name: 'Rideau Neige', tc: true },
@@ -11041,18 +9857,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/145/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [4, 17],
     talents: [
       { name: 'Pression', tc: false },
       { name: 'Statik', tc: true },
@@ -11119,18 +9924,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/146/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [6, 17],
     talents: [
       { name: 'Pression', tc: false },
       { name: 'Corps Ardent', tc: true },
@@ -11197,13 +9991,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/147/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [2],
     talents: [
       { name: 'Mue', tc: false },
       { name: '\u00c9caille Sp\u00e9ciale', tc: true },
@@ -11268,13 +10056,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/148/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [2],
     talents: [
       { name: 'Mue', tc: false },
       { name: '\u00c9caille Sp\u00e9ciale', tc: true },
@@ -11336,18 +10118,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/149/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [2, 17],
     talents: [
       { name: 'Attention', tc: false },
       { name: 'Multi\u00e9caille', tc: true },
@@ -11412,13 +10183,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/150/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Pression', tc: false },
       { name: 'Tension', tc: true },
@@ -11472,13 +10237,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/151/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [{ name: 'Synchro', tc: false }],
     stats: {
       hp: 100,
@@ -11533,13 +10292,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/152/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Feuille Garde', tc: true },
@@ -11604,13 +10357,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/153/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Feuille Garde', tc: true },
@@ -11674,13 +10421,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/154/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Feuille Garde', tc: true },
@@ -11745,13 +10486,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/155/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Torche', tc: true },
@@ -11825,13 +10560,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/156/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Torche', tc: true },
@@ -11906,13 +10635,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/157/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Torche', tc: true },
@@ -11990,13 +10713,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/158/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Sans Limite', tc: true },
@@ -12061,13 +10778,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/159/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Sans Limite', tc: true },
@@ -12129,13 +10840,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/160/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Sans Limite', tc: true },
@@ -12196,13 +10901,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/161/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Fuite', tc: false },
       { name: 'Regard Vif', tc: false },
@@ -12265,13 +10964,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/162/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Fuite', tc: false },
       { name: 'Regard Vif', tc: false },
@@ -12334,18 +11027,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/163/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Insomnia', tc: false },
       { name: 'Regard Vif', tc: false },
@@ -12408,18 +11090,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/164/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Insomnia', tc: false },
       { name: 'Regard Vif', tc: false },
@@ -12478,18 +11149,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/165/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [8, 17],
     talents: [
       { name: 'Essaim', tc: false },
       { name: 'Matinal', tc: false },
@@ -12552,18 +11212,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/166/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [8, 17],
     talents: [
       { name: 'Essaim', tc: false },
       { name: 'Matinal', tc: false },
@@ -12626,18 +11275,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/167/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [8, 11],
     talents: [
       { name: 'Essaim', tc: false },
       { name: 'Insomnia', tc: false },
@@ -12700,18 +11338,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/168/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [8, 11],
     talents: [
       { name: 'Essaim', tc: false },
       { name: 'Insomnia', tc: false },
@@ -12774,18 +11401,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/169/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [11, 17],
     talents: [
       { name: 'Attention', tc: false },
       { name: 'Infiltration', tc: true },
@@ -12854,18 +11470,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/170/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [3, 4],
     talents: [
       { name: 'Absorbe-Volt', tc: false },
       { name: 'Lumiattirance', tc: false },
@@ -12928,18 +11533,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/171/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [3, 4],
     talents: [
       { name: 'Absorbe-Volt', tc: false },
       { name: 'Lumiattirance', tc: false },
@@ -12998,13 +11592,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/172/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Statik', tc: false },
       { name: 'Paratonnerre', tc: true },
@@ -13065,13 +11653,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/173/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [
       { name: 'Joli Sourire', tc: false },
       { name: 'Garde Magik', tc: false },
@@ -13145,18 +11727,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/174/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [9, 5],
     talents: [
       { name: 'Joli Sourire', tc: false },
       { name: 'Battant', tc: false },
@@ -13222,13 +11793,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/175/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [
       { name: 'S\u00e9r\u00e9nit\u00e9', tc: false },
       { name: 'Agitation', tc: false },
@@ -13302,18 +11867,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/176/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [5, 17],
     talents: [
       { name: 'S\u00e9r\u00e9nit\u00e9', tc: false },
       { name: 'Agitation', tc: false },
@@ -13384,18 +11938,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/177/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [12, 17],
     talents: [
       { name: 'Synchro', tc: false },
       { name: 'Matinal', tc: false },
@@ -13458,18 +12001,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/178/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [12, 17],
     talents: [
       { name: 'Synchro', tc: false },
       { name: 'Matinal', tc: false },
@@ -13532,13 +12064,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/179/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Statik', tc: false },
       { name: 'Plus', tc: true },
@@ -13599,13 +12125,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/180/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Statik', tc: false },
       { name: 'Plus', tc: true },
@@ -13667,13 +12187,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/181/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Statik', tc: false },
       { name: 'Plus', tc: true },
@@ -13748,13 +12262,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/182/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'C\u0153ur Soin', tc: true },
@@ -13815,18 +12323,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/183/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [3, 5],
     talents: [
       { name: 'Isograisse', tc: false },
       { name: 'Coloforce', tc: false },
@@ -13895,18 +12392,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/184/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [3, 5],
     talents: [
       { name: 'Isograisse', tc: false },
       { name: 'Coloforce', tc: false },
@@ -13976,13 +12462,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/185/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [13],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'T\u00eate de Roc', tc: false },
@@ -14051,13 +12531,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/186/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Absorbe-Eau', tc: false },
       { name: 'Moiteur', tc: false },
@@ -14127,18 +12601,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/187/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [10, 17],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Feuille Garde', tc: false },
@@ -14204,18 +12667,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/188/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [10, 17],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Feuille Garde', tc: false },
@@ -14278,18 +12730,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/189/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [10, 17],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Feuille Garde', tc: false },
@@ -14355,13 +12796,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/190/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Fuite', tc: false },
       { name: 'Ramassage', tc: false },
@@ -14430,13 +12865,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/191/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Force Soleil', tc: false },
@@ -14505,13 +12934,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/192/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Force Soleil', tc: false },
@@ -14580,18 +13003,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/193/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [8, 17],
     talents: [
       { name: 'Turbo', tc: false },
       { name: '\u0152il Compos\u00e9', tc: false },
@@ -14656,18 +13068,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/194/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [3, 14],
     talents: [
       { name: 'Absorbe-Eau', tc: false },
       { name: 'Moiteur', tc: false },
@@ -14735,18 +13136,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/195/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [3, 14],
     talents: [
       { name: 'Absorbe-Eau', tc: false },
       { name: 'Moiteur', tc: false },
@@ -14809,13 +13199,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/196/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Synchro', tc: false },
       { name: 'Miroir Magik', tc: true },
@@ -14884,13 +13268,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/197/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [16],
     talents: [
       { name: 'Synchro', tc: false },
       { name: 'Attention', tc: true },
@@ -14959,18 +13337,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/198/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [16, 17],
     talents: [
       { name: 'Insomnia', tc: false },
       { name: 'Chanceux', tc: false },
@@ -15033,18 +13400,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/199/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [3, 12],
     talents: [
       { name: 'Ben\u00eat', tc: false },
       { name: 'Tempo Perso', tc: false },
@@ -15122,13 +13478,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/200/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [15],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 60,
@@ -15193,13 +13543,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/201/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 48,
@@ -15254,13 +13598,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/202/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Marque Ombre', tc: false },
       { name: 'T\u00e9l\u00e9pathe', tc: true },
@@ -15328,18 +13666,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/203/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [9, 12],
     talents: [
       { name: 'Attention', tc: false },
       { name: 'Matinal', tc: false },
@@ -15408,13 +13735,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/204/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'Envelocape', tc: true },
@@ -15476,18 +13797,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/205/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [8, 0],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'Envelocape', tc: true },
@@ -15549,13 +13859,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/206/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'S\u00e9r\u00e9nit\u00e9', tc: false },
       { name: 'Fuite', tc: false },
@@ -15624,18 +13928,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/207/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [14, 17],
     talents: [
       { name: 'Voile Sable', tc: false },
       { name: 'Hyper Cutter', tc: false },
@@ -15705,18 +13998,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/208/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [0, 14],
     talents: [
       { name: 'T\u00eate de Roc', tc: false },
       { name: 'Fermet\u00e9', tc: false },
@@ -15782,13 +14064,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/209/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [
       { name: 'Fuite', tc: false },
       { name: 'Intimidation', tc: false },
@@ -15851,13 +14127,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/210/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [
       { name: 'Pied V\u00e9loce', tc: false },
       { name: 'Intimidation', tc: false },
@@ -15920,18 +14190,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/211/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [3, 11],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Point Poison', tc: false },
@@ -15999,18 +14258,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/212/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [8, 0],
     talents: [
       { name: 'Essaim', tc: false },
       { name: 'Technicien', tc: false },
@@ -16090,18 +14338,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/213/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [8, 13],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'Gloutonnerie', tc: false },
@@ -16160,18 +14397,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/214/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [8, 1],
     talents: [
       { name: 'Cran', tc: false },
       { name: 'Essaim', tc: false },
@@ -16244,18 +14470,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/215/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [16, 7],
     talents: [
       { name: 'Attention', tc: false },
       { name: 'Regard Vif', tc: false },
@@ -16334,13 +14549,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/216/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Ramassage', tc: false },
       { name: 'Pied V\u00e9loce', tc: false },
@@ -16410,13 +14619,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/217/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Cran', tc: false },
       { name: 'Pied V\u00e9loce', tc: false },
@@ -16485,13 +14688,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/218/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Armumagma', tc: false },
       { name: 'Corps Ardent', tc: false },
@@ -16554,18 +14751,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/219/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [6, 13],
     talents: [
       { name: 'Armumagma', tc: false },
       { name: 'Corps Ardent', tc: false },
@@ -16628,18 +14814,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/220/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [7, 14],
     talents: [
       { name: 'Ben\u00eat', tc: false },
       { name: 'Rideau Neige', tc: false },
@@ -16709,18 +14884,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/221/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [7, 14],
     talents: [
       { name: 'Ben\u00eat', tc: false },
       { name: 'Rideau Neige', tc: false },
@@ -16789,18 +14953,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/222/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [3, 13],
     talents: [
       { name: 'Agitation', tc: false },
       { name: 'M\u00e9dic Nature', tc: false },
@@ -16868,13 +15021,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/223/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Agitation', tc: false },
       { name: 'Sniper', tc: false },
@@ -16937,13 +15084,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/224/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Ventouse', tc: false },
       { name: 'Sniper', tc: false },
@@ -17006,18 +15147,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/225/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [7, 17],
     talents: [
       { name: 'Esprit Vital', tc: false },
       { name: 'Agitation', tc: false },
@@ -17076,18 +15206,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/226/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [3, 17],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Absorbe-Eau', tc: false },
@@ -17156,18 +15275,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/227/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [0, 17],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'Regard Vif', tc: false },
@@ -17226,18 +15334,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/228/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [16, 6],
     talents: [
       { name: 'Torche', tc: false },
       { name: 'Matinal', tc: false },
@@ -17306,18 +15403,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/229/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [16, 6],
     talents: [
       { name: 'Torche', tc: false },
       { name: 'Matinal', tc: false },
@@ -17390,18 +15476,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/230/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [3, 2],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Sniper', tc: false },
@@ -17471,13 +15546,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/231/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [14],
     talents: [
       { name: 'Ramassage', tc: false },
       { name: 'Voile Sable', tc: true },
@@ -17539,13 +15608,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/232/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [14],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'Voile Sable', tc: true },
@@ -17607,13 +15670,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/233/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Calque', tc: false },
       { name: 'T\u00e9l\u00e9charge', tc: false },
@@ -17689,13 +15746,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/234/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Fouille', tc: false },
@@ -17764,13 +15815,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/235/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Technicien', tc: false },
       { name: 'Tempo Perso', tc: false },
@@ -17829,13 +15874,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/236/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Cran', tc: false },
       { name: 'Impassible', tc: false },
@@ -17914,13 +15953,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/237/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Technicien', tc: false },
@@ -17989,18 +16022,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/238/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [7, 12],
     talents: [
       { name: 'Ben\u00eat', tc: false },
       { name: 'Pr\u00e9diction', tc: false },
@@ -18063,13 +16085,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/239/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Statik', tc: false },
       { name: 'Esprit Vital', tc: true },
@@ -18135,13 +16151,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/240/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Corps Ardent', tc: false },
       { name: 'Esprit Vital', tc: true },
@@ -18210,13 +16220,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/241/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Isograisse', tc: false },
       { name: 'Querelleur', tc: false },
@@ -18275,13 +16279,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/242/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'M\u00e9dic Nature', tc: false },
       { name: 'S\u00e9r\u00e9nit\u00e9', tc: false },
@@ -18356,13 +16354,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/243/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Pression', tc: false },
       { name: 'Attention', tc: true },
@@ -18416,13 +16408,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/244/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Pression', tc: false },
       { name: 'Attention', tc: true },
@@ -18480,13 +16466,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/245/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Pression', tc: false },
       { name: 'Attention', tc: true },
@@ -18544,18 +16524,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/246/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [13, 14],
     talents: [
       { name: 'Cran', tc: false },
       { name: 'Voile Sable', tc: true },
@@ -18620,18 +16589,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/247/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [13, 14],
     talents: [{ name: 'Mue', tc: false }],
     stats: {
       hp: 70,
@@ -18690,18 +16648,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/248/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [13, 16],
     talents: [
       { name: 'Sable Volant', tc: false },
       { name: 'Tension', tc: true },
@@ -18772,18 +16719,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/249/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [12, 17],
     talents: [
       { name: 'Pression', tc: false },
       { name: 'Multi\u00e9caille', tc: true },
@@ -18837,18 +16773,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/250/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [6, 17],
     talents: [
       { name: 'Pression', tc: false },
       { name: 'R\u00e9g\u00e9-Force', tc: true },
@@ -18906,18 +16831,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/251/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [12, 10],
     talents: [{ name: 'M\u00e9dic Nature', tc: false }],
     stats: {
       hp: 100,
@@ -18968,13 +16882,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/252/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'D\u00e9lestage', tc: true },
@@ -19039,13 +16947,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/253/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'D\u00e9lestage', tc: true },
@@ -19107,13 +17009,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/254/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'D\u00e9lestage', tc: true },
@@ -19188,13 +17084,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/255/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Turbo', tc: true },
@@ -19263,18 +17153,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/256/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [6, 1],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Turbo', tc: true },
@@ -19342,18 +17221,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/257/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [6, 1],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Turbo', tc: true },
@@ -19428,13 +17296,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/258/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Moiteur', tc: true },
@@ -19499,18 +17361,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/259/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [3, 14],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Moiteur', tc: true },
@@ -19572,18 +17423,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/260/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [3, 14],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Moiteur', tc: true },
@@ -19658,13 +17498,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/261/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [16],
     talents: [
       { name: 'Fuite', tc: false },
       { name: 'Pied V\u00e9loce', tc: false },
@@ -19729,13 +17563,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/262/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [16],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Pied V\u00e9loce', tc: false },
@@ -19798,13 +17626,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/263/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Ramassage', tc: false },
       { name: 'Gloutonnerie', tc: false },
@@ -19876,13 +17698,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/264/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Ramassage', tc: false },
       { name: 'Gloutonnerie', tc: false },
@@ -19954,13 +17770,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/265/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [
       { name: '\u00c9cran Poudre', tc: false },
       { name: 'Fuite', tc: true },
@@ -20027,13 +17837,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/266/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [{ name: 'Mue', tc: false }],
     stats: {
       hp: 50,
@@ -20092,18 +17896,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/267/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [8, 17],
     talents: [
       { name: 'Essaim', tc: false },
       { name: 'Rivalit\u00e9', tc: true },
@@ -20168,13 +17961,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/268/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [{ name: 'Mue', tc: false }],
     stats: {
       hp: 50,
@@ -20233,18 +18020,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/269/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [8, 11],
     talents: [
       { name: '\u00c9cran Poudre', tc: false },
       { name: '\u0152il Compos\u00e9', tc: true },
@@ -20309,18 +18085,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/270/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [3, 10],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Cuvette', tc: false },
@@ -20386,18 +18151,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/271/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [3, 10],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Cuvette', tc: false },
@@ -20460,18 +18214,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/272/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [3, 10],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Cuvette', tc: false },
@@ -20541,13 +18284,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/273/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Matinal', tc: false },
@@ -20613,18 +18350,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/274/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [10, 16],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Matinal', tc: false },
@@ -20689,18 +18415,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/275/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [10, 16],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Matinal', tc: false },
@@ -20762,18 +18477,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/276/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Cran', tc: false },
       { name: 'Querelleur', tc: true },
@@ -20841,18 +18545,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/277/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Cran', tc: false },
       { name: 'Querelleur', tc: true },
@@ -20914,18 +18607,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/278/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [3, 17],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Hydratation', tc: false },
@@ -20988,18 +18670,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/279/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [3, 17],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Crachin', tc: false },
@@ -21058,18 +18729,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/280/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [12, 5],
     talents: [
       { name: 'Synchro', tc: false },
       { name: 'Calque', tc: false },
@@ -21140,18 +18800,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/281/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [12, 5],
     talents: [
       { name: 'Synchro', tc: false },
       { name: 'Calque', tc: false },
@@ -21221,18 +18870,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/282/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [12, 5],
     talents: [
       { name: 'Synchro', tc: false },
       { name: 'Calque', tc: false },
@@ -21308,18 +18946,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/283/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [8, 3],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Cuvette', tc: true },
@@ -21381,18 +19008,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/284/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [8, 17],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Tension', tc: true },
@@ -21454,13 +19070,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/285/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Pose Spore', tc: false },
       { name: 'Soin Poison', tc: false },
@@ -21523,18 +19133,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/286/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [10, 1],
     talents: [
       { name: 'Pose Spore', tc: false },
       { name: 'Soin Poison', tc: false },
@@ -21597,13 +19196,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/287/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [{ name: 'Absent\u00e9isme', tc: false }],
     stats: {
       hp: 60,
@@ -21669,13 +19262,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/288/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [{ name: 'Esprit Vital', tc: false }],
     stats: {
       hp: 80,
@@ -21740,13 +19327,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/289/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [{ name: 'Absent\u00e9isme', tc: false }],
     stats: {
       hp: 150,
@@ -21808,18 +19389,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/290/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [8, 14],
     talents: [
       { name: '\u0152il Compos\u00e9', tc: false },
       { name: 'Fuite', tc: true },
@@ -21889,18 +19459,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/291/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [8, 17],
     talents: [
       { name: 'Turbo', tc: false },
       { name: 'Infiltration', tc: true },
@@ -21962,18 +19521,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/292/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [8, 15],
     talents: [{ name: 'Garde Mystik', tc: false }],
     stats: {
       hp: 1,
@@ -22039,13 +19587,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/293/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Anti-Bruit', tc: false },
       { name: 'Phobique', tc: true },
@@ -22110,13 +19652,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/294/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Anti-Bruit', tc: false },
       { name: 'Querelleur', tc: true },
@@ -22178,13 +19714,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/295/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Anti-Bruit', tc: false },
       { name: 'Querelleur', tc: true },
@@ -22249,13 +19779,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/296/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Isograisse', tc: false },
       { name: 'Cran', tc: false },
@@ -22318,13 +19842,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/297/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Isograisse', tc: false },
       { name: 'Cran', tc: false },
@@ -22383,18 +19901,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/298/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [9, 5],
     talents: [
       { name: 'Isograisse', tc: false },
       { name: 'Coloforce', tc: false },
@@ -22460,13 +19967,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/299/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [13],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'Magn\u00e9pi\u00e8ge', tc: false },
@@ -22532,13 +20033,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/300/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Joli Sourire', tc: false },
       { name: 'Normalise', tc: false },
@@ -22601,13 +20096,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/301/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Joli Sourire', tc: false },
       { name: 'Normalise', tc: false },
@@ -22670,18 +20159,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/302/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [16, 15],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Frein', tc: false },
@@ -22754,18 +20232,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/303/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [0, 5],
     talents: [
       { name: 'Hyper Cutter', tc: false },
       { name: 'Intimidation', tc: false },
@@ -22834,18 +20301,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/304/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [0, 13],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'T\u00eate de Roc', tc: false },
@@ -22907,18 +20363,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/305/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [0, 13],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'T\u00eate de Roc', tc: false },
@@ -22981,18 +20426,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/306/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [0, 13],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'T\u00eate de Roc', tc: false },
@@ -23068,18 +20502,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/307/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [1, 12],
     talents: [
       { name: 'Force Pure', tc: false },
       { name: 'T\u00e9l\u00e9pathe', tc: true },
@@ -23141,18 +20564,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/308/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [1, 12],
     talents: [
       { name: 'Force Pure', tc: false },
       { name: 'T\u00e9l\u00e9pathe', tc: true },
@@ -23230,13 +20642,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/309/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Paratonnerre', tc: false },
       { name: 'Statik', tc: false },
@@ -23305,13 +20711,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/310/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Statik', tc: false },
       { name: 'Paratonnerre', tc: false },
@@ -23384,13 +20784,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/311/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Plus', tc: false },
       { name: 'Paratonnerre', tc: true },
@@ -23448,13 +20842,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/312/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Moins', tc: false },
       { name: 'Absorbe-Volt', tc: true },
@@ -23512,13 +20900,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/313/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [
       { name: 'Lumiattirance', tc: false },
       { name: 'Essaim', tc: false },
@@ -23577,13 +20959,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/314/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [
       { name: 'Ben\u00eat', tc: false },
       { name: 'Lentiteint\u00e9e', tc: false },
@@ -23642,18 +21018,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/315/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [10, 11],
     talents: [
       { name: 'M\u00e9dic Nature', tc: false },
       { name: 'Point Poison', tc: false },
@@ -23728,13 +21093,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/316/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [11],
     talents: [
       { name: 'Suintement', tc: false },
       { name: 'Glu', tc: false },
@@ -23797,13 +21156,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/317/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [11],
     talents: [
       { name: 'Suintement', tc: false },
       { name: 'Glu', tc: false },
@@ -23866,18 +21219,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/318/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [3, 16],
     talents: [
       { name: 'Peau Dure', tc: false },
       { name: 'Turbo', tc: true },
@@ -23939,18 +21281,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/319/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [3, 16],
     talents: [
       { name: 'Peau Dure', tc: false },
       { name: 'Turbo', tc: true },
@@ -24022,13 +21353,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/320/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Ignifu-Voile', tc: false },
       { name: 'Ben\u00eat', tc: false },
@@ -24091,13 +21416,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/321/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Ignifu-Voile', tc: false },
       { name: 'Ben\u00eat', tc: false },
@@ -24160,18 +21479,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/322/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [6, 14],
     talents: [
       { name: 'Ben\u00eat', tc: false },
       { name: 'Simple', tc: false },
@@ -24236,18 +21544,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/323/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [6, 14],
     talents: [
       { name: 'Armumagma', tc: false },
       { name: 'Solide Roc', tc: false },
@@ -24320,13 +21617,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/324/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: '\u00c9cran Fum\u00e9e', tc: false },
       { name: 'S\u00e9cheresse', tc: false },
@@ -24385,13 +21676,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/325/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Isograisse', tc: false },
       { name: 'Tempo Perso', tc: false },
@@ -24454,13 +21739,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/326/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Isograisse', tc: false },
       { name: 'Tempo Perso', tc: false },
@@ -24523,13 +21802,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/327/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Tempo Perso', tc: false },
       { name: 'Pieds Confus', tc: false },
@@ -24588,13 +21861,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/328/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [14],
     talents: [
       { name: 'Hyper Cutter', tc: false },
       { name: 'Pi\u00e8ge Sable', tc: false },
@@ -24660,18 +21927,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/329/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [14, 2],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 50,
@@ -24730,18 +21986,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/330/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [14, 2],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 80,
@@ -24803,13 +22048,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/331/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Voile Sable', tc: false },
       { name: 'Absorbe-Eau', tc: true },
@@ -24871,18 +22110,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/332/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [10, 16],
     talents: [
       { name: 'Voile Sable', tc: false },
       { name: 'Absorbe-Eau', tc: true },
@@ -24944,18 +22172,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/333/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'M\u00e9dic Nature', tc: false },
       { name: 'Ciel Gris', tc: true },
@@ -25017,18 +22234,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/334/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [2, 17],
     talents: [
       { name: 'M\u00e9dic Nature', tc: false },
       { name: 'Ciel Gris', tc: true },
@@ -25100,13 +22306,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/335/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Vaccin', tc: false },
       { name: 'Rage Poison', tc: true },
@@ -25164,13 +22364,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/336/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [11],
     talents: [
       { name: 'Mue', tc: false },
       { name: 'Infiltration', tc: true },
@@ -25228,18 +22422,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/337/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [13, 12],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 90,
@@ -25294,18 +22477,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/338/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [13, 12],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 90,
@@ -25360,18 +22532,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/339/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [3, 14],
     talents: [
       { name: 'Ben\u00eat', tc: false },
       { name: 'Anticipation', tc: false },
@@ -25434,18 +22595,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/340/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [3, 14],
     talents: [
       { name: 'Ben\u00eat', tc: false },
       { name: 'Anticipation', tc: false },
@@ -25508,13 +22658,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/341/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Hyper Cutter', tc: false },
       { name: 'Coque Armure', tc: false },
@@ -25577,18 +22721,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/342/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [3, 16],
     talents: [
       { name: 'Hyper Cutter', tc: false },
       { name: 'Coque Armure', tc: false },
@@ -25657,18 +22790,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/343/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [14, 12],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 40,
@@ -25727,18 +22849,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/344/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [14, 12],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 60,
@@ -25793,18 +22904,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/345/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [13, 10],
     talents: [
       { name: 'Ventouse', tc: false },
       { name: 'Lavabo', tc: true },
@@ -25866,18 +22966,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/346/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [13, 10],
     talents: [
       { name: 'Ventouse', tc: false },
       { name: 'Lavabo', tc: true },
@@ -25939,18 +23028,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/347/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [13, 8],
     talents: [
       { name: 'Armurbaston', tc: false },
       { name: 'Glissade', tc: true },
@@ -26012,18 +23090,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/348/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [13, 8],
     talents: [
       { name: 'Armurbaston', tc: false },
       { name: 'Glissade', tc: true },
@@ -26085,13 +23152,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/349/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Ben\u00eat', tc: false },
@@ -26161,13 +23222,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/350/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: '\u00c9caille Sp\u00e9ciale', tc: false },
       { name: 'Battant', tc: false },
@@ -26237,13 +23292,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/351/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3, 6, 7, 9],
     talents: [{ name: 'M\u00e9t\u00e9o', tc: false }],
     stats: {
       hp: 70,
@@ -26298,13 +23347,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/352/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Homochromie', tc: false },
       { name: 'Prot\u00e9en', tc: true },
@@ -26362,13 +23405,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/353/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [15],
     talents: [
       { name: 'Insomnia', tc: false },
       { name: 'Fouille', tc: false },
@@ -26431,13 +23468,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/354/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [15],
     talents: [
       { name: 'Insomnia', tc: false },
       { name: 'Fouille', tc: false },
@@ -26510,13 +23541,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/355/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [15],
     talents: [
       { name: 'L\u00e9vitation', tc: false },
       { name: 'Fouille', tc: true },
@@ -26590,13 +23615,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/356/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [15],
     talents: [
       { name: 'Pression', tc: false },
       { name: 'Fouille', tc: true },
@@ -26671,18 +23690,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/357/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [10, 17],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Force Soleil', tc: false },
@@ -26741,13 +23749,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/358/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 75,
@@ -26808,13 +23810,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/359/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [16],
     talents: [
       { name: 'Pression', tc: false },
       { name: 'Chanceux', tc: false },
@@ -26887,13 +23883,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/360/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Marque Ombre', tc: false },
       { name: 'T\u00e9l\u00e9pathe', tc: true },
@@ -26961,13 +23951,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/361/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [7],
     talents: [
       { name: 'Attention', tc: false },
       { name: 'Corps Gel', tc: false },
@@ -27037,13 +24021,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/362/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [7],
     talents: [
       { name: 'Attention', tc: false },
       { name: 'Corps Gel', tc: false },
@@ -27116,18 +24094,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/363/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [7, 3],
     talents: [
       { name: 'Isograisse', tc: false },
       { name: 'Corps Gel', tc: false },
@@ -27193,18 +24160,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/364/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [7, 3],
     talents: [
       { name: 'Isograisse', tc: false },
       { name: 'Corps Gel', tc: false },
@@ -27267,18 +24223,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/365/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [7, 3],
     talents: [
       { name: 'Isograisse', tc: false },
       { name: 'Corps Gel', tc: false },
@@ -27344,13 +24289,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/366/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Coque Armure', tc: false },
       { name: 'Phobique', tc: true },
@@ -27423,13 +24362,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/367/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Ignifu-Voile', tc: true },
@@ -27497,13 +24430,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/368/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Hydratation', tc: true },
@@ -27571,18 +24498,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/369/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [3, 13],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'T\u00eate de Roc', tc: false },
@@ -27641,13 +24557,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/370/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Hydratation', tc: true },
@@ -27701,13 +24611,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/371/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [2],
     talents: [
       { name: 'T\u00eate de Roc', tc: false },
       { name: 'Sans Limite', tc: true },
@@ -27772,13 +24676,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/372/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [2],
     talents: [
       { name: 'T\u00eate de Roc', tc: false },
       { name: 'Envelocape', tc: true },
@@ -27840,18 +24738,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/373/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [2, 17],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Impudence', tc: true },
@@ -27926,18 +24813,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/374/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [0, 12],
     talents: [
       { name: 'Corps Sain', tc: false },
       { name: 'Light Metal', tc: true },
@@ -28006,18 +24882,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/375/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [0, 12],
     talents: [
       { name: 'Corps Sain', tc: false },
       { name: 'Light Metal', tc: true },
@@ -28085,18 +24950,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/376/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [0, 12],
     talents: [
       { name: 'Corps Sain', tc: false },
       { name: 'Light Metal', tc: true },
@@ -28171,13 +25025,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/377/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [13],
     talents: [
       { name: 'Corps Sain', tc: false },
       { name: 'Fermet\u00e9', tc: true },
@@ -28235,13 +25083,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/378/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [7],
     talents: [
       { name: 'Corps Sain', tc: false },
       { name: 'Corps Gel', tc: true },
@@ -28299,13 +25141,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/379/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [0],
     talents: [
       { name: 'Corps Sain', tc: false },
       { name: 'Light Metal', tc: true },
@@ -28363,18 +25199,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/380/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [2, 12],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 80,
@@ -28429,18 +25254,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/381/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [2, 12],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 80,
@@ -28495,13 +25309,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/382/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [{ name: 'Crachin', tc: false }],
     stats: {
       hp: 100,
@@ -28556,13 +25364,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/383/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [14],
     talents: [{ name: 'S\u00e9cheresse', tc: false }],
     stats: {
       hp: 100,
@@ -28617,18 +25419,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/384/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [2, 17],
     talents: [{ name: 'Air Lock', tc: false }],
     stats: {
       hp: 105,
@@ -28683,18 +25474,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/385/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [0, 12],
     talents: [{ name: 'S\u00e9r\u00e9nit\u00e9', tc: false }],
     stats: {
       hp: 100,
@@ -28749,13 +25529,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/386/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [{ name: 'Pression', tc: false }],
     stats: {
       hp: 50,
@@ -28810,13 +25584,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/387/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Coque Armure', tc: true },
@@ -28881,13 +25649,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/388/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Coque Armure', tc: true },
@@ -28949,18 +25711,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/389/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [10, 14],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Coque Armure', tc: true },
@@ -29025,13 +25776,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/390/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Poing de Fer', tc: true },
@@ -29096,18 +25841,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/391/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [6, 1],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Poing de Fer', tc: true },
@@ -29169,18 +25903,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/392/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [6, 1],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Poing de Fer', tc: true },
@@ -29245,13 +25968,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/393/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Acharn\u00e9', tc: true },
@@ -29320,13 +26037,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/394/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Acharn\u00e9', tc: true },
@@ -29394,18 +26105,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/395/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [3, 0],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Acharn\u00e9', tc: true },
@@ -29470,18 +26170,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/396/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'T\u00e9m\u00e9raire', tc: true },
@@ -29554,18 +26243,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/397/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'T\u00e9m\u00e9raire', tc: true },
@@ -29633,18 +26311,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/398/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'T\u00e9m\u00e9raire', tc: true },
@@ -29705,13 +26372,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/399/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Simple', tc: false },
       { name: 'Inconscient', tc: false },
@@ -29774,18 +26435,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/400/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [9, 3],
     talents: [
       { name: 'Simple', tc: false },
       { name: 'Inconscient', tc: false },
@@ -29848,13 +26498,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/401/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [
       { name: 'Mue', tc: false },
       { name: 'Fuite', tc: true },
@@ -29918,13 +26562,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/402/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [
       { name: 'Essaim', tc: false },
       { name: 'Technicien', tc: true },
@@ -29982,13 +26620,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/403/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Rivalit\u00e9', tc: false },
@@ -30050,13 +26682,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/404/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Rivalit\u00e9', tc: false },
@@ -30119,13 +26745,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/405/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Rivalit\u00e9', tc: false },
@@ -30191,18 +26811,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/406/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [10, 11],
     talents: [
       { name: 'M\u00e9dic Nature', tc: false },
       { name: 'Point Poison', tc: false },
@@ -30276,18 +26885,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/407/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [10, 11],
     talents: [
       { name: 'M\u00e9dic Nature', tc: false },
       { name: 'Point Poison', tc: false },
@@ -30361,13 +26959,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/408/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [13],
     talents: [
       { name: 'Brise Moule', tc: false },
       { name: 'Sans Limite', tc: true },
@@ -30429,13 +27021,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/409/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [13],
     talents: [
       { name: 'Brise Moule', tc: false },
       { name: 'Sans Limite', tc: true },
@@ -30497,18 +27083,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/410/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [13, 0],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'Anti-Bruit', tc: true },
@@ -30570,18 +27145,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/411/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [13, 0],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'Anti-Bruit', tc: true },
@@ -30643,13 +27207,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/412/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [
       { name: 'Mue', tc: false },
       { name: 'Envelocape', tc: true },
@@ -30722,18 +27280,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/413/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [8, 10],
     talents: [
       { name: 'Anticipation', tc: false },
       { name: 'Envelocape', tc: true },
@@ -30801,18 +27348,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/414/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [8, 17],
     talents: [
       { name: 'Essaim', tc: false },
       { name: 'Lentiteint\u00e9e', tc: true },
@@ -30880,18 +27416,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/415/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [8, 17],
     talents: [
       { name: 'Cherche Miel', tc: false },
       { name: 'Agitation', tc: true },
@@ -30959,18 +27484,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/416/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [8, 17],
     talents: [
       { name: 'Pression', tc: false },
       { name: 'Tension', tc: true },
@@ -31038,13 +27552,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/417/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Fuite', tc: false },
       { name: 'Ramassage', tc: false },
@@ -31103,13 +27611,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/418/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Ignifu-Voile', tc: true },
@@ -31177,13 +27679,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/419/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Ignifu-Voile', tc: true },
@@ -31251,13 +27747,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/420/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [{ name: 'Chlorophylle', tc: false }],
     stats: {
       hp: 45,
@@ -31316,13 +27806,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/421/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [{ name: 'Don Floral', tc: false }],
     stats: {
       hp: 70,
@@ -31381,13 +27865,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/422/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Glu', tc: false },
       { name: 'Lavabo', tc: false },
@@ -31450,18 +27928,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/423/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [3, 14],
     talents: [
       { name: 'Glu', tc: false },
       { name: 'Lavabo', tc: false },
@@ -31524,13 +27991,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/424/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Technicien', tc: false },
       { name: 'Ramassage', tc: false },
@@ -31599,18 +28060,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/425/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [15, 17],
     talents: [
       { name: 'Boom Final', tc: false },
       { name: 'D\u00e9lestage', tc: false },
@@ -31673,18 +28123,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/426/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [15, 17],
     talents: [
       { name: 'Boom Final', tc: false },
       { name: 'D\u00e9lestage', tc: false },
@@ -31747,13 +28186,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/427/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Fuite', tc: false },
       { name: 'Maladresse', tc: false },
@@ -31816,13 +28249,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/428/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Joli Sourire', tc: false },
       { name: 'Maladresse', tc: false },
@@ -31895,13 +28322,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/429/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [15],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 60,
@@ -31966,18 +28387,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/430/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [16, 17],
     talents: [
       { name: 'Insomnia', tc: false },
       { name: 'Chanceux', tc: false },
@@ -32046,13 +28456,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/431/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: '\u00c9chauffement', tc: false },
       { name: 'Tempo Perso', tc: false },
@@ -32115,13 +28519,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/432/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Isograisse', tc: false },
       { name: 'Tempo Perso', tc: false },
@@ -32184,13 +28582,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/433/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 45,
@@ -32255,18 +28647,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/434/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [11, 16],
     talents: [
       { name: 'Puanteur', tc: false },
       { name: 'Boom Final', tc: false },
@@ -32329,18 +28710,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/435/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [11, 16],
     talents: [
       { name: 'Puanteur', tc: false },
       { name: 'Boom Final', tc: false },
@@ -32403,18 +28773,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/436/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [0, 12],
     talents: [
       { name: 'L\u00e9vitation', tc: false },
       { name: 'Ignifug\u00e9', tc: false },
@@ -32483,18 +28842,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/437/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [0, 12],
     talents: [
       { name: 'L\u00e9vitation', tc: false },
       { name: 'Ignifug\u00e9', tc: false },
@@ -32563,13 +28911,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/438/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [13],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'T\u00eate de Roc', tc: false },
@@ -32634,18 +28976,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/439/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [12, 5],
     talents: [
       { name: 'Anti-Bruit', tc: false },
       { name: 'Filtre', tc: false },
@@ -32714,13 +29045,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/440/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'M\u00e9dic Nature', tc: false },
       { name: 'S\u00e9r\u00e9nit\u00e9', tc: false },
@@ -32791,18 +29116,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/441/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Pieds Confus', tc: false },
@@ -32861,18 +29175,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/442/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [15, 16],
     talents: [
       { name: 'Pression', tc: false },
       { name: 'Infiltration', tc: true },
@@ -32930,18 +29233,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/443/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [2, 14],
     talents: [
       { name: 'Voile Sable', tc: false },
       { name: 'Peau Dure', tc: true },
@@ -33006,18 +29298,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/444/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [2, 14],
     talents: [
       { name: 'Voile Sable', tc: false },
       { name: 'Peau Dure', tc: true },
@@ -33079,18 +29360,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/445/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [2, 14],
     talents: [
       { name: 'Voile Sable', tc: false },
       { name: 'Peau Dure', tc: true },
@@ -33151,13 +29421,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/446/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Ramassage', tc: false },
       { name: 'Isograisse', tc: false },
@@ -33216,13 +29480,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/447/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Attention', tc: false },
       { name: 'Impassible', tc: false },
@@ -33291,18 +29549,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/448/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [1, 0],
     talents: [
       { name: 'Attention', tc: false },
       { name: 'Impassible', tc: false },
@@ -33381,13 +29628,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/449/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [14],
     talents: [
       { name: 'Sable Volant', tc: false },
       { name: 'Force Sable', tc: true },
@@ -33449,13 +29690,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/450/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [14],
     talents: [
       { name: 'Sable Volant', tc: false },
       { name: 'Force Sable', tc: true },
@@ -33517,18 +29752,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/451/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [11, 8],
     talents: [
       { name: 'Armurbaston', tc: false },
       { name: 'Sniper', tc: false },
@@ -33591,18 +29815,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/452/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [11, 16],
     talents: [
       { name: 'Armurbaston', tc: false },
       { name: 'Sniper', tc: false },
@@ -33665,18 +29878,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/453/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [11, 1],
     talents: [
       { name: 'Anticipation', tc: false },
       { name: 'Peau S\u00e8che', tc: false },
@@ -33739,18 +29941,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/454/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [11, 1],
     talents: [
       { name: 'Anticipation', tc: false },
       { name: 'Peau S\u00e8che', tc: false },
@@ -33813,13 +30004,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/455/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 74,
@@ -33874,13 +30059,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/456/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Lavabo', tc: false },
       { name: 'Glissade', tc: false },
@@ -33945,13 +30124,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/457/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Lavabo', tc: false },
@@ -34014,18 +30187,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/458/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [3, 17],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Absorbe-Eau', tc: false },
@@ -34094,18 +30256,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/459/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [10, 7],
     talents: [
       { name: 'Alerte Neige', tc: false },
       { name: 'Anti-Bruit', tc: true },
@@ -34167,18 +30318,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/460/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [10, 7],
     talents: [
       { name: 'Alerte Neige', tc: false },
       { name: 'Anti-Bruit', tc: true },
@@ -34250,18 +30390,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/461/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [16, 7],
     talents: [
       { name: 'Pression', tc: false },
       { name: 'Pickpocket', tc: true },
@@ -34330,18 +30459,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/462/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [4, 0],
     talents: [
       { name: 'Magn\u00e9pi\u00e8ge', tc: false },
       { name: 'Fermet\u00e9', tc: false },
@@ -34411,13 +30529,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/463/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Ben\u00eat', tc: false },
       { name: 'Tempo Perso', tc: false },
@@ -34486,18 +30598,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/464/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [14, 13],
     talents: [
       { name: 'Paratonnerre', tc: false },
       { name: 'Solide Roc', tc: false },
@@ -34567,13 +30668,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/465/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Feuille Garde', tc: false },
@@ -34642,13 +30737,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/466/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Motoris\u00e9', tc: false },
       { name: 'Esprit Vital', tc: true },
@@ -34718,13 +30807,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/467/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Corps Ardent', tc: false },
       { name: 'Esprit Vital', tc: true },
@@ -34794,18 +30877,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/468/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [5, 17],
     talents: [
       { name: 'S\u00e9r\u00e9nit\u00e9', tc: false },
       { name: 'Agitation', tc: false },
@@ -34879,18 +30951,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/469/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [8, 17],
     talents: [
       { name: 'Turbo', tc: false },
       { name: 'Lentiteint\u00e9e', tc: false },
@@ -34959,13 +31020,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/470/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Feuille Garde', tc: false },
       { name: 'Chlorophylle', tc: true },
@@ -35033,13 +31088,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/471/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [7],
     talents: [
       { name: 'Rideau Neige', tc: false },
       { name: 'Corps Gel', tc: true },
@@ -35107,18 +31156,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/472/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [14, 17],
     talents: [
       { name: 'Hyper Cutter', tc: false },
       { name: 'Voile Sable', tc: false },
@@ -35188,18 +31226,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/473/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [7, 14],
     talents: [
       { name: 'Ben\u00eat', tc: false },
       { name: 'Rideau Neige', tc: false },
@@ -35269,13 +31296,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/474/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Adaptabilit\u00e9', tc: false },
       { name: 'T\u00e9l\u00e9charge', tc: false },
@@ -35350,18 +31371,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/475/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [12, 1],
     talents: [
       { name: 'Impassible', tc: false },
       { name: 'Incisif', tc: false },
@@ -35441,18 +31451,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/476/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [13, 0],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'Magn\u00e9pi\u00e8ge', tc: false },
@@ -35522,13 +31521,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/477/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [15],
     talents: [
       { name: 'Pression', tc: false },
       { name: 'Fouille', tc: true },
@@ -35602,18 +31595,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/478/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [7, 15],
     talents: [
       { name: 'Rideau Neige', tc: false },
       { name: 'Corps Maudit', tc: true },
@@ -35677,18 +31659,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/479/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [4, 15],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 50,
@@ -35743,13 +31714,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/480/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 75,
@@ -35804,13 +31769,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/481/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 80,
@@ -35865,13 +31824,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/482/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 75,
@@ -35926,18 +31879,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/483/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [0, 2],
     talents: [
       { name: 'Pression', tc: false },
       { name: 'T\u00e9l\u00e9pathe', tc: true },
@@ -35995,18 +31937,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/484/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [3, 2],
     talents: [
       { name: 'Pression', tc: false },
       { name: 'T\u00e9l\u00e9pathe', tc: true },
@@ -36064,18 +31995,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/485/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [6, 0],
     talents: [
       { name: 'Torche', tc: false },
       { name: 'Corps Ardent', tc: true },
@@ -36133,13 +32053,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/486/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [{ name: 'D\u00e9but Calme', tc: false }],
     stats: {
       hp: 110,
@@ -36194,18 +32108,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/487/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [15, 2],
     talents: [
       { name: 'Pression', tc: false },
       { name: 'T\u00e9l\u00e9pathe', tc: true },
@@ -36263,13 +32166,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/488/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 120,
@@ -36324,13 +32221,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/489/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [{ name: 'Hydratation', tc: false }],
     stats: {
       hp: 80,
@@ -36385,13 +32276,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/490/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [{ name: 'Hydratation', tc: false }],
     stats: {
       hp: 100,
@@ -36446,13 +32331,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/491/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [16],
     talents: [{ name: 'Mauvais R\u00eave', tc: false }],
     stats: {
       hp: 70,
@@ -36507,13 +32386,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/492/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [{ name: 'M\u00e9dic Nature', tc: false }],
     stats: {
       hp: 100,
@@ -36568,13 +32441,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/493/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [{ name: 'Multitype', tc: false }],
     stats: {
       hp: 120,
@@ -36628,18 +32495,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [12, 6],
     talents: [{ name: 'Victorieux', tc: false }],
     stats: {
       hp: 100,
@@ -36694,13 +32550,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/495/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Contestation', tc: true },
@@ -36765,13 +32615,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/496/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Contestation', tc: true },
@@ -36839,13 +32683,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/497/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Contestation', tc: true },
@@ -36910,13 +32748,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/498/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Isograisse', tc: true },
@@ -36981,18 +32813,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/499/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [6, 1],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Isograisse', tc: true },
@@ -37054,18 +32875,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/500/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [6, 1],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'T\u00e9m\u00e9raire', tc: true },
@@ -37130,13 +32940,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/501/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Coque Armure', tc: true },
@@ -37206,13 +33010,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/502/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Coque Armure', tc: true },
@@ -37281,13 +33079,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/503/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Coque Armure', tc: true },
@@ -37361,13 +33153,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/504/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Fuite', tc: false },
       { name: 'Regard Vif', tc: false },
@@ -37430,13 +33216,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/505/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Lumiattirance', tc: false },
       { name: 'Regard Vif', tc: false },
@@ -37499,13 +33279,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/506/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Esprit Vital', tc: false },
       { name: 'Ramassage', tc: false },
@@ -37571,13 +33345,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/507/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Baigne Sable', tc: false },
@@ -37640,13 +33408,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/508/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Baigne Sable', tc: false },
@@ -37712,13 +33474,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/509/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [16],
     talents: [
       { name: '\u00c9chauffement', tc: false },
       { name: 'D\u00e9lestage', tc: false },
@@ -37787,13 +33543,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/510/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [16],
     talents: [
       { name: '\u00c9chauffement', tc: false },
       { name: 'D\u00e9lestage', tc: false },
@@ -37856,13 +33606,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/511/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Gloutonnerie', tc: false },
       { name: 'Engrais', tc: true },
@@ -37930,13 +33674,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/512/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Gloutonnerie', tc: false },
       { name: 'Engrais', tc: true },
@@ -38004,13 +33742,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/513/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Gloutonnerie', tc: false },
       { name: 'Brasier', tc: true },
@@ -38072,13 +33804,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/514/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Gloutonnerie', tc: false },
       { name: 'Brasier', tc: true },
@@ -38140,13 +33866,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/515/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Gloutonnerie', tc: false },
       { name: 'Torrent', tc: true },
@@ -38208,13 +33928,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/516/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Gloutonnerie', tc: false },
       { name: 'Torrent', tc: true },
@@ -38272,13 +33986,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/517/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Pr\u00e9diction', tc: false },
       { name: 'Synchro', tc: false },
@@ -38341,13 +34049,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/518/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Pr\u00e9diction', tc: false },
       { name: 'Synchro', tc: false },
@@ -38410,18 +34112,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/519/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'C\u0153ur de Coq', tc: false },
       { name: 'Chanceux', tc: false },
@@ -38491,18 +34182,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/520/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'C\u0153ur de Coq', tc: false },
       { name: 'Chanceux', tc: false },
@@ -38571,18 +34251,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/521/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'C\u0153ur de Coq', tc: false },
       { name: 'Chanceux', tc: false },
@@ -38648,13 +34317,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/522/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Paratonnerre', tc: false },
       { name: 'Motoris\u00e9', tc: false },
@@ -38717,13 +34380,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/523/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Paratonnerre', tc: false },
       { name: 'Motoris\u00e9', tc: false },
@@ -38786,13 +34443,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/524/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [13],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'Armurouill\u00e9e', tc: false },
@@ -38862,13 +34513,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/525/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [13],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'Armurouill\u00e9e', tc: false },
@@ -38931,13 +34576,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/526/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [13],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'Sable Volant', tc: false },
@@ -39003,18 +34642,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/527/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [12, 17],
     talents: [
       { name: 'Inconscient', tc: false },
       { name: 'Maladresse', tc: false },
@@ -39077,18 +34705,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/528/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [12, 17],
     talents: [
       { name: 'Inconscient', tc: false },
       { name: 'Maladresse', tc: false },
@@ -39151,13 +34768,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/529/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [14],
     talents: [
       { name: 'Baigne Sable', tc: false },
       { name: 'Force Sable', tc: false },
@@ -39220,18 +34831,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/530/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [14, 0],
     talents: [
       { name: 'Baigne Sable', tc: false },
       { name: 'Force Sable', tc: false },
@@ -39294,13 +34894,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/531/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'C\u0153ur Soin', tc: false },
       { name: 'R\u00e9g\u00e9-Force', tc: false },
@@ -39359,13 +34953,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/532/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Cran', tc: false },
       { name: 'Sans Limite', tc: false },
@@ -39431,13 +35019,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/533/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Cran', tc: false },
       { name: 'Sans Limite', tc: false },
@@ -39500,13 +35082,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/534/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Cran', tc: false },
       { name: 'Sans Limite', tc: false },
@@ -39572,13 +35148,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/535/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Hydratation', tc: false },
@@ -39648,18 +35218,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/536/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [3, 14],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Hydratation', tc: false },
@@ -39722,18 +35281,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/537/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [3, 14],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Toxitouche', tc: false },
@@ -39795,13 +35343,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/538/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Cran', tc: false },
       { name: 'Attention', tc: false },
@@ -39856,13 +35398,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/539/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'Attention', tc: false },
@@ -39921,18 +35457,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/540/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [8, 10],
     talents: [
       { name: 'Essaim', tc: false },
       { name: 'Chlorophylle', tc: false },
@@ -39998,18 +35523,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/541/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [8, 10],
     talents: [
       { name: 'Feuille Garde', tc: false },
       { name: 'Chlorophylle', tc: false },
@@ -40072,18 +35586,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/542/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [8, 10],
     talents: [
       { name: 'Essaim', tc: false },
       { name: 'Chlorophylle', tc: false },
@@ -40145,18 +35648,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/543/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [8, 11],
     talents: [
       { name: 'Point Poison', tc: false },
       { name: 'Essaim', tc: false },
@@ -40222,18 +35714,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/544/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [8, 11],
     talents: [
       { name: 'Point Poison', tc: false },
       { name: 'Essaim', tc: false },
@@ -40296,18 +35777,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/545/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [8, 11],
     talents: [
       { name: 'Point Poison', tc: false },
       { name: 'Essaim', tc: false },
@@ -40374,18 +35844,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/546/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [10, 5],
     talents: [
       { name: 'Farceur', tc: false },
       { name: 'Infiltration', tc: false },
@@ -40454,18 +35913,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/547/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [10, 5],
     talents: [
       { name: 'Farceur', tc: false },
       { name: 'Infiltration', tc: false },
@@ -40528,13 +35976,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/548/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Tempo Perso', tc: false },
@@ -40608,13 +36050,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/549/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Tempo Perso', tc: false },
@@ -40692,13 +36128,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/550/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Adaptabilit\u00e9', tc: false },
       { name: 'T\u00e9m\u00e9raire', tc: false },
@@ -40768,18 +36198,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/551/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [14, 16],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Impudence', tc: false },
@@ -40845,18 +36264,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/552/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [14, 16],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Impudence', tc: false },
@@ -40925,18 +36333,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/553/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [14, 16],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Impudence', tc: false },
@@ -41006,13 +36403,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/554/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Agitation', tc: false },
       { name: 'Attention', tc: true },
@@ -41083,13 +36474,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/555/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Sans Limite', tc: false },
       { name: 'Mode Transe', tc: true },
@@ -41160,13 +36545,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/556/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Absorbe-Eau', tc: false },
       { name: 'Chlorophylle', tc: false },
@@ -41225,18 +36604,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/557/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [8, 13],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'Coque Armure', tc: false },
@@ -41299,18 +36667,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/558/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [8, 13],
     talents: [
       { name: 'Fermet\u00e9', tc: false },
       { name: 'Coque Armure', tc: false },
@@ -41373,18 +36730,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/559/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [16, 1],
     talents: [
       { name: 'Mue', tc: false },
       { name: 'Impudence', tc: false },
@@ -41447,18 +36793,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/560/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [16, 1],
     talents: [
       { name: 'Mue', tc: false },
       { name: 'Impudence', tc: false },
@@ -41521,18 +36856,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/561/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [12, 17],
     talents: [
       { name: 'Peau Miracle', tc: false },
       { name: 'Garde Magik', tc: false },
@@ -41591,13 +36915,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/562/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [15],
     talents: [{ name: 'Momie', tc: false }],
     stats: {
       hp: 38,
@@ -41665,13 +36983,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/563/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [15],
     talents: [{ name: 'Momie', tc: false }],
     stats: {
       hp: 58,
@@ -41730,18 +37042,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/564/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [3, 13],
     talents: [
       { name: 'Solide Roc', tc: false },
       { name: 'Fermet\u00e9', tc: false },
@@ -41810,18 +37111,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/565/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [3, 13],
     talents: [
       { name: 'Solide Roc', tc: false },
       { name: 'Fermet\u00e9', tc: false },
@@ -41884,18 +37174,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/566/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [13, 17],
     talents: [{ name: 'D\u00e9faitiste', tc: false }],
     stats: {
       hp: 55,
@@ -41960,18 +37239,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/567/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [13, 17],
     talents: [{ name: 'D\u00e9faitiste', tc: false }],
     stats: {
       hp: 75,
@@ -42030,13 +37298,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/568/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [11],
     talents: [
       { name: 'Puanteur', tc: false },
       { name: 'Glu', tc: false },
@@ -42104,13 +37366,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/569/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [11],
     talents: [
       { name: 'Puanteur', tc: false },
       { name: 'Armurouill\u00e9e', tc: false },
@@ -42169,13 +37425,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/570/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [16],
     talents: [{ name: 'Illusion', tc: false }],
     stats: {
       hp: 40,
@@ -42243,13 +37493,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/571/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [16],
     talents: [{ name: 'Illusion', tc: false }],
     stats: {
       hp: 60,
@@ -42317,13 +37561,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/572/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Joli Sourire', tc: false },
       { name: 'Technicien', tc: false },
@@ -42392,13 +37630,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/573/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Joli Sourire', tc: false },
       { name: 'Technicien', tc: false },
@@ -42463,13 +37695,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/574/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Fouille', tc: false },
       { name: 'Battant', tc: false },
@@ -42543,13 +37769,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/575/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Fouille', tc: false },
       { name: 'Battant', tc: false },
@@ -42618,13 +37838,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/576/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Fouille', tc: false },
       { name: 'Battant', tc: false },
@@ -42694,13 +37908,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/577/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Envelocape', tc: false },
       { name: 'Garde Magik', tc: false },
@@ -42766,13 +37974,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/578/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Envelocape', tc: false },
       { name: 'Garde Magik', tc: false },
@@ -42835,13 +38037,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/579/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Envelocape', tc: false },
       { name: 'Garde Magik', tc: false },
@@ -42907,18 +38103,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/580/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [3, 17],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'C\u0153ur de Coq', tc: false },
@@ -42987,18 +38172,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/581/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [3, 17],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'C\u0153ur de Coq', tc: false },
@@ -43061,13 +38235,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/582/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [7],
     talents: [
       { name: 'Corps Gel', tc: false },
       { name: 'Rideau Neige', tc: false },
@@ -43133,13 +38301,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/583/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [7],
     talents: [
       { name: 'Corps Gel', tc: false },
       { name: 'Rideau Neige', tc: false },
@@ -43208,13 +38370,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/584/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [7],
     talents: [
       { name: 'Corps Gel', tc: false },
       { name: 'Alerte Neige', tc: false },
@@ -43284,18 +38440,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/585/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [9, 10],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Herbivore', tc: false },
@@ -43358,18 +38503,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/586/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [9, 10],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Herbivore', tc: false },
@@ -43432,18 +38566,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/587/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [4, 17],
     talents: [
       { name: 'Statik', tc: false },
       { name: 'Motoris\u00e9', tc: true },
@@ -43501,13 +38624,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/588/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [
       { name: 'Essaim', tc: false },
       { name: 'Mue', tc: false },
@@ -43576,18 +38693,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/589/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [8, 0],
     talents: [
       { name: 'Essaim', tc: false },
       { name: 'Coque Armure', tc: false },
@@ -43656,18 +38762,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/590/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [10, 11],
     talents: [
       { name: 'Pose Spore', tc: false },
       { name: 'R\u00e9g\u00e9-Force', tc: true },
@@ -43729,18 +38824,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/591/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [10, 11],
     talents: [
       { name: 'Pose Spore', tc: false },
       { name: 'R\u00e9g\u00e9-Force', tc: true },
@@ -43802,18 +38886,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/592/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [3, 15],
     talents: [
       { name: 'Absorbe-Eau', tc: false },
       { name: 'Corps Maudit', tc: false },
@@ -43876,18 +38949,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/593/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [3, 15],
     talents: [
       { name: 'Absorbe-Eau', tc: false },
       { name: 'Corps Maudit', tc: false },
@@ -43950,13 +39012,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/594/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Hydratation', tc: false },
       { name: 'C\u0153ur Soin', tc: false },
@@ -44015,18 +39071,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/595/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [8, 4],
     talents: [
       { name: '\u0152il Compos\u00e9', tc: false },
       { name: 'Tension', tc: false },
@@ -44089,18 +39134,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/596/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [8, 4],
     talents: [
       { name: '\u0152il Compos\u00e9', tc: false },
       { name: 'Tension', tc: false },
@@ -44163,18 +39197,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/597/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [10, 0],
     talents: [{ name: '\u00c9pine de Fer', tc: false }],
     stats: {
       hp: 44,
@@ -44233,18 +39256,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/598/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [10, 0],
     talents: [
       { name: '\u00c9pine de Fer', tc: false },
       { name: 'Anticipation', tc: true },
@@ -44302,13 +39314,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/599/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [0],
     talents: [
       { name: 'Plus', tc: false },
       { name: 'Moins', tc: false },
@@ -44370,13 +39376,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/600/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [0],
     talents: [
       { name: 'Plus', tc: false },
       { name: 'Moins', tc: false },
@@ -44439,13 +39439,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/601/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [0],
     talents: [
       { name: 'Plus', tc: false },
       { name: 'Moins', tc: false },
@@ -44511,13 +39505,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/602/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 35,
@@ -44587,13 +39575,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/603/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 65,
@@ -44658,13 +39640,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/604/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 85,
@@ -44730,13 +39706,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/605/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'T\u00e9l\u00e9pathe', tc: false },
       { name: 'Synchro', tc: false },
@@ -44799,13 +39769,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/606/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'T\u00e9l\u00e9pathe', tc: false },
       { name: 'Synchro', tc: false },
@@ -44868,18 +39832,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/607/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [15, 6],
     talents: [
       { name: 'Torche', tc: false },
       { name: 'Corps Ardent', tc: false },
@@ -44949,18 +39902,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/608/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [15, 6],
     talents: [
       { name: 'Torche', tc: false },
       { name: 'Corps Ardent', tc: false },
@@ -45023,18 +39965,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/609/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [15, 6],
     talents: [
       { name: 'Torche', tc: false },
       { name: 'Corps Ardent', tc: false },
@@ -45105,13 +40036,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/610/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [2],
     talents: [
       { name: 'Rivalit\u00e9', tc: false },
       { name: 'Brise Moule', tc: false },
@@ -45177,13 +40102,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/611/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [2],
     talents: [
       { name: 'Rivalit\u00e9', tc: false },
       { name: 'Brise Moule', tc: false },
@@ -45246,13 +40165,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/612/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [2],
     talents: [
       { name: 'Rivalit\u00e9', tc: false },
       { name: 'Brise Moule', tc: false },
@@ -45318,13 +40231,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/613/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [7],
     talents: [
       { name: 'Rideau Neige', tc: false },
       { name: 'Chasse-Neige', tc: false },
@@ -45387,13 +40294,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/614/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [7],
     talents: [
       { name: 'Rideau Neige', tc: false },
       { name: 'Chasse-Neige', tc: false },
@@ -45456,13 +40357,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/615/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [7],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 80,
@@ -45517,13 +40412,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/616/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [
       { name: 'Hydratation', tc: false },
       { name: 'Coque Armure', tc: false },
@@ -45592,13 +40481,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/617/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [
       { name: 'Hydratation', tc: false },
       { name: 'Glu', tc: false },
@@ -45667,18 +40550,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/618/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [14, 4],
     talents: [
       { name: 'Statik', tc: false },
       { name: '\u00c9chauffement', tc: false },
@@ -45746,13 +40618,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/619/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'R\u00e9g\u00e9-Force', tc: false },
       { name: 'Attention', tc: false },
@@ -45815,13 +40681,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/620/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'R\u00e9g\u00e9-Force', tc: false },
       { name: 'Attention', tc: false },
@@ -45884,13 +40744,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/621/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [2],
     talents: [
       { name: 'Peau Dure', tc: false },
       { name: 'Sans Limite', tc: false },
@@ -45949,18 +40803,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/622/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [14, 15],
     talents: [
       { name: 'Poing de Fer', tc: false },
       { name: 'Maladresse', tc: false },
@@ -46023,18 +40866,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/623/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [14, 15],
     talents: [
       { name: 'Poing de Fer', tc: false },
       { name: 'Maladresse', tc: false },
@@ -46097,18 +40929,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/624/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [16, 0],
     talents: [
       { name: 'Acharn\u00e9', tc: false },
       { name: 'Attention', tc: false },
@@ -46179,18 +41000,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/625/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [16, 0],
     talents: [
       { name: 'Acharn\u00e9', tc: false },
       { name: 'Attention', tc: false },
@@ -46260,13 +41070,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/626/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'T\u00e9m\u00e9raire', tc: false },
       { name: 'Herbivore', tc: false },
@@ -46325,18 +41129,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/627/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Sans Limite', tc: false },
@@ -46406,18 +41199,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/628/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Sans Limite', tc: false },
@@ -46489,18 +41271,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/629/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [16, 17],
     talents: [
       { name: 'C\u0153ur de Coq', tc: false },
       { name: 'Envelocape', tc: false },
@@ -46563,18 +41334,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/630/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [16, 17],
     talents: [
       { name: 'C\u0153ur de Coq', tc: false },
       { name: 'Envelocape', tc: false },
@@ -46637,13 +41397,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/631/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Gloutonnerie', tc: false },
       { name: 'Torche', tc: false },
@@ -46702,18 +41456,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/632/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [8, 0],
     talents: [
       { name: 'Essaim', tc: false },
       { name: 'Agitation', tc: false },
@@ -46768,18 +41511,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/633/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [16, 2],
     talents: [{ name: 'Agitation', tc: false }],
     stats: {
       hp: 52,
@@ -46841,18 +41573,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/634/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [16, 2],
     talents: [{ name: 'Agitation', tc: false }],
     stats: {
       hp: 72,
@@ -46911,18 +41632,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/635/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [16, 2],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 92,
@@ -46984,18 +41694,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/636/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [8, 6],
     talents: [
       { name: 'Corps Ardent', tc: false },
       { name: 'Essaim', tc: true },
@@ -47057,18 +41756,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/637/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [8, 6],
     talents: [
       { name: 'Corps Ardent', tc: false },
       { name: 'Essaim', tc: true },
@@ -47130,18 +41818,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/638/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [0, 1],
     talents: [{ name: 'C\u0153ur Noble', tc: false }],
     stats: {
       hp: 91,
@@ -47196,18 +41873,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/639/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [13, 1],
     talents: [{ name: 'C\u0153ur Noble', tc: false }],
     stats: {
       hp: 91,
@@ -47262,18 +41928,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/640/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [10, 1],
     talents: [{ name: 'C\u0153ur Noble', tc: false }],
     stats: {
       hp: 91,
@@ -47328,13 +41983,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/641/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [17],
     talents: [
       { name: 'Farceur', tc: false },
       { name: 'Acharn\u00e9', tc: true },
@@ -47392,18 +42041,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/642/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [4, 17],
     talents: [
       { name: 'Farceur', tc: false },
       { name: 'Acharn\u00e9', tc: true },
@@ -47461,18 +42099,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/643/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [2, 6],
     talents: [{ name: 'Turbo Brasier', tc: false }],
     stats: {
       hp: 100,
@@ -47527,18 +42154,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/644/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [2, 4],
     talents: [{ name: 'T\u00e9ra-Voltage', tc: false }],
     stats: {
       hp: 100,
@@ -47593,18 +42209,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/645/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [14, 17],
     talents: [
       { name: 'Force Sable', tc: false },
       { name: 'Sans Limite', tc: true },
@@ -47662,18 +42267,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/646/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [2, 7],
     talents: [{ name: 'Pression', tc: false }],
     stats: {
       hp: 125,
@@ -47727,18 +42321,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [3, 1],
     talents: [{ name: 'C\u0153ur Noble', tc: false }],
     stats: {
       hp: 91,
@@ -47792,18 +42375,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [9, 12],
     talents: [{ name: 'S\u00e9r\u00e9nit\u00e9', tc: false }],
     stats: {
       hp: 100,
@@ -47858,18 +42430,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/649/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [8, 0],
     talents: [{ name: 'T\u00e9l\u00e9charge', tc: false }],
     stats: {
       hp: 71,
@@ -47924,13 +42485,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/650/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Pare-Balles', tc: true },
@@ -48003,13 +42558,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/651/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Pare-Balles', tc: true },
@@ -48077,18 +42626,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/652/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [10, 1],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Pare-Balles', tc: true },
@@ -48157,13 +42695,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/653/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Magicien', tc: true },
@@ -48228,13 +42760,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/654/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Magicien', tc: true },
@@ -48296,18 +42822,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/655/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [6, 12],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Magicien', tc: true },
@@ -48372,13 +42887,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/656/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Prot\u00e9en', tc: true },
@@ -48447,13 +42956,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/657/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Prot\u00e9en', tc: true },
@@ -48515,18 +43018,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/658/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [3, 16],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Prot\u00e9en', tc: false },
@@ -48596,13 +43088,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/659/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Ramassage', tc: false },
       { name: 'Bajoues', tc: false },
@@ -48665,18 +43151,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/660/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [9, 14],
     talents: [
       { name: 'Bajoues', tc: false },
       { name: 'Ramassage', tc: false },
@@ -48739,18 +43214,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/661/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'C\u0153ur de Coq', tc: false },
       { name: 'Ailes Bourrasque', tc: true },
@@ -48815,18 +43279,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/662/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [6, 17],
     talents: [
       { name: 'Corps Ardent', tc: false },
       { name: 'Ailes Bourrasque', tc: true },
@@ -48888,18 +43341,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/663/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [6, 17],
     talents: [
       { name: 'Corps Ardent', tc: false },
       { name: 'Ailes Bourrasque', tc: true },
@@ -48964,13 +43406,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/664/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [
       { name: 'Oeil Compos\u00e9', tc: false },
       { name: '\u00c9cran Poudre', tc: false },
@@ -49040,13 +43476,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/665/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [
       { name: 'Mue', tc: false },
       { name: 'Garde-Ami', tc: true },
@@ -49114,18 +43544,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/666/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [8, 17],
     talents: [
       { name: '\u0152il Compos\u00e9', tc: false },
       { name: '\u00c9cran Poudre', tc: false },
@@ -49199,18 +43618,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/667/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [6, 9],
     talents: [
       { name: 'Rivalit\u00e9', tc: false },
       { name: 'Tension', tc: false },
@@ -49279,18 +43687,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/668/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [6, 9],
     talents: [
       { name: 'Rivalit\u00e9', tc: false },
       { name: 'Tension', tc: false },
@@ -49359,13 +43756,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/669/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [
       { name: 'Flora-Voile', tc: false },
       { name: 'Symbiose', tc: true },
@@ -49434,13 +43825,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/670/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [
       { name: 'Flora-Voile', tc: false },
       { name: 'Symbiose', tc: true },
@@ -49514,13 +43899,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/671/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [
       { name: 'Flora-Voile', tc: false },
       { name: 'Symbiose', tc: true },
@@ -49593,13 +43972,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/672/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Herbivore', tc: false },
       { name: 'Toison Herbue', tc: true },
@@ -49661,13 +44034,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/673/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Herbivore', tc: false },
       { name: 'Toison Herbue', tc: true },
@@ -49729,13 +44096,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/674/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Brise Moule', tc: false },
       { name: 'Poing de Fer', tc: false },
@@ -49805,18 +44166,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/675/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [1, 16],
     talents: [
       { name: 'Poing de Fer', tc: false },
       { name: 'Brise Moule', tc: false },
@@ -49886,13 +44236,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/676/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [{ name: 'Toison \u00c9paisse', tc: false }],
     stats: {
       hp: 75,
@@ -49947,13 +44291,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/677/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Infiltration', tc: false },
       { name: 'Regard Vif', tc: false },
@@ -50016,13 +44354,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/678/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Infiltration', tc: false },
       { name: 'Regard Vif', tc: false },
@@ -50085,18 +44417,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/679/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [0, 15],
     talents: [{ name: 'Annule Garde', tc: false }],
     stats: {
       hp: 45,
@@ -50162,18 +44483,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/680/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [0, 15],
     talents: [{ name: 'Annule Garde', tc: false }],
     stats: {
       hp: 59,
@@ -50232,18 +44542,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/681/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [0, 15],
     talents: [{ name: 'D\u00e9clic Tactique', tc: false }],
     stats: {
       hp: 60,
@@ -50309,13 +44608,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/682/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [
       { name: 'C\u0153ur Soin', tc: false },
       { name: 'Aroma-Voile', tc: true },
@@ -50383,13 +44676,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/683/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [
       { name: 'C\u0153ur Soin', tc: false },
       { name: 'Aroma-Voile', tc: true },
@@ -50457,13 +44744,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/684/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [
       { name: 'Gluco-Voile', tc: false },
       { name: 'D\u00e9lestage', tc: true },
@@ -50531,13 +44812,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/685/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [
       { name: 'Gluco-Voile', tc: false },
       { name: 'D\u00e9lestage', tc: true },
@@ -50605,18 +44880,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/686/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [16, 12],
     talents: [
       { name: 'Ventouse', tc: false },
       { name: 'Contestation', tc: false },
@@ -50685,18 +44949,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/687/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [16, 12],
     talents: [
       { name: 'Ventouse', tc: false },
       { name: 'Contestation', tc: false },
@@ -50765,18 +45018,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/688/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [13, 3],
     talents: [
       { name: 'Sniper', tc: false },
       { name: 'Griffe Dure', tc: false },
@@ -50839,18 +45081,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/689/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [13, 3],
     talents: [
       { name: 'Sniper', tc: false },
       { name: 'Griffe Dure', tc: false },
@@ -50913,18 +45144,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/690/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [11, 3],
     talents: [
       { name: 'Point Poison', tc: false },
       { name: 'Toxitouche', tc: false },
@@ -50987,18 +45207,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/691/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [11, 2],
     talents: [
       { name: 'Point Poison', tc: false },
       { name: 'Toxitouche', tc: false },
@@ -51061,13 +45270,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/692/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [{ name: 'M\u00e9ga Blaster', tc: false }],
     stats: {
       hp: 50,
@@ -51126,13 +45329,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/693/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [{ name: 'M\u00e9ga Blaster', tc: false }],
     stats: {
       hp: 71,
@@ -51191,18 +45388,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/694/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [4, 9],
     talents: [
       { name: 'Peau S\u00e8che', tc: false },
       { name: 'Voile Sable', tc: false },
@@ -51265,18 +45451,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/695/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [4, 9],
     talents: [
       { name: 'Peau S\u00e8che', tc: false },
       { name: 'Voile Sable', tc: false },
@@ -51339,18 +45514,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/696/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [13, 2],
     talents: [
       { name: 'Prognathe', tc: false },
       { name: 'Fermet\u00e9', tc: true },
@@ -51418,18 +45582,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/697/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [13, 2],
     talents: [
       { name: 'Prognathe', tc: false },
       { name: 'T\u00eate de Roc', tc: true },
@@ -51497,18 +45650,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/698/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [13, 7],
     talents: [
       { name: 'Peau Gel\u00e9e', tc: false },
       { name: 'Alerte Neige', tc: true },
@@ -51576,18 +45718,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/699/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [13, 7],
     talents: [
       { name: 'Peau Gel\u00e9e', tc: false },
       { name: 'Alerte Neige', tc: true },
@@ -51655,13 +45786,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/700/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [
       { name: 'Joli Sourire', tc: false },
       { name: 'Peau F\u00e9\u00e9rique', tc: true },
@@ -51730,18 +45855,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/701/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [1, 17],
     talents: [
       { name: '\u00c9chauffement', tc: false },
       { name: 'D\u00e9lestage', tc: false },
@@ -51800,18 +45914,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/702/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [4, 5],
     talents: [
       { name: 'Ramassage', tc: false },
       { name: 'Bajoues', tc: false },
@@ -51870,18 +45973,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/703/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [13, 5],
     talents: [
       { name: 'Corps Sain', tc: false },
       { name: 'Fermet\u00e9', tc: true },
@@ -51935,13 +46027,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/704/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [2],
     talents: [
       { name: 'Hydratation', tc: false },
       { name: 'Herbivore', tc: false },
@@ -52011,13 +46097,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/705/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [2],
     talents: [
       { name: 'Hydratation', tc: false },
       { name: 'Herbivore', tc: false },
@@ -52095,13 +46175,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/706/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [2],
     talents: [
       { name: 'Hydratation', tc: false },
       { name: 'Herbivore', tc: false },
@@ -52180,18 +46254,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/707/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [0, 5],
     talents: [
       { name: 'Farceur', tc: false },
       { name: 'Magicien', tc: true },
@@ -52249,18 +46312,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/708/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [15, 10],
     talents: [
       { name: 'M\u00e9dic Nature', tc: false },
       { name: 'Fouille', tc: false },
@@ -52329,18 +46381,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/709/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [15, 10],
     talents: [
       { name: 'M\u00e9dic Nature', tc: false },
       { name: 'Fouille', tc: false },
@@ -52409,18 +46450,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/710/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [15, 10],
     talents: [
       { name: 'Ramassage', tc: false },
       { name: 'Fouille', tc: false },
@@ -52483,18 +46513,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/711/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [15, 10],
     talents: [
       { name: 'Ramassage', tc: false },
       { name: 'Fouille', tc: false },
@@ -52557,13 +46576,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/712/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [7],
     talents: [
       { name: 'Tempo Perso', tc: false },
       { name: 'Corps Gel', tc: false },
@@ -52637,13 +46650,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/713/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [7],
     talents: [
       { name: 'Tempo Perso', tc: false },
       { name: 'Corps Gel', tc: false },
@@ -52715,18 +46722,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/714/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [17, 2],
     talents: [
       { name: 'Fouille', tc: false },
       { name: 'Infiltration', tc: false },
@@ -52789,18 +46785,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/715/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [17, 2],
     talents: [
       { name: 'Fouille', tc: false },
       { name: 'Infiltration', tc: false },
@@ -52863,13 +46848,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/716/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [{ name: 'Aura F\u00e9\u00e9rique', tc: false }],
     stats: {
       hp: 126,
@@ -52924,18 +46903,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/717/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [16, 17],
     talents: [{ name: 'Aura T\u00e9n\u00e9breuse', tc: false }],
     stats: {
       hp: 126,
@@ -52990,18 +46958,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/718/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [2, 14],
     talents: [
       { name: 'Aura Invers\u00e9e', tc: false },
       { name: 'Rassemblement', tc: false },
@@ -53059,18 +47016,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/719/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [13, 5],
     talents: [{ name: 'Corps Sain', tc: false }],
     stats: {
       hp: 50,
@@ -53120,18 +47066,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [12, 15],
     talents: [{ name: 'Magicien', tc: false }],
     stats: {
       hp: 80,
@@ -53185,18 +47120,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [6, 3],
     talents: [{ name: 'Absorbe-Eau', tc: false }],
     stats: {
       hp: 80,
@@ -53251,18 +47175,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/722/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [10, 17],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Longue Port\u00e9e', tc: true },
@@ -53335,18 +47248,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/723/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [10, 17],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Longue Port\u00e9e', tc: true },
@@ -53414,18 +47316,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/724/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [10, 15],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Longue Port\u00e9e', tc: true },
@@ -53503,13 +47394,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/725/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Intimidation', tc: true },
@@ -53578,13 +47463,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/726/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Intimidation', tc: true },
@@ -53652,18 +47531,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/727/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [6, 16],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Intimidation', tc: true },
@@ -53728,13 +47596,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/728/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Hydrata-Son', tc: true },
@@ -53799,13 +47661,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/729/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Hydrata-Son', tc: true },
@@ -53867,18 +47723,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/730/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [3, 5],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Hydrata-Son', tc: true },
@@ -53943,18 +47788,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/731/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Multi-Coups', tc: false },
@@ -54020,18 +47854,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/732/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Multi-Coups', tc: false },
@@ -54094,18 +47917,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/733/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Multi-Coups', tc: false },
@@ -54171,13 +47983,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/734/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Filature', tc: false },
       { name: 'Prognathe', tc: false },
@@ -54246,13 +48052,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/735/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Filature', tc: false },
       { name: 'Prognathe', tc: false },
@@ -54321,13 +48121,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/736/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [{ name: 'Essaim', tc: false }],
     stats: {
       hp: 47,
@@ -54394,18 +48188,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/737/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [8, 4],
     talents: [{ name: 'Batterie', tc: false }],
     stats: {
       hp: 57,
@@ -54471,18 +48254,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/738/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [8, 4],
     talents: [{ name: 'L\u00e9vitation', tc: false }],
     stats: {
       hp: 77,
@@ -54549,13 +48321,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/739/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Hyper Cutter', tc: false },
       { name: 'Poing de Fer', tc: false },
@@ -54624,18 +48390,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/740/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [1, 7],
     talents: [
       { name: 'Hyper Cutter', tc: false },
       { name: 'Poing de Fer', tc: false },
@@ -54704,18 +48459,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/741/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [12, 17],
     talents: [{ name: 'Danseuse', tc: false }],
     stats: {
       hp: 75,
@@ -54770,18 +48514,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/742/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [8, 5],
     talents: [
       { name: 'Cherche Miel', tc: false },
       { name: '\u00c9cran Poudre', tc: false },
@@ -54844,18 +48577,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/743/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [8, 5],
     talents: [
       { name: 'Cherche Miel', tc: false },
       { name: '\u00c9cran Poudre', tc: false },
@@ -54918,13 +48640,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/744/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [13],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Esprit Vital', tc: false },
@@ -54995,13 +48711,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/745/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [13],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Baigne Sable', tc: false },
@@ -55071,13 +48781,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/746/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [{ name: 'Banc', tc: false }],
     stats: {
       hp: 45,
@@ -55132,18 +48836,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/747/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [11, 3],
     talents: [
       { name: 'Cruaut\u00e9', tc: false },
       { name: '\u00c9chauffement', tc: false },
@@ -55212,18 +48905,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/748/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [11, 3],
     talents: [
       { name: 'Cruaut\u00e9', tc: false },
       { name: '\u00c9chauffement', tc: false },
@@ -55292,13 +48974,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/749/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [14],
     talents: [
       { name: 'Tempo Perso', tc: false },
       { name: 'Endurance', tc: false },
@@ -55361,13 +49037,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/750/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [14],
     talents: [
       { name: 'Tempo Perso', tc: false },
       { name: 'Endurance', tc: false },
@@ -55430,18 +49100,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/751/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [3, 8],
     talents: [
       { name: 'Aquabulle', tc: false },
       { name: 'Absorbe-Eau', tc: true },
@@ -55503,18 +49162,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/752/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [3, 8],
     talents: [
       { name: 'Aquabulle', tc: false },
       { name: 'Absorbe-Eau', tc: true },
@@ -55576,13 +49224,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/753/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Feuille Garde', tc: false },
       { name: 'Contestation', tc: true },
@@ -55650,13 +49292,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/754/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Feuille Garde', tc: false },
       { name: 'Contestation', tc: true },
@@ -55724,18 +49360,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/755/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [10, 5],
     talents: [
       { name: 'Lumiattirance', tc: false },
       { name: 'Pose Spore', tc: false },
@@ -55798,18 +49423,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/756/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [10, 5],
     talents: [
       { name: 'Lumiattirance', tc: false },
       { name: 'Pose Spore', tc: false },
@@ -55872,18 +49486,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/757/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [11, 6],
     talents: [
       { name: 'Corrosion', tc: false },
       { name: 'Ben\u00eat', tc: true },
@@ -55951,18 +49554,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/758/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [11, 6],
     talents: [
       { name: 'Corrosion', tc: false },
       { name: 'Ben\u00eat', tc: true },
@@ -56030,18 +49622,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/759/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [9, 1],
     talents: [
       { name: 'Boule de Poils', tc: false },
       { name: 'Maladresse', tc: false },
@@ -56104,18 +49685,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/760/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [9, 1],
     talents: [
       { name: 'Boule de Poils', tc: false },
       { name: 'Maladresse', tc: false },
@@ -56178,13 +49748,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/761/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Feuille Garde', tc: false },
       { name: 'Ben\u00eat', tc: false },
@@ -56254,13 +49818,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/762/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Feuille Garde', tc: false },
       { name: 'Ben\u00eat', tc: false },
@@ -56329,13 +49887,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/763/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Feuille Garde', tc: false },
       { name: 'Prestance Royale', tc: false },
@@ -56405,13 +49957,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/764/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [
       { name: 'Flora-Voile', tc: false },
       { name: 'Priogu\u00e9rison', tc: false },
@@ -56470,18 +50016,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/765/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [9, 12],
     talents: [
       { name: 'Attention', tc: false },
       { name: 'T\u00e9l\u00e9pathe', tc: false },
@@ -56540,13 +50075,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/766/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Receveur', tc: false },
       { name: 'Acharn\u00e9', tc: true },
@@ -56604,18 +50133,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/767/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [8, 3],
     talents: [{ name: 'Escampette', tc: false }],
     stats: {
       hp: 25,
@@ -56676,18 +50194,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/768/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [8, 3],
     talents: [{ name: 'Repli Tactique', tc: false }],
     stats: {
       hp: 75,
@@ -56746,18 +50253,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/769/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [15, 14],
     talents: [
       { name: 'Sable Humide', tc: false },
       { name: 'Voile Sable', tc: true },
@@ -56825,18 +50321,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/770/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [15, 14],
     talents: [
       { name: 'Sable Humide', tc: false },
       { name: 'Voile Sable', tc: true },
@@ -56898,13 +50383,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/771/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: "Expuls'Organes", tc: false },
       { name: 'Inconscient', tc: true },
@@ -56962,13 +50441,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/772/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [{ name: 'Armurbaston', tc: false }],
     stats: {
       hp: 95,
@@ -57033,13 +50506,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/773/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [{ name: 'Syst\u00e8me Alpha', tc: false }],
     stats: {
       hp: 95,
@@ -57104,18 +50571,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/774/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [13, 17],
     talents: [{ name: 'Bouclier-Carcan', tc: false }],
     stats: {
       hp: 60,
@@ -57170,13 +50626,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/775/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [{ name: 'Hypersommeil', tc: false }],
     stats: {
       hp: 65,
@@ -57231,18 +50681,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/776/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [6, 2],
     talents: [{ name: 'Coque Armure', tc: false }],
     stats: {
       hp: 60,
@@ -57297,18 +50736,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/777/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [4, 0],
     talents: [
       { name: '\u00c9pine de Fer', tc: false },
       { name: 'Paratonnerre', tc: false },
@@ -57367,18 +50795,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/778/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [15, 5],
     talents: [{ name: 'Fant\u00f4masque', tc: false }],
     stats: {
       hp: 55,
@@ -57433,18 +50850,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/779/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [3, 12],
     talents: [
       { name: 'Corps Color\u00e9', tc: false },
       { name: 'Prognathe', tc: false },
@@ -57503,18 +50909,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/780/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [9, 2],
     talents: [
       { name: 'Dracol\u00e8re', tc: false },
       { name: 'Herbivore', tc: false },
@@ -57573,18 +50968,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/781/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [15, 10],
     talents: [{ name: 'Expert Acier', tc: false }],
     stats: {
       hp: 70,
@@ -57639,13 +51023,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/782/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [2],
     talents: [
       { name: 'Pare-Balles', tc: false },
       { name: 'Anti-Bruit', tc: false },
@@ -57719,18 +51097,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/783/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [2, 1],
     talents: [
       { name: 'Pare-Balles', tc: false },
       { name: 'Anti-Bruit', tc: false },
@@ -57805,18 +51172,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/784/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [2, 1],
     talents: [
       { name: 'Pare-Balles', tc: false },
       { name: 'Anti-Bruit', tc: false },
@@ -57890,18 +51246,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/785/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [4, 5],
     talents: [
       { name: 'Cr\u00e9a-\u00c9lec', tc: false },
       { name: 'T\u00e9l\u00e9pathe', tc: true },
@@ -57959,18 +51304,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/786/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [12, 5],
     talents: [
       { name: 'Cr\u00e9a-Psy', tc: false },
       { name: 'T\u00e9l\u00e9pathe', tc: true },
@@ -58028,18 +51362,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/787/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [10, 5],
     talents: [
       { name: 'Cr\u00e9a-Herbe', tc: false },
       { name: 'T\u00e9l\u00e9pathe', tc: true },
@@ -58097,18 +51420,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/788/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [3, 5],
     talents: [
       { name: 'Cr\u00e9a-Brume', tc: false },
       { name: 'T\u00e9l\u00e9pathe', tc: true },
@@ -58165,13 +51477,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [{ name: 'Inconscient', tc: false }],
     stats: {
       hp: 43,
@@ -58233,13 +51539,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [{ name: 'Fermet\u00e9', tc: false }],
     stats: {
       hp: 43,
@@ -58301,18 +51601,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/791/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [12, 0],
     talents: [{ name: 'M\u00e9tallo-Garde', tc: false }],
     stats: {
       hp: 137,
@@ -58374,18 +51663,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/792/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [12, 15],
     talents: [{ name: 'Spectro-Bouclier', tc: false }],
     stats: {
       hp: 137,
@@ -58447,18 +51725,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/793/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [13, 11],
     talents: [{ name: 'Boost Chim\u00e8re', tc: false }],
     stats: {
       hp: 109,
@@ -58513,18 +51780,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/794/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [8, 1],
     talents: [{ name: 'Boost Chim\u00e8re', tc: false }],
     stats: {
       hp: 107,
@@ -58579,18 +51835,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/795/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [8, 1],
     talents: [{ name: 'Boost Chim\u00e8re', tc: false }],
     stats: {
       hp: 71,
@@ -58645,13 +51890,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/796/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [{ name: 'Boost Chim\u00e8re', tc: false }],
     stats: {
       hp: 83,
@@ -58706,18 +51945,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/797/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [0, 17],
     talents: [{ name: 'Boost Chim\u00e8re', tc: false }],
     stats: {
       hp: 97,
@@ -58772,18 +52000,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/798/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [10, 0],
     talents: [{ name: 'Boost Chim\u00e8re', tc: false }],
     stats: {
       hp: 59,
@@ -58838,18 +52055,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/799/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [16, 2],
     talents: [{ name: 'Boost Chim\u00e8re', tc: false }],
     stats: {
       hp: 223,
@@ -58904,13 +52110,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/800/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [{ name: 'Prisme-Armure', tc: false }],
     stats: {
       hp: 97,
@@ -58964,18 +52164,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [0, 5],
     talents: [{ name: 'Animac\u0153ur', tc: false }],
     stats: {
       hp: 80,
@@ -59029,18 +52218,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [1, 15],
     talents: [{ name: 'Technicien', tc: false }],
     stats: {
       hp: 90,
@@ -59095,13 +52273,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/803/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [11],
     talents: [{ name: 'Boost Chim\u00e8re', tc: false }],
     stats: {
       hp: 67,
@@ -59166,18 +52338,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/804/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [11, 2],
     talents: [{ name: 'Boost Chim\u00e8re', tc: false }],
     stats: {
       hp: 73,
@@ -59242,18 +52403,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/805/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [13, 0],
     talents: [{ name: 'Boost Chim\u00e8re', tc: false }],
     stats: {
       hp: 61,
@@ -59308,18 +52458,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/806/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [6, 15],
     talents: [{ name: 'Boost Chim\u00e8re', tc: false }],
     stats: {
       hp: 53,
@@ -59374,13 +52513,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/807/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [{ name: 'Absorbe-Volt', tc: false }],
     stats: {
       hp: 88,
@@ -59435,13 +52568,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/808/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [0],
     talents: [{ name: 'Magn\u00e9pi\u00e8ge', tc: false }],
     stats: {
       hp: 46,
@@ -59510,13 +52637,7 @@ export const pokemons: Pokemon[] = [
         shiny: null,
       },
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [0],
     talents: [{ name: 'Poing de Fer', tc: false }],
     stats: {
       hp: 135,
@@ -59581,13 +52702,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/810/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Cr\u00e9a-Herbe', tc: true },
@@ -59652,13 +52767,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/811/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Cr\u00e9a-Herbe', tc: true },
@@ -59725,13 +52834,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/812/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Cr\u00e9a-Herbe', tc: true },
@@ -59796,13 +52899,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/813/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Lib\u00e9ro', tc: true },
@@ -59867,13 +52964,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/814/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Lib\u00e9ro', tc: true },
@@ -59940,13 +53031,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/815/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Lib\u00e9ro', tc: true },
@@ -60011,13 +53096,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/816/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Sniper', tc: true },
@@ -60082,13 +53161,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/817/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Sniper', tc: true },
@@ -60163,13 +53236,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/818/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Sniper', tc: true },
@@ -60238,13 +53305,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/819/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Bajoues', tc: false },
       { name: 'Gloutonnerie', tc: true },
@@ -60306,13 +53367,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/820/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Bajoues', tc: false },
       { name: 'Gloutonnerie', tc: true },
@@ -60374,13 +53429,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/821/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [17],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Tension', tc: false },
@@ -60446,13 +53495,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/822/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [17],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Tension', tc: false },
@@ -60520,18 +53563,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/823/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [17, 0],
     talents: [
       { name: 'Regard Vif', tc: false },
       { name: 'Tension', tc: false },
@@ -60597,13 +53629,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/824/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [
       { name: 'Essaim', tc: false },
       { name: '\u0152il Compos\u00e9', tc: false },
@@ -60673,18 +53699,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/825/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [8, 12],
     talents: [
       { name: 'Essaim', tc: false },
       { name: '\u0152il Compos\u00e9', tc: false },
@@ -60752,18 +53767,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/826/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [8, 12],
     talents: [
       { name: 'Essaim', tc: false },
       { name: 'Fouille', tc: false },
@@ -60829,13 +53833,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/827/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [16],
     talents: [
       { name: 'Fuite', tc: false },
       { name: 'D\u00e9lestage', tc: false },
@@ -60898,13 +53896,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/828/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [16],
     talents: [
       { name: 'Fuite', tc: false },
       { name: 'D\u00e9lestage', tc: false },
@@ -60967,13 +53959,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/829/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Effilochage', tc: false },
       { name: 'R\u00e9g\u00e9-Force', tc: false },
@@ -61036,13 +54022,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/830/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Effilochage', tc: false },
       { name: 'R\u00e9g\u00e9-Force', tc: false },
@@ -61105,13 +54085,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/831/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Boule de Poils', tc: false },
       { name: 'Fuite', tc: false },
@@ -61174,13 +54148,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/832/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Boule de Poils', tc: false },
       { name: 'Fuite', tc: false },
@@ -61243,13 +54211,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/833/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Prognathe', tc: false },
       { name: 'Coque Armure', tc: false },
@@ -61317,18 +54279,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/834/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [3, 13],
     talents: [
       { name: 'Prognathe', tc: false },
       { name: 'Coque Armure', tc: false },
@@ -61397,13 +54348,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/835/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Ramasse Ball', tc: false },
       { name: 'Phobique', tc: true },
@@ -61465,13 +54410,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/836/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Prognathe', tc: false },
       { name: 'Battant', tc: true },
@@ -61533,13 +54472,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/837/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [13],
     talents: [
       { name: 'Turbine', tc: false },
       { name: 'Ignifug\u00e9', tc: false },
@@ -61605,18 +54538,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/838/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [13, 6],
     talents: [
       { name: 'Turbine', tc: false },
       { name: 'Corps Ardent', tc: false },
@@ -61684,18 +54606,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/839/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [13, 6],
     talents: [
       { name: 'Turbine', tc: false },
       { name: 'Corps Ardent', tc: false },
@@ -61761,18 +54672,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/840/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [10, 2],
     talents: [
       { name: 'M\u00fbrissement', tc: false },
       { name: 'Gloutonnerie', tc: false },
@@ -61856,18 +54756,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/841/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [10, 2],
     talents: [
       { name: 'M\u00fbrissement', tc: false },
       { name: 'Gloutonnerie', tc: false },
@@ -61941,18 +54830,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/842/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [10, 2],
     talents: [
       { name: 'M\u00fbrissement', tc: false },
       { name: 'Gloutonnerie', tc: false },
@@ -62021,13 +54899,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/843/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [14],
     talents: [
       { name: "Expul'Sable", tc: false },
       { name: 'Mue', tc: false },
@@ -62095,13 +54967,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/844/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [14],
     talents: [
       { name: "Expul'Sable", tc: false },
       { name: 'Mue', tc: false },
@@ -62160,18 +55026,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/845/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [17, 3],
     talents: [{ name: 'D\u00e9bogage', tc: false }],
     stats: {
       hp: 70,
@@ -62226,13 +55081,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/846/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Propulseur', tc: true },
@@ -62294,13 +55143,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/847/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Propulseur', tc: true },
@@ -62362,18 +55205,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/848/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [4, 11],
     talents: [
       { name: 'Phobique', tc: false },
       { name: 'Statik', tc: false },
@@ -62441,18 +55273,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/849/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [4, 11],
     talents: [
       { name: 'Punk Rock', tc: false },
       { name: 'Plus/Moins', tc: false },
@@ -62515,18 +55336,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/850/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [6, 8],
     talents: [
       { name: 'Torche', tc: false },
       { name: '\u00c9cran Fum\u00e9e', tc: false },
@@ -62594,18 +55404,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/851/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [6, 8],
     talents: [
       { name: 'Torche', tc: false },
       { name: '\u00c9cran Fum\u00e9e', tc: false },
@@ -62668,13 +55467,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/852/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: '\u00c9chauffement', tc: false },
       { name: 'Technicien', tc: true },
@@ -62742,13 +55535,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/853/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: '\u00c9chauffement', tc: false },
       { name: 'Technicien', tc: true },
@@ -62816,13 +55603,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/854/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [15],
     talents: [
       { name: 'Armurouill\u00e9e', tc: false },
       { name: 'Corps Maudit', tc: true },
@@ -62891,13 +55672,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/855/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [15],
     talents: [
       { name: 'Armurouill\u00e9e', tc: false },
       { name: 'Corps Maudit', tc: true },
@@ -62966,13 +55741,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/856/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'C\u0153ur Soin', tc: false },
       { name: 'Anticipation', tc: false },
@@ -63038,13 +55807,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/857/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'C\u0153ur Soin', tc: false },
       { name: 'Anticipation', tc: false },
@@ -63112,18 +55875,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/858/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [12, 5],
     talents: [
       { name: 'C\u0153ur Soin', tc: false },
       { name: 'Anticipation', tc: false },
@@ -63189,18 +55941,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/859/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [16, 5],
     talents: [
       { name: 'Farceur', tc: false },
       { name: 'Fouille', tc: false },
@@ -63262,18 +56003,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/860/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [16, 5],
     talents: [
       { name: 'Farceur', tc: false },
       { name: 'Fouille', tc: false },
@@ -63341,18 +56071,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/861/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [16, 5],
     talents: [
       { name: 'Farceur', tc: false },
       { name: 'Fouille', tc: false },
@@ -63418,18 +56137,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/862/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [16, 9],
     talents: [
       { name: 'T\u00e9m\u00e9raire', tc: false },
       { name: 'Cran', tc: false },
@@ -63503,13 +56211,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/863/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [0],
     talents: [
       { name: 'Armurbaston', tc: false },
       { name: 'Griffe Dure', tc: false },
@@ -63578,13 +56280,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/864/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [15],
     talents: [
       { name: 'Armurouill\u00e9e', tc: false },
       { name: 'Corps Condamn\u00e9', tc: true },
@@ -63652,13 +56348,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/865/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Impassible', tc: false },
       { name: 'Querelleur', tc: true },
@@ -63726,18 +56416,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/866/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [7, 12],
     talents: [
       { name: 'Pieds Confus', tc: false },
       { name: 'Brise-Arri\u00e8re', tc: false },
@@ -63806,18 +56485,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/867/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [14, 15],
     talents: [{ name: '\u00c2me Vagabonde', tc: false }],
     stats: {
       hp: 58,
@@ -63883,13 +56551,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/868/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [
       { name: 'Gluco-Voile', tc: false },
       { name: 'Aroma-Voile', tc: true },
@@ -63962,13 +56624,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/869/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [
       { name: 'Gluco-Voile', tc: false },
       { name: 'Aroma-Voile', tc: true },
@@ -64036,13 +56692,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/870/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [
       { name: 'Armurbaston', tc: false },
       { name: 'Acharn\u00e9', tc: true },
@@ -64100,13 +56750,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/871/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Paratonnerre', tc: false },
       { name: 'Cr\u00e9a-\u00c9lec', tc: true },
@@ -64164,18 +56808,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/872/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [7, 8],
     talents: [
       { name: '\u00c9cran Poudre', tc: false },
       { name: '\u00c9cailles Glac\u00e9es', tc: true },
@@ -64243,18 +56876,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/873/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [7, 8],
     talents: [
       { name: '\u00c9cran Poudre', tc: false },
       { name: '\u00c9cailles Glac\u00e9es', tc: true },
@@ -64322,13 +56944,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/874/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [13],
     talents: [{ name: "Cercle d'\u00c9nergie", tc: false }],
     stats: {
       hp: 100,
@@ -64383,13 +56999,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/875/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [7],
     talents: [{ name: 'T\u00eate de Gel', tc: false }],
     stats: {
       hp: 75,
@@ -64444,18 +57054,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/876/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [12, 9],
     talents: [
       { name: 'Attention', tc: false },
       { name: 'Synchro', tc: false },
@@ -64514,18 +57113,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/877/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [4, 16],
     talents: [{ name: 'D\u00e9clic Fringale', tc: false }],
     stats: {
       hp: 58,
@@ -64580,13 +57168,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/878/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [0],
     talents: [
       { name: 'Sans Limite', tc: false },
       { name: 'Heavy Metal', tc: true },
@@ -64653,13 +57235,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/879/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [0],
     talents: [
       { name: 'Sans Limite', tc: false },
       { name: 'Heavy Metal', tc: true },
@@ -64721,18 +57297,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/880/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [4, 2],
     talents: [
       { name: 'Absorbe-Volt', tc: false },
       { name: 'Agitation', tc: false },
@@ -64791,18 +57356,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/881/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [4, 7],
     talents: [
       { name: 'Absorbe-Volt', tc: false },
       { name: 'Statik', tc: false },
@@ -64861,18 +57415,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/882/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [3, 2],
     talents: [
       { name: 'Absorbe-Volt', tc: false },
       { name: 'Prognathe', tc: false },
@@ -64931,18 +57474,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/883/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [3, 7],
     talents: [
       { name: 'Absorbe-Eau', tc: false },
       { name: 'Corps Gel', tc: false },
@@ -65006,18 +57538,7 @@ export const pokemons: Pokemon[] = [
           'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/884/gmax-shiny.png',
       },
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [0, 2],
     talents: [
       { name: 'Light Metal', tc: false },
       { name: 'Heavy Metal', tc: false },
@@ -65086,18 +57607,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/885/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [2, 15],
     talents: [
       { name: 'Corps Sain', tc: false },
       { name: 'Infiltration', tc: false },
@@ -65163,18 +57673,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/886/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [2, 15],
     talents: [
       { name: 'Corps Sain', tc: false },
       { name: 'Infiltration', tc: false },
@@ -65237,18 +57736,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/887/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [2, 15],
     talents: [
       { name: 'Corps Sain', tc: false },
       { name: 'Infiltration', tc: false },
@@ -65314,13 +57802,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/888/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [{ name: 'Lame Indomptable', tc: false }],
     stats: {
       hp: 92,
@@ -65375,13 +57857,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/889/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [{ name: '\u00c9gide Inflexible', tc: false }],
     stats: {
       hp: 92,
@@ -65436,18 +57912,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/890/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [11, 2],
     talents: [{ name: 'Pression', tc: false }],
     stats: {
       hp: 140,
@@ -65497,13 +57962,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [1],
     talents: [{ name: 'Attention', tc: false }],
     stats: {
       hp: 60,
@@ -65572,18 +58031,7 @@ export const pokemons: Pokemon[] = [
         shiny: null,
       },
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [1, 16],
     talents: [{ name: 'Point Invisible', tc: false }],
     stats: {
       hp: 100,
@@ -65648,13 +58096,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [16],
     talents: [{ name: 'Feuille Garde', tc: false }],
     stats: {
       hp: 105,
@@ -65709,13 +58151,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/894/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [{ name: 'Transistor', tc: false }],
     stats: {
       hp: 80,
@@ -65770,13 +58206,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/895/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [2],
     talents: [{ name: 'Dent de Dragon', tc: false }],
     stats: {
       hp: 200,
@@ -65830,13 +58260,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [7],
     talents: [{ name: 'Blanche Ruade', tc: false }],
     stats: {
       hp: 100,
@@ -65890,13 +58314,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [15],
     talents: [{ name: 'Sombre Ruade', tc: false }],
     stats: {
       hp: 100,
@@ -65950,18 +58368,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [12, 10],
     talents: [{ name: 'Tension', tc: false }],
     stats: {
       hp: 100,
@@ -66016,18 +58423,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/899/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [9, 12],
     talents: [
       { name: 'Intimidation', tc: false },
       { name: 'Fouille', tc: false },
@@ -66097,18 +58493,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/900/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [8, 13],
     talents: [
       { name: 'Essaim', tc: false },
       { name: 'Sans Limite', tc: false },
@@ -66177,18 +58562,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/901/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [14, 9],
     talents: [
       { name: 'Cran', tc: false },
       { name: 'Pare-Balles', tc: false },
@@ -66258,18 +58632,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/902/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [3, 15],
     talents: [
       { name: 'Glissade', tc: false },
       { name: 'Adaptabilit\u00e9', tc: false },
@@ -66339,18 +58702,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/903/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [1, 11],
     talents: [
       { name: 'Pression', tc: false },
       { name: 'D\u00e9lestage', tc: false },
@@ -66420,18 +58772,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/904/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [16, 11],
     talents: [
       { name: 'Point Poison', tc: false },
       { name: 'Glissade', tc: false },
@@ -66500,18 +58841,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [5, 17],
     talents: [
       { name: 'Joli Sourire', tc: false },
       { name: 'Contestation', tc: true },
@@ -66569,13 +58899,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/906/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Prot\u00e9en', tc: true },
@@ -66640,13 +58964,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/907/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Prot\u00e9en', tc: true },
@@ -66708,18 +59026,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/908/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [10, 16],
     talents: [
       { name: 'Engrais', tc: false },
       { name: 'Prot\u00e9en', tc: true },
@@ -66784,13 +59091,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/909/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Inconscient', tc: true },
@@ -66859,13 +59160,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/910/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Inconscient', tc: true },
@@ -66933,18 +59228,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/911/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [6, 15],
     talents: [
       { name: 'Brasier', tc: false },
       { name: 'Inconscient', tc: true },
@@ -67009,13 +59293,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/912/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Impudence', tc: true },
@@ -67080,13 +59358,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/913/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Impudence', tc: true },
@@ -67148,18 +59420,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/914/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [3, 1],
     talents: [
       { name: 'Torrent', tc: false },
       { name: 'Impudence', tc: true },
@@ -67224,13 +59485,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/915/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Aroma-Voile', tc: false },
       { name: 'Gloutonnerie', tc: false },
@@ -67293,13 +59548,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/916/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Odeur Tenace (Male)', tc: false },
       { name: 'Aroma-Voile (Femelle)', tc: false },
@@ -67363,13 +59612,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/917/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [
       { name: 'Insomnia', tc: false },
       { name: 'Filature', tc: true },
@@ -67431,13 +59674,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/918/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [
       { name: 'Insomnia', tc: false },
       { name: 'Filature', tc: true },
@@ -67499,13 +59736,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/919/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [
       { name: 'Essaim', tc: false },
       { name: 'Lentiteint\u00e9e', tc: true },
@@ -67567,18 +59798,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/920/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [8, 16],
     talents: [
       { name: 'Essaim', tc: false },
       { name: 'Lentiteint\u00e9e', tc: true },
@@ -67636,13 +59856,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/921/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Statik', tc: false },
       { name: 'M\u00e9dic Nature', tc: false },
@@ -67712,18 +59926,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/922/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [4, 1],
     talents: [
       { name: 'Absorbe-Volt', tc: false },
       { name: 'M\u00e9dic Nature', tc: false },
@@ -67792,18 +59995,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/923/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [4, 1],
     talents: [
       { name: 'Absorbe-Volt', tc: false },
       { name: 'M\u00e9dic Nature', tc: false },
@@ -67873,13 +60065,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/924/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Fuite', tc: false },
       { name: 'Ramassage', tc: false },
@@ -67948,13 +60134,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/925/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'Garde-Ami', tc: false },
       { name: 'Bajoues', tc: false },
@@ -68023,13 +60203,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/926/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [
       { name: 'Tempo Perso', tc: false },
       { name: 'Maladresse', tc: true },
@@ -68091,13 +60265,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/927/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [5],
     talents: [
       { name: 'Bien Cuit', tc: false },
       { name: 'Aroma-Voile', tc: true },
@@ -68165,18 +60333,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/928/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [10, 9],
     talents: [
       { name: 'Matinal', tc: false },
       { name: 'R\u00e9colte', tc: true },
@@ -68241,18 +60398,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/929/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [10, 9],
     talents: [
       { name: 'Matinal', tc: false },
       { name: 'R\u00e9colte', tc: true },
@@ -68314,18 +60460,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/930/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [10, 9],
     talents: [
       { name: 'Semencier', tc: false },
       { name: 'R\u00e9colte', tc: true },
@@ -68390,18 +60525,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/931/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [9, 17],
     talents: [
       { name: 'Agitation', tc: false },
       { name: 'Intimidation', tc: false },
@@ -68456,13 +60580,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/932/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [13],
     talents: [
       { name: 'Sel Purificateur', tc: false },
       { name: 'Fermet\u00e9', tc: false },
@@ -68528,13 +60646,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/933/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [13],
     talents: [
       { name: 'Sel Purificateur', tc: false },
       { name: 'Fermet\u00e9', tc: false },
@@ -68597,13 +60709,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/934/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [13],
     talents: [
       { name: 'Sel Purificateur', tc: false },
       { name: 'Fermet\u00e9', tc: false },
@@ -68669,13 +60775,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/935/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [6],
     talents: [
       { name: 'Torche', tc: false },
       { name: 'Corps Ardent', tc: true },
@@ -68748,18 +60848,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/936/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [6, 12],
     talents: [
       { name: 'Torche', tc: false },
       { name: 'Armurouill\u00e9e', tc: true },
@@ -68827,18 +60916,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/937/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [6, 15],
     talents: [
       { name: 'Torche', tc: false },
       { name: 'Armurouill\u00e9e', tc: true },
@@ -68906,13 +60984,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/938/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Tempo Perso', tc: false },
       { name: 'Statik', tc: false },
@@ -68977,13 +61049,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/939/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [4],
     talents: [
       { name: 'Grecharge', tc: false },
       { name: 'Statik', tc: false },
@@ -69052,18 +61118,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/940/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [4, 17],
     talents: [
       { name: 'Absorbe-Volt', tc: false },
       { name: 'Turbine \u00c9olienne', tc: false },
@@ -69126,18 +61181,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/941/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [4, 17],
     talents: [
       { name: 'Turbine \u00c9olienne', tc: false },
       { name: 'Absorbe-Volt', tc: false },
@@ -69200,13 +61244,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/942/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [16],
     talents: [
       { name: 'Fuite', tc: false },
       { name: 'Intimidation', tc: false },
@@ -69269,13 +61307,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/943/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [16],
     talents: [
       { name: 'Chien de Garde', tc: false },
       { name: 'Intimidation', tc: false },
@@ -69338,18 +61370,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/944/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [11, 9],
     talents: [
       { name: 'D\u00e9lestage', tc: false },
       { name: 'Pickpocket', tc: false },
@@ -69412,18 +61433,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/945/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [11, 9],
     talents: [
       { name: 'D\u00e9lestage', tc: false },
       { name: 'Toxitouche', tc: false },
@@ -69486,18 +61496,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/946/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [10, 15],
     talents: [
       { name: 'A\u00e9roport\u00e9', tc: false },
       { name: 'Infiltration', tc: true },
@@ -69565,18 +61564,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/947/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [10, 15],
     talents: [
       { name: 'A\u00e9roport\u00e9', tc: false },
       { name: 'Infiltration', tc: true },
@@ -69644,18 +61632,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/948/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [14, 10],
     talents: [{ name: 'Force Fongique', tc: false }],
     stats: {
       hp: 40,
@@ -69714,18 +61691,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/949/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [14, 10],
     talents: [{ name: 'Force Fongique', tc: false }],
     stats: {
       hp: 80,
@@ -69784,13 +61750,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/950/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-    ],
+    types: [13],
     talents: [
       { name: 'Courroupace', tc: false },
       { name: 'Coque Armure', tc: false },
@@ -69849,13 +61809,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/951/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Insomnia', tc: false },
@@ -69918,18 +61872,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/952/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [10, 6],
     talents: [
       { name: 'Chlorophylle', tc: false },
       { name: 'Insomnia', tc: false },
@@ -69992,13 +61935,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/953/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-    ],
+    types: [8],
     talents: [
       { name: '\u0152il Compos\u00e9', tc: false },
       { name: 'Mue', tc: true },
@@ -70066,18 +62003,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/954/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [8, 12],
     talents: [
       { name: 'Synchro', tc: false },
       { name: 'T\u00e9l\u00e9pathe', tc: true },
@@ -70145,13 +62071,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/955/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Fouille', tc: false },
       { name: 'Anticipation', tc: false },
@@ -70220,13 +62140,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/956/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [12],
     talents: [
       { name: 'Opportuniste', tc: false },
       { name: 'Fouille', tc: false },
@@ -70289,18 +62203,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/957/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [5, 0],
     talents: [
       { name: 'Brise Moule', tc: false },
       { name: 'Tempo Perso', tc: false },
@@ -70366,18 +62269,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/958/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [5, 0],
     talents: [
       { name: 'Brise Moule', tc: false },
       { name: 'Tempo Perso', tc: false },
@@ -70440,18 +62332,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/959/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [5, 0],
     talents: [
       { name: 'Brise Moule', tc: false },
       { name: 'Tempo Perso', tc: false },
@@ -70517,13 +62398,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/960/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Poisseux', tc: false },
       { name: 'Phobique', tc: false },
@@ -70586,13 +62461,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/961/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Poisseux', tc: false },
       { name: 'Phobique', tc: false },
@@ -70655,18 +62524,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/962/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [17, 16],
     talents: [
       { name: 'C\u0153ur de Coq', tc: false },
       { name: 'Regard Vif', tc: false },
@@ -70725,13 +62583,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/963/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [{ name: 'Ignifu-Voile', tc: false }],
     stats: {
       hp: 70,
@@ -70796,13 +62648,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/964/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [{ name: 'Supermutation', tc: false }],
     stats: {
       hp: 100,
@@ -70861,18 +62707,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/965/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [0, 11],
     talents: [
       { name: 'Envelocape', tc: false },
       { name: 'D\u00e9but Calme', tc: true },
@@ -70934,18 +62769,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/966/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [0, 11],
     talents: [
       { name: 'Envelocape', tc: false },
       { name: 'Filtre', tc: true },
@@ -71007,18 +62831,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/967/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [2, 9],
     talents: [
       { name: 'Mue', tc: false },
       { name: 'R\u00e9g\u00e9-Force', tc: true },
@@ -71076,13 +62889,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/968/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [0],
     talents: [
       { name: 'Absorbe-Terre', tc: false },
       { name: 'Voile Sable', tc: true },
@@ -71140,18 +62947,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/969/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [13, 11],
     talents: [
       { name: 'D\u00e9p\u00f4t Toxique', tc: false },
       { name: 'Corrosion', tc: true },
@@ -71219,18 +63015,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/970/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [13, 11],
     talents: [
       { name: 'D\u00e9p\u00f4t Toxique', tc: false },
       { name: 'Corrosion', tc: true },
@@ -71294,13 +63079,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/971/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [15],
     talents: [
       { name: 'Ramassage', tc: false },
       { name: 'Boule de Poils', tc: true },
@@ -71368,13 +63147,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/972/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [15],
     talents: [
       { name: 'Baigne Sable', tc: false },
       { name: 'Boule de Poils', tc: true },
@@ -71442,18 +63215,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/973/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [17, 1],
     talents: [
       { name: 'Querelleur', tc: false },
       { name: 'Pieds Confus', tc: false },
@@ -71512,13 +63274,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/974/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [7],
     talents: [
       { name: 'Isograisse', tc: false },
       { name: 'Rideau Neige', tc: false },
@@ -71587,13 +63343,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/975/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [7],
     talents: [
       { name: 'Isograisse', tc: false },
       { name: 'Chasse-Neige', tc: false },
@@ -71662,18 +63412,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/976/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [3, 12],
     talents: [
       { name: 'Brise Moule', tc: false },
       { name: 'Incisif', tc: true },
@@ -71731,13 +63470,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/977/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [3],
     talents: [
       { name: 'Inconscient', tc: false },
       { name: 'Ben\u00eat', tc: false },
@@ -71796,18 +63529,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/978/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [2, 3],
     talents: [
       { name: 'Commandant', tc: false },
       { name: 'Lavabo', tc: true },
@@ -71865,18 +63587,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/979/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [1, 15],
     talents: [
       { name: 'Esprit Vital', tc: false },
       { name: 'Attention', tc: false },
@@ -71947,18 +63658,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/980/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [11, 14],
     talents: [
       { name: 'Absorbe-Eau', tc: false },
       { name: 'Point Poison', tc: false },
@@ -72027,18 +63727,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/981/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [9, 12],
     talents: [
       { name: 'Ruminant', tc: false },
       { name: 'Armure Caudale', tc: false },
@@ -72107,13 +63796,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/982/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [
       { name: 'S\u00e9r\u00e9nit\u00e9', tc: false },
       { name: 'Fuite', tc: false },
@@ -72182,18 +63865,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/983/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [16, 0],
     talents: [
       { name: 'Acharn\u00e9', tc: false },
       { name: 'G\u00e9n\u00e9ral Supr\u00eame', tc: false },
@@ -72264,18 +63936,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/984/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [14, 1],
     talents: [{ name: 'Pal\u00e9osynth\u00e8se', tc: false }],
     stats: {
       hp: 115,
@@ -72330,18 +63991,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/985/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [5, 12],
     talents: [{ name: 'Pal\u00e9osynth\u00e8se', tc: false }],
     stats: {
       hp: 115,
@@ -72396,18 +64046,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/986/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [10, 16],
     talents: [{ name: 'Pal\u00e9osynth\u00e8se', tc: false }],
     stats: {
       hp: 111,
@@ -72462,18 +64101,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/987/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [15, 5],
     talents: [{ name: 'Pal\u00e9osynth\u00e8se', tc: false }],
     stats: {
       hp: 55,
@@ -72528,18 +64156,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/988/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Insecte',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/insecte.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [8, 1],
     talents: [{ name: 'Pal\u00e9osynth\u00e8se', tc: false }],
     stats: {
       hp: 85,
@@ -72594,18 +64211,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/989/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [4, 14],
     talents: [{ name: 'Pal\u00e9osynth\u00e8se', tc: false }],
     stats: {
       hp: 85,
@@ -72660,18 +64266,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/990/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-    ],
+    types: [14, 0],
     talents: [{ name: 'Charge Quantique', tc: false }],
     stats: {
       hp: 90,
@@ -72726,18 +64321,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/991/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-    ],
+    types: [7, 3],
     talents: [{ name: 'Charge Quantique', tc: false }],
     stats: {
       hp: 56,
@@ -72792,18 +64376,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/992/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [1, 4],
     talents: [{ name: 'Charge Quantique', tc: false }],
     stats: {
       hp: 154,
@@ -72858,18 +64431,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/993/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Vol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/vol.png',
-      },
-    ],
+    types: [16, 17],
     talents: [{ name: 'Charge Quantique', tc: false }],
     stats: {
       hp: 94,
@@ -72924,18 +64486,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/994/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-    ],
+    types: [6, 11],
     talents: [{ name: 'Charge Quantique', tc: false }],
     stats: {
       hp: 80,
@@ -72990,18 +64541,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/995/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-    ],
+    types: [13, 4],
     talents: [{ name: 'Charge Quantique', tc: false }],
     stats: {
       hp: 100,
@@ -73052,18 +64592,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/996/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [2, 7],
     talents: [
       { name: 'Thermodynamique', tc: false },
       { name: 'Corps Gel', tc: true },
@@ -73124,18 +64653,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/997/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [2, 7],
     talents: [
       { name: 'Thermodynamique', tc: false },
       { name: 'Corps Gel', tc: true },
@@ -73193,18 +64711,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/998/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [2, 7],
     talents: [
       { name: 'Thermodynamique', tc: false },
       { name: 'Corps Gel', tc: true },
@@ -73269,13 +64776,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/999/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [15],
     talents: [{ name: 'Phobique', tc: false }],
     stats: {
       hp: 45,
@@ -73340,18 +64841,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/1000/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [0, 15],
     talents: [{ name: 'Corps en Or', tc: false }],
     stats: {
       hp: 87,
@@ -73415,18 +64905,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [16, 10],
     talents: [{ name: 'Bois du Fl\u00e9au', tc: false }],
     stats: {
       hp: 85,
@@ -73480,18 +64959,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Glace',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/glace.png',
-      },
-    ],
+    types: [16, 7],
     talents: [{ name: '\u00c9p\u00e9e du Fl\u00e9au', tc: false }],
     stats: {
       hp: 80,
@@ -73545,18 +65013,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Sol',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/sol.png',
-      },
-    ],
+    types: [16, 14],
     talents: [{ name: 'Urne du Fl\u00e9au', tc: false }],
     stats: {
       hp: 155,
@@ -73606,18 +65063,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-    ],
+    types: [16, 6],
     talents: [{ name: 'Perles du Fl\u00e9au', tc: false }],
     stats: {
       hp: 55,
@@ -73672,18 +65118,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/1005/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-      {
-        name: 'T\u00e9n\u00e8bres',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/tenebres.png',
-      },
-    ],
+    types: [2, 16],
     talents: [{ name: 'Pal\u00e9osynth\u00e8se', tc: false }],
     stats: {
       hp: 105,
@@ -73738,18 +65173,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/1006/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [5, 1],
     talents: [{ name: 'Charge Quantique', tc: false }],
     stats: {
       hp: 74,
@@ -73803,18 +65227,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [1, 2],
     talents: [{ name: 'Pouls Orichalque', tc: false }],
     stats: {
       hp: 100,
@@ -73868,18 +65281,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [4, 2],
     talents: [{ name: 'Moteur \u00e0 Hadrons', tc: false }],
     stats: {
       hp: 100,
@@ -73933,18 +65335,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Eau',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/eau.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [3, 2],
     talents: [{ name: 'Pal\u00e9osynth\u00e8se', tc: false }],
     stats: {
       hp: 99,
@@ -73998,18 +65389,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [10, 12],
     talents: [{ name: 'Charge Quantique', tc: false }],
     stats: {
       hp: 90,
@@ -74064,18 +65444,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/1011/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [10, 2],
     talents: [
       { name: 'Nectar Mielleux', tc: false },
       { name: 'Gloutonnerie', tc: false },
@@ -74150,18 +65519,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/1012/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [10, 15],
     talents: [
       { name: 'Aux Petits Soins', tc: false },
       { name: 'Ignifugi\u00e9', tc: true },
@@ -74229,18 +65587,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/1013/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [10, 15],
     talents: [
       { name: 'Aux Petits Soins', tc: false },
       { name: 'Ignifugi\u00e9', tc: true },
@@ -74307,18 +65654,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Combat',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/combat.png',
-      },
-    ],
+    types: [11, 1],
     talents: [
       { name: 'Chaine Toxique', tc: false },
       { name: 'Chien de Garde', tc: true },
@@ -74375,18 +65711,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [11, 12],
     talents: [
       { name: 'Chaine Toxique', tc: false },
       { name: 'Fouille', tc: true },
@@ -74443,18 +65768,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'F\u00e9e',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/fee.png',
-      },
-    ],
+    types: [11, 5],
     talents: [
       { name: 'Chaine Toxique', tc: false },
       { name: 'Technicien', tc: true },
@@ -74511,13 +65825,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-    ],
+    types: [10],
     talents: [
       { name: 'Acharn\u00e9', tc: false },
       { name: 'Force M\u00e9morielle', tc: true },
@@ -74575,18 +65883,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/1018/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [0, 2],
     talents: [
       { name: 'Endurance', tc: false },
       { name: 'Fermet\u00e9', tc: false },
@@ -74655,18 +65952,7 @@ export const pokemons: Pokemon[] = [
         'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemons/1019/shiny.png',
       gmax: null,
     },
-    types: [
-      {
-        name: 'Plante',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/plante.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [10, 2],
     talents: [
       { name: 'Nectar Mielleux', tc: false },
       { name: 'R\u00e9g\u00e9-Force', tc: false },
@@ -74739,18 +66025,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Feu',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/feu.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [6, 2],
     talents: [{ name: 'Pal\u00e9osynth\u00e8se', tc: false }],
     stats: {
       hp: 105,
@@ -74804,18 +66079,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: '\u00c9lectrik',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/electrik.png',
-      },
-      {
-        name: 'Dragon',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/dragon.png',
-      },
-    ],
+    types: [4, 2],
     talents: [{ name: 'Pal\u00e9osynth\u00e8se', tc: false }],
     stats: {
       hp: 125,
@@ -74869,18 +66133,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Roche',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/roche.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [13, 12],
     talents: [{ name: 'Charge Quantique', tc: false }],
     stats: {
       hp: 90,
@@ -74934,18 +66187,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Acier',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/acier.png',
-      },
-      {
-        name: 'Psy',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/psy.png',
-      },
-    ],
+    types: [0, 12],
     talents: [{ name: 'Charge Quantique', tc: false }],
     stats: {
       hp: 90,
@@ -74999,13 +66241,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Normal',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/normal.png',
-      },
-    ],
+    types: [9],
     talents: [{ name: 'T\u00e9ramorphose', tc: false }],
     stats: {
       hp: 90,
@@ -75059,18 +66295,7 @@ export const pokemons: Pokemon[] = [
       shiny: null,
       gmax: null,
     },
-    types: [
-      {
-        name: 'Poison',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/poison.png',
-      },
-      {
-        name: 'Spectre',
-        image:
-          'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/types/spectre.png',
-      },
-    ],
+    types: [11, 15],
     talents: [{ name: 'Emprise Toxique', tc: false }],
     stats: {
       hp: 88,
