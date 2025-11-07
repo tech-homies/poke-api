@@ -5,5 +5,6 @@ import { PokemonsService } from './pokemons.service';
 @Module({
   controllers: [PokemonsController],
   providers: [PokemonsService],
+  exports: [PokemonsService],
 })
 export class PokemonsModule {}

@@ -6,13 +6,22 @@ import { PokemonsModule } from './pokemons/pokemons.module';
 import { DelayMiddleware } from './middlewares/delay.middleware';
 import { TrainersModule } from './trainers/trainers.module';
 import { TeamsModule } from './teams/teams.module';
+import { BattlesModule } from './battles/battles.module';
 
 @Module({
-  imports: [PokemonTypesModule, PokemonsModule, TrainersModule, TeamsModule],
+  imports: [
+    PokemonTypesModule,
+    PokemonsModule,
+    TrainersModule,
+    TeamsModule,
+    BattlesModule,
+  ],
   providers: [{ provide: APP_FILTER, useClass: AllExceptionsFilter }],
 })
 export class AppModule {
   configure(consumer: MiddlewareConsumer) {
-    consumer.apply(DelayMiddleware).forRoutes('types', 'pokemons', 'trainers');
+    consumer
+      .apply(DelayMiddleware)
+      .forRoutes('types', 'pokemons', 'trainers', 'battles');
   }
 }

@@ -12,6 +12,7 @@ import {
 import {
   ApiBadRequestResponse,
   ApiNoContentResponse,
+  ApiNotFoundResponse,
   ApiOkResponse,
   ApiOperation,
   ApiParam,
@@ -32,6 +33,9 @@ export class TeamsController {
   @ApiOkResponse({
     description: "L'équipe du dresseur a été récupérée avec succès",
     type: TeamDto,
+  })
+  @ApiNotFoundResponse({
+    description: "Le dresseur demandé n'a pas été trouvé",
   })
   @Get()
   getTeamByTrainerId(
