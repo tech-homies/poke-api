@@ -50,7 +50,7 @@ export class TeamsController {
   })
   @ApiBadRequestResponse({
     description:
-      "La taille de l'équipe dépasse la limite autorisée ou des pokémons en double ont été détectés",
+      "L'ID du dresseur dans l'URL ne correspond pas à l'ID dans le corps de la requête, la taille de l'équipe dépasse la limite autorisée ou des pokémons en double ont été détectés",
   })
   @HttpCode(HttpStatus.NO_CONTENT)
   @Put()

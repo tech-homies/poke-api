@@ -4,6 +4,7 @@ import { Pokemon } from '../pokemons/entities/pokemon.entity';
 import { TeamDto } from './dto/team.dto';
 import { TeamSizeExceededException } from './exceptions/team-size-exceeded.exception';
 import { DuplicatePokemonException } from './exceptions/duplicate-pokemon.exception';
+import { TrainerIdMismatchException } from './exceptions/trainer-id-mismatch.exception';
 import { TEAM_SIZE } from '../common/constants/team.constants';
 import { TrainersService } from '../trainers/trainers.service';
 import { TrainerNotFoundException } from '../trainers/exceptions/trainer-not-found.exception';
@@ -19,6 +20,11 @@ export class TeamsService {
   }
 
   updateTeamByTrainerId(trainerId: number, teamDto: TeamDto): void {
+    // Validation: vérifier que les trainerId sont cohérents
+    if (trainerId !== teamDto.trainerId) {
+      throw new TrainerIdMismatchException(trainerId, teamDto.trainerId);
+    }
+
     // Validation: vérifier la taille de l'équipe (doit être exactement TEAM_SIZE)
     if (teamDto.pokemons.length !== TEAM_SIZE) {
       throw new TeamSizeExceededException(TEAM_SIZE);
