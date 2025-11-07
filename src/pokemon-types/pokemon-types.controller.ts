@@ -9,7 +9,7 @@ import {
 } from '@nestjs/swagger';
 import { PokemonTypeNotFoundException } from './exceptions/pokemon-type-not-found.exception';
 
-@Controller('types')
+@Controller('pokemon-types')
 export class PokemonTypesController {
   constructor(private readonly pokemonTypesService: PokemonTypesService) {}
 
