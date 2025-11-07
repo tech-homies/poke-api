@@ -1,0 +1,30 @@
+meta {
+  name: Get All Battles
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/battles
+  body: none
+  auth: none
+}
+
+docs {
+  Récupère la liste de tous les combats.
+
+  ### Réponse attendue
+  - Status: 200 OK
+  - Body: Array de BattleDto
+}
+
+tests {
+  test("Status code is 200", function() {
+    expect(res.getStatus()).to.equal(200);
+  });
+
+  test("Response is an array", function() {
+    expect(res.getBody()).to.be.an('array');
+  });
+}
+

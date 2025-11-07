@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "🐭 Pokemon API",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

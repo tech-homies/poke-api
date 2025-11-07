@@ -1,0 +1,39 @@
+meta {
+  name: Create Battle - Same Trainer
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{baseUrl}}/battles
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "trainer1Id": 1,
+    "trainer2Id": 1
+  }
+}
+
+docs {
+  Test du cas d'erreur 400 lorsqu'on essaie de lancer un combat avec le meme dresseur.
+
+  ### Reponse attendue
+  - Status: 400 Bad Request
+  - Message: Erreur indiquant qu'un dresseur ne peut pas combattre contre lui-meme
+}
+
+tests {
+  test("Status code is 400", function() {
+    expect(res.getStatus()).to.equal(400);
+  });
+  
+  test("Error message is present", function() {
+    const body = res.getBody();
+    expect(body).to.have.property('message');
+  });
+}
+
+

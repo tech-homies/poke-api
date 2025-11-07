@@ -1,0 +1,50 @@
+meta {
+  name: Update Team - Too Many Pokemons
+  type: http
+  seq: 5
+}
+
+put {
+  url: {{baseUrl}}/trainers/1/team
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "trainerId": 1,
+    "pokemons": [1, 4, 7, 25]
+  }
+}
+
+docs {
+  Test du cas d'erreur 400 lorsqu'on essaie de mettre plus de 3 pokémons dans une équipe.
+
+  ### Paramètres
+  - trainerId: ID du dresseur (dans l'URL)
+
+  ### Body
+  - trainerId: number (doit correspondre à l'URL)
+  - pokemons: number[] (contient 4 pokémons, dépassant la limite de 3)
+
+  ### Réponse attendue
+  - Status: 400 Bad Request
+  - Message: Erreur indiquant que l'équipe dépasse la taille maximale
+}
+
+tests {
+  test("Status code is 400", function() {
+    expect(res.getStatus()).to.equal(400);
+  });
+
+  test("Error message is present", function() {
+    const body = res.getBody();
+    expect(body).to.have.property('message');
+  });
+
+  test("Error indicates too many pokemons", function() {
+    const body = res.getBody();
+    expect(body.message).to.match(/max|trop|limit|3|plus de/i);
+  });
+}
+

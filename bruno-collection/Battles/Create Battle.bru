@@ -1,0 +1,75 @@
+meta {
+  name: Create Battle
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{baseUrl}}/battles
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "trainer1Id": 1,
+    "trainer2Id": 2
+  }
+}
+
+script:pre-request {
+  const axios = require('axios');
+  const baseUrl = bru.getEnvVar('baseUrl');
+
+  // Créer l'équipe pour le dresseur 1
+  await axios.put(`${baseUrl}/trainers/1/team`, {
+    trainerId: 1,
+    pokemons: [1, 4, 7]
+  });
+
+  // Créer l'équipe pour le dresseur 2
+  await axios.put(`${baseUrl}/trainers/2/team`, {
+    trainerId: 2,
+    pokemons: [2, 5, 8]
+  });
+}
+
+docs {
+  Lance un combat entre deux dresseurs.
+
+  ### Body requis
+  - trainer1Id: number (ID du premier dresseur)
+  - trainer2Id: number (ID du second dresseur)
+
+  ### Réponses attendues
+  - 201 Created: Combat créé avec succès
+  - 400 Bad Request: Erreur (même dresseur, pas d'équipe, etc.)
+  - 404 Not Found: Dresseur inexistant
+}
+
+tests {
+  test("Status code is 201", function() {
+    expect(res.getStatus()).to.equal(201);
+  });
+  
+  test("Response has battle data", function() {
+    const battle = res.getBody();
+    expect(battle).to.have.property('trainer1Id');
+    expect(battle).to.have.property('trainer2Id');
+    expect(battle).to.have.property('winnerId');
+  });
+  
+  test("Winner is one of the trainers", function() {
+    const battle = res.getBody();
+    const validWinner = battle.winnerId === battle.trainer1Id || 
+                        battle.winnerId === battle.trainer2Id;
+    expect(validWinner).to.be.true;
+  });
+  
+  test("Battle has duels", function() {
+    const battle = res.getBody();
+    expect(battle).to.have.property('duels');
+    expect(battle.duels).to.be.an('array');
+  });
+}
+

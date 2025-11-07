@@ -1,0 +1,45 @@
+meta {
+  name: Get All Trainers
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/trainers
+  body: none
+  auth: none
+}
+
+tests {
+  test("Status code is 200", function() {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  test("Response is an array", function() {
+    expect(res.getBody()).to.be.an('array');
+  });
+  
+  test("Array is not empty", function() {
+    expect(res.getBody().length).to.be.greaterThan(0);
+  });
+  
+  test("First trainer has required fields", function() {
+    const trainer = res.getBody()[0];
+    expect(trainer).to.have.property('id');
+    expect(trainer).to.have.property('name');
+    expect(trainer).to.have.property('avatarUrl');
+  });
+  
+  test("Trainer ID is positive", function() {
+    const trainer = res.getBody()[0];
+    expect(trainer.id).to.be.greaterThan(0);
+  });
+}
+
+docs {
+  Récupère la liste complète de tous les dresseurs.
+  
+  ### Réponse attendue
+  - Status: 200 OK
+  - Body: Array de TrainerDto
+}

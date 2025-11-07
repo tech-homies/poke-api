@@ -1,0 +1,50 @@
+meta {
+  name: Update Team - Duplicate Pokemons
+  type: http
+  seq: 3
+}
+
+put {
+  url: {{baseUrl}}/trainers/1/team
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "trainerId": 1,
+    "pokemons": [1, 25, 25]
+  }
+}
+
+docs {
+  Test du cas d'erreur 400 lorsqu'on essaie de mettre des pokémons en double dans une équipe.
+
+  ### Paramètres
+  - trainerId: ID du dresseur (dans l'URL)
+
+  ### Body
+  - trainerId: number (doit correspondre à l'URL)
+  - pokemons: number[] (contient des doublons - ici Pikachu (25) apparaît 2 fois)
+
+  ### Réponse attendue
+  - Status: 409 Conflict
+  - Message: Erreur indiquant que l'équipe contient des pokémons en double
+}
+
+tests {
+  test("Status code is 409", function() {
+    expect(res.getStatus()).to.equal(409);
+  });
+
+  test("Error message is present", function() {
+    const body = res.getBody();
+    expect(body).to.have.property('message');
+  });
+
+  test("Error indicates duplicate pokemons", function() {
+    const body = res.getBody();
+    expect(body.message).to.match(/deux fois|ajout/i);
+  });
+}
+

@@ -1,0 +1,49 @@
+meta {
+  name: Get Type by ID
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{baseUrl}}/pokemon-types/1
+  body: none
+  auth: none
+}
+
+docs {
+  Récupère les détails d'un type de pokémon spécifique par son ID.
+
+  ### Paramètres
+  - id: ID du type (ici: 1)
+
+  ### Réponse attendue
+  - Status: 200 OK
+  - Body: PokemonTypeDto
+}
+
+tests {
+  test("Status code is 200", function() {
+    expect(res.getStatus()).to.equal(200);
+  });
+
+  test("Response has type data", function() {
+    const type = res.getBody();
+    expect(type).to.have.property('id');
+    expect(type).to.have.property('name');
+  });
+
+  test("Type ID matches request", function() {
+    const type = res.getBody();
+    expect(type.id).to.equal(1);
+  });
+
+  test("Type name is not empty", function() {
+    const type = res.getBody();
+    expect(type.name).to.be.an('object');
+    expect(type.name).to.have.property('fr');
+    expect(type.name).to.have.property('en');
+    expect(type.name).to.have.property('jp');
+    expect(type.name.fr.length).to.be.greaterThan(0);
+  });
+}
+

@@ -1,0 +1,12 @@
+script:pre-request {
+  // Code to run before each request
+  // Example: Set timestamp
+  bru.setVar("timestamp", new Date().toISOString());
+}
+
+script:post-response {
+  // Code to run after each response
+  // Example: Log response time
+  console.log(`Response time: ${res.getResponseTime()}ms`);
+}
+

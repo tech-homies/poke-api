@@ -1,0 +1,47 @@
+meta {
+  name: Create Battle - Trainer Not Found
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{baseUrl}}/battles
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "trainer1Id": 1,
+    "trainer2Id": 9999
+  }
+}
+
+docs {
+  Test du cas d'erreur 404 lorsqu'un dresseur n'existe pas.
+
+  ### Body
+  - trainer1Id: 1 (dresseur existant)
+  - trainer2Id: 9999 (dresseur inexistant)
+
+  ### Réponse attendue
+  - Status: 404 Not Found
+  - Message: Erreur indiquant que le dresseur n'existe pas
+}
+
+tests {
+  test("Status code is 404", function() {
+    expect(res.getStatus()).to.equal(404);
+  });
+
+  test("Error message is present", function() {
+    const body = res.getBody();
+    expect(body).to.have.property('message');
+  });
+
+  test("Error indicates trainer not found", function() {
+    const body = res.getBody();
+    expect(body.message).to.match(/dresseur|trainer|not found|introuvable/i);
+  });
+}
+

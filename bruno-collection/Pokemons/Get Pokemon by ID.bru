@@ -1,0 +1,65 @@
+meta {
+  name: Get Pokemon by ID
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{baseUrl}}/pokemons/25
+  body: none
+  auth: none
+}
+
+docs {
+  Récupère les détails d'un pokémon spécifique par son ID.
+
+  ### Paramètres
+  - id: ID du pokémon (ici: 25 pour Pikachu)
+
+  ### Réponse attendue
+  - Status: 200 OK
+  - Body: PokemonDto
+}
+
+tests {
+  test("Status code is 200", function() {
+    expect(res.getStatus()).to.equal(200);
+  });
+
+  test("Response has pokemon data", function() {
+    const pokemon = res.getBody();
+    expect(pokemon).to.have.property('pokedex_id');
+    expect(pokemon).to.have.property('name');
+    expect(pokemon).to.have.property('types');
+    expect(pokemon).to.have.property('stats');
+    expect(pokemon.stats).to.have.property('hp');
+    expect(pokemon.stats).to.have.property('atk');
+    expect(pokemon.stats).to.have.property('def');
+    expect(pokemon.stats).to.have.property('vit');
+  });
+
+  test("Pokemon ID matches request", function() {
+    const pokemon = res.getBody();
+    expect(pokemon.pokedex_id).to.equal(25);
+  });
+
+  test("Pokemon is Pikachu", function() {
+    const pokemon = res.getBody();
+    expect(pokemon.name.fr).to.equal("Pikachu");
+  });
+
+  test("Types is an array", function() {
+    const pokemon = res.getBody();
+    expect(pokemon.types).to.be.an('array');
+    expect(pokemon.types.length).to.be.greaterThan(0);
+  });
+
+  test("Stats are positive numbers", function() {
+    const pokemon = res.getBody();
+    expect(pokemon.stats.hp).to.be.greaterThan(0);
+    expect(pokemon.stats.atk).to.be.greaterThan(0);
+    expect(pokemon.stats.def).to.be.greaterThan(0);
+    expect(pokemon.stats.vit).to.be.greaterThan(0);
+  });
+}
+

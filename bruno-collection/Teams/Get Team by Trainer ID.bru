@@ -1,0 +1,44 @@
+meta {
+  name: Get Team by Trainer ID
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/trainers/1/team
+  body: none
+  auth: none
+}
+
+tests {
+  test("Status code is 200", function() {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  test("Response has team data", function() {
+    const team = res.getBody();
+    expect(team).to.have.property('trainerId');
+    expect(team).to.have.property('pokemons');
+  });
+  
+  test("Pokemons is an array", function() {
+    const team = res.getBody();
+    expect(team.pokemons).to.be.an('array');
+  });
+  
+  test("Trainer ID matches request", function() {
+    const team = res.getBody();
+    expect(team.trainerId).to.equal(1);
+  });
+}
+
+docs {
+  Récupère l'équipe d'un dresseur spécifique.
+  
+  ### Paramètres
+  - trainerId: ID du dresseur
+  
+  ### Réponse attendue
+  - Status: 200 OK
+  - Body: TeamDto avec la liste des IDs de pokémons
+}

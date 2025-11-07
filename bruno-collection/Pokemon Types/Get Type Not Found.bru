@@ -1,0 +1,39 @@
+meta {
+  name: Get Type Not Found
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{baseUrl}}/pokemon-types/99999
+  body: none
+  auth: none
+}
+
+docs {
+  Test du cas d'erreur 404 lorsqu'on cherche un type inexistant.
+
+  ### Paramètres
+  - id: ID inexistant (99999)
+
+  ### Réponse attendue
+  - Status: 404 Not Found
+  - Message: Erreur indiquant que le type n'existe pas
+}
+
+tests {
+  test("Status code is 404", function() {
+    expect(res.getStatus()).to.equal(404);
+  });
+
+  test("Error message is present", function() {
+    const body = res.getBody();
+    expect(body).to.have.property('message');
+  });
+
+  test("Error indicates not found", function() {
+    const body = res.getBody();
+    expect(body.message).to.match(/trouv/i);
+  });
+}
+

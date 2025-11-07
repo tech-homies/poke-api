@@ -1,0 +1,51 @@
+meta {
+  name: Get All Pokemons
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/pokemons
+  body: none
+  auth: none
+}
+
+docs {
+  Récupère la liste complète de tous les pokémons disponibles.
+
+  ### Réponse attendue
+  - Status: 200 OK
+  - Body: Array de PokemonDto
+}
+
+tests {
+  test("Status code is 200", function() {
+    expect(res.getStatus()).to.equal(200);
+  });
+
+  test("Response is an array", function() {
+    expect(res.getBody()).to.be.an('array');
+  });
+
+  test("Array is not empty", function() {
+    expect(res.getBody().length).to.be.greaterThan(0);
+  });
+
+  test("First pokemon has required fields", function() {
+    const pokemon = res.getBody()[0];
+    expect(pokemon).to.have.property('pokedex_id');
+    expect(pokemon).to.have.property('name');
+    expect(pokemon).to.have.property('types');
+    expect(pokemon).to.have.property('stats');
+    expect(pokemon.stats).to.have.property('hp');
+    expect(pokemon.stats).to.have.property('atk');
+    expect(pokemon.stats).to.have.property('def');
+    expect(pokemon.stats).to.have.property('vit');
+  });
+
+  test("Types is an array", function() {
+    const pokemon = res.getBody()[0];
+    expect(pokemon.types).to.be.an('array');
+  });
+}
+

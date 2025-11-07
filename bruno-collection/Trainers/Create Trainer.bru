@@ -1,0 +1,53 @@
+meta {
+  name: Create Trainer
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{baseUrl}}/trainers
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Pierre",
+    "avatarUrl": "https://example.com/avatars/pierre.png"
+  }
+}
+
+docs {
+  Crée un nouveau dresseur.
+
+  ### Body requis
+  - name: string (nom du dresseur)
+  - avatarUrl: string (URL de l'avatar)
+
+  ### Réponse attendue
+  - Status: 201 Created
+  - Body: TrainerDto avec l'ID généré
+}
+
+tests {
+  test("Status code is 201", function() {
+    expect(res.getStatus()).to.equal(201);
+  });
+  
+  test("Response has trainer with ID", function() {
+    const trainer = res.getBody();
+    expect(trainer).to.have.property('id');
+    expect(trainer.id).to.be.greaterThan(0);
+  });
+  
+  test("Trainer name matches request", function() {
+    const trainer = res.getBody();
+    expect(trainer.name).to.equal("Pierre");
+  });
+  
+  test("Avatar URL matches request", function() {
+    const trainer = res.getBody();
+    expect(trainer.avatarUrl).to.equal("https://example.com/avatars/pierre.png");
+  });
+}
+

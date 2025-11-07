@@ -1,0 +1,45 @@
+meta {
+  name: Get Battles by Trainer ID
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{baseUrl}}/battles?trainerId=1
+  body: none
+  auth: none
+}
+
+params:query {
+  trainerId: 1
+}
+
+docs {
+  Récupère tous les combats impliquant un dresseur spécifique.
+
+  ### Query Parameters
+  - trainerId: ID du dresseur
+
+  ### Réponse attendue
+  - Status: 200 OK
+  - Body: Array de BattleDto filtrés par dresseur
+}
+
+tests {
+  test("Status code is 200", function() {
+    expect(res.getStatus()).to.equal(200);
+  });
+  
+  test("Response is an array", function() {
+    expect(res.getBody()).to.be.an('array');
+  });
+  
+  test("All battles include the trainer", function() {
+    const battles = res.getBody();
+    battles.forEach(battle => {
+      const hasTrainer = battle.trainer1Id === 1 || battle.trainer2Id === 1;
+      expect(hasTrainer).to.be.true;
+    });
+  });
+}
+

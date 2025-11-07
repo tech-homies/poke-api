@@ -1,0 +1,46 @@
+meta {
+  name: Get All Types
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/pokemon-types
+  body: none
+  auth: none
+}
+
+docs {
+  Récupère la liste complète de tous les types de pokémons.
+
+  ### Réponse attendue
+  - Status: 200 OK
+  - Body: Array de PokemonTypeDto
+}
+
+tests {
+  test("Status code is 200", function() {
+    expect(res.getStatus()).to.equal(200);
+  });
+
+  test("Response is an array", function() {
+    expect(res.getBody()).to.be.an('array');
+  });
+
+  test("Array is not empty", function() {
+    expect(res.getBody().length).to.be.greaterThan(0);
+  });
+
+  test("First type has required fields", function() {
+    const type = res.getBody()[0];
+    expect(type).to.have.property('id');
+    expect(type).to.have.property('name');
+  });
+
+  test("Contains common types", function() {
+    const types = res.getBody();
+    const typeNames = types.map(t => t.name.fr);
+    expect(typeNames).to.include.members(['Feu', 'Eau', 'Plante']);
+  });
+}
+

@@ -1,0 +1,43 @@
+meta {
+  name: Update Team
+  type: http
+  seq: 2
+}
+
+put {
+  url: {{baseUrl}}/trainers/1/team
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "trainerId": 1,
+    "pokemons": [1, 4, 7]
+  }
+}
+
+tests {
+  test("Status code is 204", function() {
+    expect(res.getStatus()).to.equal(204);
+  });
+  
+  test("Response body is empty", function() {
+    expect(res.getBody()).to.be.oneOf([null, undefined, ""]);
+  });
+}
+
+docs {
+  Met à jour l'équipe d'un dresseur.
+  
+  ### Paramètres
+  - trainerId: ID du dresseur (dans l'URL)
+  
+  ### Body requis
+  - trainerId: number (doit correspondre à l'URL)
+  - pokemons: number[] (liste des IDs de pokémons, max 6)
+  
+  ### Réponses attendues
+  - 204 No Content: Équipe mise à jour avec succès
+  - 400 Bad Request: Taille d'équipe dépassée ou pokémons en double
+}
