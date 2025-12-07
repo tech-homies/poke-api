@@ -57,6 +57,14 @@ tests {
     expect(battle).to.have.property('trainer1Id');
     expect(battle).to.have.property('trainer2Id');
     expect(battle).to.have.property('winnerId');
+    expect(battle).to.have.property('datetime');
+  });
+
+  test("Datetime is a valid ISO string", function() {
+    const battle = res.getBody();
+    expect(battle.datetime).to.be.a('string');
+    const date = new Date(battle.datetime);
+    expect(date.toString()).to.not.equal('Invalid Date');
   });
   
   test("Winner is one of the trainers", function() {

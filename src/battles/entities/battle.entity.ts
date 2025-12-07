@@ -13,4 +13,5 @@ export type Battle = {
   trainer2Id: Trainer['id'];
   winnerId: Trainer['id'];
   duels: DuelResult[];
+  datetime: Date;
 };

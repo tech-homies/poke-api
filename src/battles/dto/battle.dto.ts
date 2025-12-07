@@ -61,4 +61,12 @@ export class BattleDto {
     isArray: true,
   })
   duels: DuelResult[];
+
+  @ApiProperty({
+    description: 'Date du combat',
+    example: '2025-12-07T10:30:00.000Z',
+    type: String,
+    format: 'date-time',
+  })
+  datetime: Date;
 }

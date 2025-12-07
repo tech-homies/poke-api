@@ -41,5 +41,13 @@ tests {
       expect(hasTrainer).to.be.true;
     });
   });
+
+  test("All battles have datetime field", function() {
+    const battles = res.getBody();
+    battles.forEach(battle => {
+      expect(battle).to.have.property('datetime');
+      expect(battle.datetime).to.be.a('string');
+    });
+  });
 }
 

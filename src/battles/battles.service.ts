@@ -121,6 +121,7 @@ export class BattlesService {
       trainer2Id,
       winnerId,
       duels,
+      datetime: new Date(),
     };
 
     // Sauvegarder le combat dans l'historique
