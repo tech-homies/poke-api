@@ -86,10 +86,11 @@ export class BattlesService {
       .filter((p): p is Pokemon => p !== undefined);
 
     // Vérifier que tous les Pokémon ont été trouvés
-    if (pokemons1.length !== TEAM_SIZE || pokemons2.length !== TEAM_SIZE) {
-      throw new TrainerNoTeamException(
-        pokemons1.length !== TEAM_SIZE ? trainer1Id : trainer2Id,
-      );
+    if (pokemons1.length !== TEAM_SIZE) {
+      throw new TrainerNoTeamException(trainer1Id);
+    }
+    if (pokemons2.length !== TEAM_SIZE) {
+      throw new TrainerNoTeamException(trainer2Id);
     }
 
     // Lancer le combat
@@ -131,7 +132,7 @@ export class BattlesService {
   }
 
   /**
-   * Simule un duel entre deux Pokémon
+   * Simule un duel entre deux Pokémons
    * Retourne le résultat avec le gagnant et les scores
    */
   private duel(pokemon1: Pokemon, pokemon2: Pokemon): DuelResult {
@@ -181,15 +182,21 @@ export class BattlesService {
         if (!defenderType) continue;
 
         // Chercher la résistance du défenseur contre le type de l'attaquant
-        const resistance = defenderType.resistances.find(
+        const defenderResistance = defenderType.resistances.find(
           (r) => r.name === attackerType.name.fr,
         );
 
-        if (resistance) {
-          // Multiplier : 0.5 = désavantage, 1 = neutre, 2 = avantage
-          if (resistance.multiplier === 0.5) {
+        if (defenderResistance) {
+          // Multiplier :
+          // 0 = immunité du défenseur,
+          // 0.5 = désavantage pour l'attaquant,
+          // 1 = neutre,
+          // 2 = avantage pour l'attaquant
+          if (defenderResistance.multiplier === 0) {
+            baseScore -= 50; // Immunité
+          } else if (defenderResistance.multiplier === 0.5) {
             baseScore -= 30; // Désavantage
-          } else if (resistance.multiplier === 2) {
+          } else if (defenderResistance.multiplier === 2) {
             baseScore += 30; // Avantage
           }
           // Si multiplier === 1, pas de bonus/malus (neutre)

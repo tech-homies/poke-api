@@ -4,6 +4,6 @@ export type PokemonType = {
   sprites: string;
   resistances: {
     name: string;
-    multiplier: number;
+    multiplier: 0 | 0.5 | 1 | 2;
   }[];
 };
