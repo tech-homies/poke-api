@@ -47,7 +47,7 @@ export class TeamsService {
 
     return {
       trainerId,
-      pokemons: this.#teams[trainerId],
+      pokemons: this.#teams[trainerId] ?? [],
     };
   }
 }
