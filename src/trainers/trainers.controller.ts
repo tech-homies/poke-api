@@ -28,7 +28,7 @@ export class TrainersController {
     type: [TrainerDto],
   })
   @Get()
-  findAll(): TrainerDto[] {
+  async findAll(): Promise<TrainerDto[]> {
     return this.trainersService.findAll();
   }
 
@@ -46,8 +46,8 @@ export class TrainersController {
     example: 1,
   })
   @Get(':id')
-  findOne(@Param('id', ParseIntPipe) id: number): TrainerDto {
-    const trainer = this.trainersService.findOne(id);
+  async findOne(@Param('id', ParseIntPipe) id: number): Promise<TrainerDto> {
+    const trainer = await this.trainersService.findOne(id);
     if (!trainer) {
       throw new TrainerNotFoundException(id);
     }
@@ -60,7 +60,9 @@ export class TrainersController {
     type: TrainerDto,
   })
   @Post()
-  create(@Body() createTrainerDto: CreateTrainerDto): TrainerDto {
+  async create(
+    @Body() createTrainerDto: CreateTrainerDto,
+  ): Promise<TrainerDto> {
     return this.trainersService.create(createTrainerDto);
   }
 }

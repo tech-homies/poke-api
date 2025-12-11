@@ -37,10 +37,10 @@ export class BattlesController {
     type: Number,
   })
   @Get()
-  findAll(
+  async findAll(
     @Query('trainerId', new ParseIntPipe({ optional: true }))
     trainerId?: number,
-  ): BattleDto[] {
+  ): Promise<BattleDto[]> {
     return trainerId
       ? this.battlesService.findByTrainerId(trainerId)
       : this.battlesService.findAll();
@@ -52,7 +52,7 @@ export class BattlesController {
     type: BattleDto,
   })
   @Post()
-  fight(@Body() createBattleDto: CreateBattleDto): BattleDto {
+  async fight(@Body() createBattleDto: CreateBattleDto): Promise<BattleDto> {
     return this.battlesService.fight(
       createBattleDto.trainer1Id,
       createBattleDto.trainer2Id,

@@ -19,7 +19,7 @@ export class PokemonsController {
     type: [PokemonDto],
   })
   @Get()
-  findAll(): PokemonDto[] {
+  async findAll(): Promise<PokemonDto[]> {
     return this.pokemonsService.findAll();
   }
 
@@ -37,8 +37,8 @@ export class PokemonsController {
     example: 0,
   })
   @Get(':id')
-  findOne(@Param('id', ParseIntPipe) id: number): PokemonDto {
-    const pokemon = this.pokemonsService.findOne(id);
+  async findOne(@Param('id', ParseIntPipe) id: number): Promise<PokemonDto> {
+    const pokemon = await this.pokemonsService.findOne(id);
     if (!pokemon) {
       throw new PokemonNotFoundException(id);
     }

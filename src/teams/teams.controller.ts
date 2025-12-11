@@ -38,9 +38,9 @@ export class TeamsController {
     description: "Le dresseur demandé n'a pas été trouvé",
   })
   @Get()
-  getTeamByTrainerId(
+  async getTeamByTrainerId(
     @Param('trainerId', ParseIntPipe) trainerId: number,
-  ): TeamDto {
+  ): Promise<TeamDto> {
     return this.teamService.getTeamByTrainerId(trainerId);
   }
 
@@ -54,10 +54,10 @@ export class TeamsController {
   })
   @HttpCode(HttpStatus.NO_CONTENT)
   @Put()
-  updateTeamByTrainerId(
+  async updateTeamByTrainerId(
     @Param('trainerId', ParseIntPipe) trainerId: number,
     @Body() teamDto: TeamDto,
-  ): void {
+  ): Promise<void> {
     return this.teamService.updateTeamByTrainerId(trainerId, teamDto);
   }
 
@@ -67,9 +67,9 @@ export class TeamsController {
   })
   @HttpCode(HttpStatus.NO_CONTENT)
   @Delete()
-  deleteTeamByTrainerId(
+  async deleteTeamByTrainerId(
     @Param('trainerId', ParseIntPipe) trainerId: number,
-  ): void {
+  ): Promise<void> {
     return this.teamService.deleteTeamByTrainerId(trainerId);
   }
 }

@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, OnModuleInit } from '@nestjs/common';
 import { TrainersService } from '../trainers/trainers.service';
 import { TeamsService } from '../teams/teams.service';
 import { PokemonsService } from '../pokemons/pokemons.service';
@@ -9,37 +9,50 @@ import { TrainerNoTeamException } from './exceptions/trainer-no-team.exception';
 import { Pokemon } from '../pokemons/entities/pokemon.entity';
 import { Battle, DuelResult } from './entities/battle.entity';
 import { TEAM_SIZE } from '../common/constants/team.constants';
+import { RedisService } from '../redis/redis.service';
+
+const BATTLES_KEY = 'battles';
 
 @Injectable()
-export class BattlesService {
-  #battles: Battle[] = [];
-
+export class BattlesService implements OnModuleInit {
   constructor(
     private readonly trainersService: TrainersService,
     private readonly teamsService: TeamsService,
     private readonly pokemonsService: PokemonsService,
     private readonly pokemonTypesService: PokemonTypesService,
+    private readonly redisService: RedisService,
   ) {}
+
+  async onModuleInit() {
+    // Initialiser les batailles dans Redis au démarrage
+    const exists = await this.redisService.exists(BATTLES_KEY);
+    if (!exists) {
+      await this.redisService.set(BATTLES_KEY, []);
+      console.log('✅ Données des batailles initialisées dans Redis');
+    }
+  }
 
   /**
    * Récupère la liste de tous les combats
    */
-  findAll(): Battle[] {
-    return this.#battles;
+  async findAll(): Promise<Battle[]> {
+    const data = await this.redisService.get<Battle[]>(BATTLES_KEY);
+    return data ?? [];
   }
 
   /**
    * Récupère les combats d'un dresseur donné
    */
-  findByTrainerId(trainerId: number): Battle[] {
+  async findByTrainerId(trainerId: number): Promise<Battle[]> {
     // Vérifier que le dresseur existe
-    const trainer = this.trainersService.findOne(trainerId);
+    const trainer = await this.trainersService.findOne(trainerId);
     if (!trainer) {
       throw new TrainerNotFoundException(trainerId);
     }
 
     // Retourner tous les combats où le dresseur a participé
-    return this.#battles.filter(
+    const battles = await this.findAll();
+    return battles.filter(
       (battle) =>
         battle.trainer1Id === trainerId || battle.trainer2Id === trainerId,
     );
@@ -48,14 +61,14 @@ export class BattlesService {
   /**
    * Lance un combat entre deux dresseurs
    */
-  fight(trainer1Id: number, trainer2Id: number): Battle {
+  async fight(trainer1Id: number, trainer2Id: number): Promise<Battle> {
     // Validation 1 : Vérifier que les deux dresseurs existent
-    const trainer1 = this.trainersService.findOne(trainer1Id);
+    const trainer1 = await this.trainersService.findOne(trainer1Id);
     if (!trainer1) {
       throw new TrainerNotFoundException(trainer1Id);
     }
 
-    const trainer2 = this.trainersService.findOne(trainer2Id);
+    const trainer2 = await this.trainersService.findOne(trainer2Id);
     if (!trainer2) {
       throw new TrainerNotFoundException(trainer2Id);
     }
@@ -66,8 +79,8 @@ export class BattlesService {
     }
 
     // Récupérer les équipes
-    const team1 = this.teamsService.getTeamByTrainerId(trainer1Id);
-    const team2 = this.teamsService.getTeamByTrainerId(trainer2Id);
+    const team1 = await this.teamsService.getTeamByTrainerId(trainer1Id);
+    const team2 = await this.teamsService.getTeamByTrainerId(trainer2Id);
 
     // Validation 3 : Vérifier que chaque équipe a exactement TEAM_SIZE Pokémon
     if (!team1.pokemons || team1.pokemons.length !== TEAM_SIZE) {
@@ -78,12 +91,19 @@ export class BattlesService {
     }
 
     // Récupérer les Pokémon complets
-    const pokemons1 = team1.pokemons
-      .map((id) => this.pokemonsService.findOne(id))
-      .filter((p): p is Pokemon => p !== undefined);
-    const pokemons2 = team2.pokemons
-      .map((id) => this.pokemonsService.findOne(id))
-      .filter((p): p is Pokemon => p !== undefined);
+    const pokemons1Promise = team1.pokemons.map((id) =>
+      this.pokemonsService.findOne(id),
+    );
+    const pokemons2Promise = team2.pokemons.map((id) =>
+      this.pokemonsService.findOne(id),
+    );
+
+    const pokemons1 = (await Promise.all(pokemons1Promise)).filter(
+      (p): p is Pokemon => p !== undefined,
+    );
+    const pokemons2 = (await Promise.all(pokemons2Promise)).filter(
+      (p): p is Pokemon => p !== undefined,
+    );
 
     // Vérifier que tous les Pokémon ont été trouvés
     if (pokemons1.length !== TEAM_SIZE) {
@@ -126,7 +146,9 @@ export class BattlesService {
     };
 
     // Sauvegarder le combat dans l'historique
-    this.#battles.push(battle);
+    const battles = await this.findAll();
+    battles.push(battle);
+    await this.redisService.set(BATTLES_KEY, battles);
 
     return battle;
   }
