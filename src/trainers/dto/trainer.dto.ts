@@ -30,4 +30,13 @@ export class TrainerDto {
   @IsUrl()
   @IsNotEmpty()
   avatarUrl: string;
+
+  @ApiProperty({
+    description: 'Description du dresseur',
+    example:
+      'Sacha Ketchum est un jeune dresseur énergique originaire de Bourg Palette. Déterminé à devenir Maître Pokémon, il parcourt les régions avec son fidèle Pikachu, se distinguant par son courage, sa persévérance et son lien unique avec ses Pokémon.',
+    type: 'string',
+  })
+  @IsString()
+  description: string;
 }
