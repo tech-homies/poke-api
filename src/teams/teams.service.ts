@@ -8,10 +8,11 @@ import { TrainerIdMismatchException } from './exceptions/trainer-id-mismatch.exc
 import { TEAM_SIZE } from '../common/constants/team.constants';
 import { TrainersService } from '../trainers/trainers.service';
 import { TrainerNotFoundException } from '../trainers/exceptions/trainer-not-found.exception';
+import { teams } from './teams.data';
 
 @Injectable()
 export class TeamsService {
-  #teams: Record<Trainer['id'], Pokemon['pokedex_id'][]> = [];
+  #teams: Record<Trainer['id'], Pokemon['pokedex_id'][]> = teams;
 
   constructor(private readonly trainersService: TrainersService) {}
 
