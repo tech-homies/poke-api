@@ -31,6 +31,10 @@ tests {
     expect(trainer).to.have.property('id');
     expect(trainer).to.have.property('name');
     expect(trainer).to.have.property('avatarUrl');
+    expect(trainer).to.have.property('description');
+    expect(trainer).to.have.property('age');
+    expect(trainer).to.have.property('hometown');
+    expect(trainer).to.have.property('level');
   });
 
   test("Trainer ID matches request", function() {
@@ -48,6 +52,33 @@ tests {
     const trainer = res.getBody();
     expect(trainer.avatarUrl).to.be.a('string');
     expect(trainer.avatarUrl).to.match(/^https?:\/\//);
+  });
+
+  test("Age is within valid range", function() {
+    const trainer = res.getBody();
+    expect(trainer.age).to.be.a('number');
+    expect(trainer.age).to.be.at.least(5);
+    expect(trainer.age).to.be.at.most(100);
+  });
+
+  test("Hometown is not empty", function() {
+    const trainer = res.getBody();
+    expect(trainer.hometown).to.be.a('string');
+    expect(trainer.hometown.length).to.be.greaterThan(0);
+  });
+
+  test("Level is valid", function() {
+    const trainer = res.getBody();
+    const validLevels = ['beginner', 'intermediate', 'advanced', 'master'];
+    expect(validLevels).to.include(trainer.level);
+  });
+
+  test("FavoritePokemon is valid if present", function() {
+    const trainer = res.getBody();
+    if (trainer.favoritePokemon !== undefined && trainer.favoritePokemon !== null) {
+      expect(trainer.favoritePokemon).to.be.a('number');
+      expect(trainer.favoritePokemon).to.be.greaterThan(0);
+    }
   });
 }
 

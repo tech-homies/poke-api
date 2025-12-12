@@ -12,21 +12,33 @@ post {
 
 body:json {
   {
-    "name": "Pierre",
-    "avatarUrl": "https://example.com/avatars/pierre.png"
+    "name": "Flora",
+    "avatarUrl": "https://example.com/avatars/flora.png",
+    "description": "Flora est une spécialiste des Pokémon de type Plante. Elle excelle dans les stratégies défensives et aime cultiver des jardins avec ses Pokémon.",
+    "age": 14,
+    "hometown": "Céladopole",
+    "level": "advanced",
+    "favoritePokemon": 45
   }
 }
 
 docs {
-  Crée un nouveau dresseur.
+  Crée un nouveau dresseur avec tous les champs disponibles.
 
   ### Body requis
   - name: string (nom du dresseur)
   - avatarUrl: string (URL de l'avatar)
+  - description: string (description du dresseur)
+  - age: number (âge entre 5 et 100)
+  - hometown: string (ville d'origine)
+  - level: enum ('beginner', 'intermediate', 'advanced', 'master')
+
+  ### Body optionnel
+  - favoritePokemon: number (ID du Pokémon favori)
 
   ### Réponse attendue
   - Status: 201 Created
-  - Body: TrainerDto avec l'ID généré
+  - Body: TrainerDto avec l'ID généré et tous les champs
 }
 
 tests {

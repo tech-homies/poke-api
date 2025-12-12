@@ -1,0 +1,52 @@
+meta {
+  name: Create Trainer - Validation Errors
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{baseUrl}}/trainers
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "",
+    "avatarUrl": "invalid-url",
+    "description": "",
+    "age": 150,
+    "hometown": "",
+    "level": "invalid-level",
+    "favoritePokemon": -1
+  }
+}
+
+tests {
+  test("Status code is 400 for validation errors", function() {
+    expect(res.getStatus()).to.equal(400);
+  });
+
+  test("Response contains validation errors", function() {
+    const body = res.getBody();
+    expect(body).to.have.property('message');
+    expect(body.message).to.be.an('array');
+    expect(body.message.length).to.be.greaterThan(0);
+  });
+}
+
+docs {
+  Teste la validation des champs lors de la création d'un dresseur avec des données invalides.
+
+  ### Body avec erreurs
+  - name: string vide (requis)
+  - avatarUrl: URL invalide
+  - age: > 100 (max autorisé)
+  - hometown: string vide (requis)
+  - level: valeur non autorisée
+  - favoritePokemon: nombre négatif
+
+  ### Réponse attendue
+  - Status: 400 Bad Request
+  - Body: Détails des erreurs de validation
+}

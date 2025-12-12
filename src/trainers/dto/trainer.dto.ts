@@ -1,5 +1,14 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsInt, IsNotEmpty, IsString, IsUrl, Min } from 'class-validator';
+import {
+  IsInt,
+  IsNotEmpty,
+  IsString,
+  IsUrl,
+  Min,
+  Max,
+  IsEnum,
+  IsOptional,
+} from 'class-validator';
 
 export class TrainerDto {
   @ApiProperty({
@@ -39,4 +48,46 @@ export class TrainerDto {
   })
   @IsString()
   description: string;
+
+  @ApiProperty({
+    description: 'Âge du dresseur',
+    example: 10,
+    type: 'integer',
+    minimum: 5,
+    maximum: 100,
+  })
+  @IsInt()
+  @Min(5)
+  @Max(100)
+  @IsNotEmpty()
+  age: number;
+
+  @ApiProperty({
+    description: "Ville d'origine du dresseur",
+    example: 'Bourg Palette',
+    type: 'string',
+  })
+  @IsString()
+  @IsNotEmpty()
+  hometown: string;
+
+  @ApiProperty({
+    description: "Niveau d'expérience du dresseur",
+    example: 'intermediate',
+    enum: ['beginner', 'intermediate', 'advanced', 'master'],
+  })
+  @IsEnum(['beginner', 'intermediate', 'advanced', 'master'])
+  @IsNotEmpty()
+  level: 'beginner' | 'intermediate' | 'advanced' | 'master';
+
+  @ApiProperty({
+    description: 'ID du Pokémon favori du dresseur',
+    example: 25,
+    type: 'integer',
+    required: false,
+  })
+  @IsInt()
+  @Min(1)
+  @IsOptional()
+  favoritePokemon?: number;
 }

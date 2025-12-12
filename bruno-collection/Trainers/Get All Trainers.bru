@@ -28,11 +28,34 @@ tests {
     expect(trainer).to.have.property('id');
     expect(trainer).to.have.property('name');
     expect(trainer).to.have.property('avatarUrl');
+    expect(trainer).to.have.property('description');
+    expect(trainer).to.have.property('age');
+    expect(trainer).to.have.property('hometown');
+    expect(trainer).to.have.property('level');
   });
   
   test("Trainer ID is positive", function() {
     const trainer = res.getBody()[0];
     expect(trainer.id).to.be.greaterThan(0);
+  });
+
+  test("Trainer age is valid", function() {
+    const trainer = res.getBody()[0];
+    expect(trainer.age).to.be.a('number');
+    expect(trainer.age).to.be.at.least(5);
+    expect(trainer.age).to.be.at.most(100);
+  });
+
+  test("Trainer level is valid", function() {
+    const trainer = res.getBody()[0];
+    const validLevels = ['beginner', 'intermediate', 'advanced', 'master'];
+    expect(validLevels).to.include(trainer.level);
+  });
+
+  test("Trainer hometown is not empty", function() {
+    const trainer = res.getBody()[0];
+    expect(trainer.hometown).to.be.a('string');
+    expect(trainer.hometown.length).to.be.greaterThan(0);
   });
 }
 

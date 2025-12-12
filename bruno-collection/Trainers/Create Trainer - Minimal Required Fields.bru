@@ -1,0 +1,67 @@
+meta {
+  name: Create Trainer - Minimal Required Fields
+  type: http
+  seq: 5
+}
+
+post {
+  url: {{baseUrl}}/trainers
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Dresseur Minimaliste",
+    "avatarUrl": "https://example.com/avatars/minimal.png",
+    "description": "Un dresseur créé avec seulement les champs obligatoires.",
+    "age": 16,
+    "hometown": "Ville Inconnue",
+    "level": "beginner"
+  }
+}
+
+tests {
+  test("Status code is 201", function() {
+    expect(res.getStatus()).to.equal(201);
+  });
+
+  test("Response has all required fields", function() {
+    const trainer = res.getBody();
+    expect(trainer).to.have.property('id');
+    expect(trainer).to.have.property('name');
+    expect(trainer).to.have.property('avatarUrl');
+    expect(trainer).to.have.property('description');
+    expect(trainer).to.have.property('age');
+    expect(trainer).to.have.property('hometown');
+    expect(trainer).to.have.property('level');
+  });
+
+  test("Optional field favoritePokemon can be undefined", function() {
+    const trainer = res.getBody();
+    // Le champ peut être undefined ou null
+    expect(trainer.favoritePokemon === undefined || trainer.favoritePokemon === null).to.be.true;
+  });
+
+  test("Generated ID is positive", function() {
+    const trainer = res.getBody();
+    expect(trainer.id).to.be.a('number');
+    expect(trainer.id).to.be.greaterThan(0);
+  });
+}
+
+docs {
+  Teste la création d'un dresseur avec seulement les champs obligatoires (sans favoritePokemon).
+
+  ### Body requis seulement
+  - name: string (nom du dresseur)
+  - avatarUrl: string (URL valide)
+  - description: string (description)
+  - age: number (16, dans la plage valide)
+  - hometown: string (ville)
+  - level: enum ('beginner')
+
+  ### Réponse attendue
+  - Status: 201 Created
+  - Body: TrainerDto avec ID généré, favoritePokemon undefined/null
+}
