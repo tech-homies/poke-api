@@ -32,7 +32,7 @@ Cette commande exécute tous les tests de la collection Bruno et génère un fic
 ### Tests par module
 
 ```bash
-# Tests des batailles
+# Tests des combats
 npm run test:api:battles
 
 # Tests des pokémons

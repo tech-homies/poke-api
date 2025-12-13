@@ -62,7 +62,7 @@ Lorsque l'application démarre, vous devriez voir dans les logs :
 ✅ Données des Pokémons chargées dans Redis
 ✅ Données des dresseurs chargées dans Redis
 ✅ Données des équipes chargées dans Redis
-✅ Données des batailles initialisées dans Redis
+✅ Données des combats initialisées dans Redis
 [Nest] XXX - XX/XX/XXXX     LOG [NestApplication] Nest application successfully started
 ```
 

@@ -10,6 +10,7 @@ import { Pokemon } from '../pokemons/entities/pokemon.entity';
 import { Battle, DuelResult } from './entities/battle.entity';
 import { TEAM_SIZE } from '../common/constants/team.constants';
 import { RedisService } from '../redis/redis.service';
+import { battles } from './battles.data';
 
 const BATTLES_INDEX_KEY = 'index:battles';
 const BATTLE_KEY_PREFIX = 'battle:';
@@ -25,12 +26,29 @@ export class BattlesService implements OnModuleInit {
   ) {}
 
   async onModuleInit() {
-    // Initialiser l'index des batailles dans Redis au démarrage
+    // Charger les données initiales dans Redis au démarrage
     const exists = await this.redisService.exists(BATTLES_INDEX_KEY);
     if (!exists) {
-      // Créer un set vide pour l'index des batailles
-      await this.redisService.set(BATTLES_INDEX_KEY, []);
-      console.log('✅ Index des batailles initialisé dans Redis');
+      if (battles.length > 0) {
+        // Stocker chaque Battle individuellement
+        const keyValuePairs = battles.map((battle) => {
+          const battleKey = this.generateBattleKey(battle.datetime);
+          return {
+            key: `${BATTLE_KEY_PREFIX}${battleKey}`,
+            value: battle,
+          };
+        });
+
+        await this.redisService.mSet(keyValuePairs);
+
+        // Maintenir un index des clés de combats existantes
+        for (const battle of battles) {
+          const battleKey = this.generateBattleKey(battle.datetime);
+          await this.redisService.sAdd(BATTLES_INDEX_KEY, battleKey);
+        }
+      }
+
+      console.log('✅ Données des combats chargées dans Redis');
     }
   }
 
