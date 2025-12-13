@@ -11,7 +11,8 @@ import { Battle, DuelResult } from './entities/battle.entity';
 import { TEAM_SIZE } from '../common/constants/team.constants';
 import { RedisService } from '../redis/redis.service';
 
-const BATTLES_KEY = 'battles';
+const BATTLES_INDEX_KEY = 'index:battles';
+const BATTLE_KEY_PREFIX = 'battle:';
 
 @Injectable()
 export class BattlesService implements OnModuleInit {
@@ -24,11 +25,12 @@ export class BattlesService implements OnModuleInit {
   ) {}
 
   async onModuleInit() {
-    // Initialiser les batailles dans Redis au démarrage
-    const exists = await this.redisService.exists(BATTLES_KEY);
+    // Initialiser l'index des batailles dans Redis au démarrage
+    const exists = await this.redisService.exists(BATTLES_INDEX_KEY);
     if (!exists) {
-      await this.redisService.set(BATTLES_KEY, []);
-      console.log('✅ Données des batailles initialisées dans Redis');
+      // Créer un set vide pour l'index des batailles
+      await this.redisService.set(BATTLES_INDEX_KEY, []);
+      console.log('✅ Index des batailles initialisé dans Redis');
     }
   }
 
@@ -36,8 +38,18 @@ export class BattlesService implements OnModuleInit {
    * Récupère la liste de tous les combats
    */
   async findAll(): Promise<Battle[]> {
-    const data = await this.redisService.get<Battle[]>(BATTLES_KEY);
-    return data ?? [];
+    const battleKeys = await this.redisService.sMembers(BATTLES_INDEX_KEY);
+    if (battleKeys.length === 0) return [];
+
+    const keys = battleKeys.map((key) => `${BATTLE_KEY_PREFIX}${key}`);
+    const battles = await this.redisService.mGet<Battle>(keys);
+
+    return battles
+      .filter((battle): battle is Battle => battle !== null)
+      .sort(
+        (a, b) =>
+          new Date(b.datetime).getTime() - new Date(a.datetime).getTime(),
+      ); // Tri par date décroissante
   }
 
   /**
@@ -56,6 +68,13 @@ export class BattlesService implements OnModuleInit {
       (battle) =>
         battle.trainer1Id === trainerId || battle.trainer2Id === trainerId,
     );
+  }
+
+  /**
+   * Génère une clé unique basée sur la datetime
+   */
+  private generateBattleKey(datetime: Date): string {
+    return datetime.toISOString();
   }
 
   /**
@@ -145,10 +164,12 @@ export class BattlesService implements OnModuleInit {
       datetime: new Date(),
     };
 
-    // Sauvegarder le combat dans l'historique
-    const battles = await this.findAll();
-    battles.push(battle);
-    await this.redisService.set(BATTLES_KEY, battles);
+    // Sauvegarder le combat avec une clé basée sur la datetime
+    const battleKey = this.generateBattleKey(battle.datetime);
+    await this.redisService.set(`${BATTLE_KEY_PREFIX}${battleKey}`, battle);
+
+    // Ajouter la clé à l'index
+    await this.redisService.sAdd(BATTLES_INDEX_KEY, battleKey);
 
     return battle;
   }

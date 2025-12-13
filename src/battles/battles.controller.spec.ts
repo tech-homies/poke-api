@@ -5,6 +5,7 @@ import { TrainersService } from '../trainers/trainers.service';
 import { TeamsService } from '../teams/teams.service';
 import { PokemonsService } from '../pokemons/pokemons.service';
 import { PokemonTypesService } from '../pokemon-types/pokemon-types.service';
+import { RedisService } from '../redis/redis.service';
 import { Battle } from './entities/battle.entity';
 
 describe('BattlesController', () => {
@@ -30,7 +31,14 @@ describe('BattlesController', () => {
     const module: TestingModule = await Test.createTestingModule({
       controllers: [BattlesController],
       providers: [
-        BattlesService,
+        {
+          provide: BattlesService,
+          useValue: {
+            findAll: jest.fn(),
+            findByTrainerId: jest.fn(),
+            fight: jest.fn(),
+          },
+        },
         {
           provide: TrainersService,
           useValue: {
@@ -55,6 +63,15 @@ describe('BattlesController', () => {
             findOne: jest.fn(),
           },
         },
+        {
+          provide: RedisService,
+          useValue: {
+            exists: jest.fn(),
+            set: jest.fn(),
+            sMembers: jest.fn(),
+            mGet: jest.fn(),
+          },
+        },
       ],
     }).compile();
 
@@ -67,32 +84,32 @@ describe('BattlesController', () => {
   });
 
   describe('findAll', () => {
-    it('should return an array of battles with datetime', () => {
-      jest.spyOn(service, 'findAll').mockReturnValue([mockBattle]);
+    it('should return an array of battles with datetime', async () => {
+      jest.spyOn(service, 'findAll').mockResolvedValue([mockBattle]);
 
-      const result = controller.findAll();
+      const result = await controller.findAll();
 
       expect(result).toEqual([mockBattle]);
       expect(result[0]).toHaveProperty('datetime');
-      expect(result[0].datetime).toBeInstanceOf(Date);
+      expect((result[0] as typeof mockBattle).datetime).toBeInstanceOf(Date);
     });
 
-    it('should return battles for a specific trainer when trainerId is provided', () => {
-      jest.spyOn(service, 'findByTrainerId').mockReturnValue([mockBattle]);
+    it('should return battles for a specific trainer when trainerId is provided', async () => {
+      jest.spyOn(service, 'findByTrainerId').mockResolvedValue([mockBattle]);
 
-      const result = controller.findAll(1);
+      const result = await controller.findAll(1);
 
       expect(result).toEqual([mockBattle]);
       expect(result[0]).toHaveProperty('datetime');
-      expect(result[0].datetime).toBeInstanceOf(Date);
+      expect((result[0] as typeof mockBattle).datetime).toBeInstanceOf(Date);
     });
   });
 
   describe('fight', () => {
-    it('should create a battle with datetime', () => {
-      jest.spyOn(service, 'fight').mockReturnValue(mockBattle);
+    it('should create a battle with datetime', async () => {
+      jest.spyOn(service, 'fight').mockResolvedValue(mockBattle);
 
-      const result = controller.fight({ trainer1Id: 1, trainer2Id: 2 });
+      const result = await controller.fight({ trainer1Id: 1, trainer2Id: 2 });
 
       expect(result).toEqual(mockBattle);
       expect(result).toHaveProperty('datetime');

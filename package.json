@@ -17,7 +17,11 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "cd bruno-collection && bru run --env Local --output results.json"
+    "test:e2e": "cd bruno-collection && bru run --env Local --output results.json",
+    "redis:clean": "node scripts/clean-redis.js",
+    "redis:inspect": "node scripts/inspect-redis.js",
+    "redis:test": "node scripts/test-redis-structure.js",
+    "redis:validate": "node scripts/validate-redis-structure.js"
   },
   "dependencies": {
     "@nestjs/common": "^11.0.1",

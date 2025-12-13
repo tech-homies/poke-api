@@ -46,7 +46,7 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
   async get<T>(key: string): Promise<T | null> {
     if (!this.client) return null;
     const value = await this.client.get(key);
-    return value ? JSON.parse(value) : null;
+    return value ? (JSON.parse(value) as T) : null;
   }
 
   /**
@@ -72,5 +72,50 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
   async keys(pattern: string): Promise<string[]> {
     if (!this.client) return [];
     return await this.client.keys(pattern);
+  }
+
+  /**
+   * Ajoute un élément à un set Redis
+   */
+  async sAdd(key: string, value: string): Promise<void> {
+    if (!this.client) return;
+    await this.client.sAdd(key, value);
+  }
+
+  /**
+   * Supprime un élément d'un set Redis
+   */
+  async sRem(key: string, value: string): Promise<void> {
+    if (!this.client) return;
+    await this.client.sRem(key, value);
+  }
+
+  /**
+   * Récupère tous les membres d'un set Redis
+   */
+  async sMembers(key: string): Promise<string[]> {
+    if (!this.client) return [];
+    return await this.client.sMembers(key);
+  }
+
+  /**
+   * Récupère plusieurs valeurs depuis Redis
+   */
+  async mGet<T>(keys: string[]): Promise<(T | null)[]> {
+    if (!this.client || keys.length === 0) return [];
+    const values = await this.client.mGet(keys);
+    return values.map((value) => (value ? (JSON.parse(value) as T) : null));
+  }
+
+  /**
+   * Stocke plusieurs valeurs dans Redis
+   */
+  async mSet(keyValuePairs: { key: string; value: any }[]): Promise<void> {
+    if (!this.client || keyValuePairs.length === 0) return;
+    const pairs: string[] = [];
+    keyValuePairs.forEach(({ key, value }) => {
+      pairs.push(key, JSON.stringify(value));
+    });
+    await this.client.mSet(pairs);
   }
 }

@@ -1,5 +1,4 @@
 import { Injectable, OnModuleInit } from '@nestjs/common';
-import { Trainer } from '../trainers/entities/trainer.entity';
 import { Pokemon } from '../pokemons/entities/pokemon.entity';
 import { TeamDto } from './dto/team.dto';
 import { TeamSizeExceededException } from './exceptions/team-size-exceeded.exception';
@@ -11,7 +10,8 @@ import { TrainerNotFoundException } from '../trainers/exceptions/trainer-not-fou
 import { teams } from './teams.data';
 import { RedisService } from '../redis/redis.service';
 
-const TEAMS_KEY = 'teams';
+const TEAMS_INDEX_KEY = 'index:teams';
+const TEAM_KEY_PREFIX = 'team:';
 
 @Injectable()
 export class TeamsService implements OnModuleInit {
@@ -22,17 +22,32 @@ export class TeamsService implements OnModuleInit {
 
   async onModuleInit() {
     // Charger les données initiales dans Redis au démarrage
-    const exists = await this.redisService.exists(TEAMS_KEY);
+    const exists = await this.redisService.exists(TEAMS_INDEX_KEY);
     if (!exists) {
-      await this.redisService.set(TEAMS_KEY, teams);
+      // Stocker chaque équipe individuellement
+      const keyValuePairs = Object.entries(teams).map(
+        ([trainerId, pokemons]) => ({
+          key: `${TEAM_KEY_PREFIX}${trainerId}`,
+          value: pokemons,
+        }),
+      );
+
+      if (keyValuePairs.length > 0) {
+        await this.redisService.mSet(keyValuePairs);
+
+        // Maintenir un index des trainer IDs qui ont une équipe
+        for (const trainerId of Object.keys(teams)) {
+          await this.redisService.sAdd(TEAMS_INDEX_KEY, trainerId);
+        }
+      }
+
       console.log('✅ Données des équipes chargées dans Redis');
     }
   }
 
   async deleteTeamByTrainerId(trainerId: number): Promise<void> {
-    const teams = await this.getAllTeams();
-    teams[trainerId] = [];
-    await this.redisService.set(TEAMS_KEY, teams);
+    await this.redisService.del(`${TEAM_KEY_PREFIX}${trainerId}`);
+    await this.redisService.sRem(TEAMS_INDEX_KEY, trainerId.toString());
   }
 
   async updateTeamByTrainerId(
@@ -54,9 +69,12 @@ export class TeamsService implements OnModuleInit {
       throw new DuplicatePokemonException();
     }
 
-    const teams = await this.getAllTeams();
-    teams[trainerId] = teamDto.pokemons;
-    await this.redisService.set(TEAMS_KEY, teams);
+    // Sauvegarder l'équipe
+    await this.redisService.set(
+      `${TEAM_KEY_PREFIX}${trainerId}`,
+      teamDto.pokemons,
+    );
+    await this.redisService.sAdd(TEAMS_INDEX_KEY, trainerId.toString());
   }
 
   async getTeamByTrainerId(trainerId: number): Promise<TeamDto> {
@@ -66,20 +84,13 @@ export class TeamsService implements OnModuleInit {
       throw new TrainerNotFoundException(trainerId);
     }
 
-    const teams = await this.getAllTeams();
+    const pokemons = await this.redisService.get<Pokemon['pokedex_id'][]>(
+      `${TEAM_KEY_PREFIX}${trainerId}`,
+    );
+
     return {
       trainerId,
-      pokemons: teams[trainerId] ?? [],
+      pokemons: pokemons ?? [],
     };
-  }
-
-  private async getAllTeams(): Promise<
-    Record<Trainer['id'], Pokemon['pokedex_id'][]>
-  > {
-    const data =
-      await this.redisService.get<
-        Record<Trainer['id'], Pokemon['pokedex_id'][]>
-      >(TEAMS_KEY);
-    return data ?? {};
   }
 }
