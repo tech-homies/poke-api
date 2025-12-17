@@ -54,11 +54,11 @@ export class TrainerDto {
     example: 10,
     type: 'integer',
     minimum: 5,
-    maximum: 100,
+    maximum: 5000,
   })
   @IsInt()
   @Min(5)
-  @Max(100)
+  @Max(5000)
   @IsNotEmpty()
   age: number;
 
