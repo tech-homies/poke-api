@@ -60,7 +60,7 @@ export class TeamsService implements OnModuleInit {
     }
 
     // Validation: vérifier la taille de l'équipe (doit être exactement TEAM_SIZE)
-    if (teamDto.pokemons.length !== TEAM_SIZE) {
+    if (teamDto.pokemons.length > TEAM_SIZE) {
       throw new TeamSizeExceededException(TEAM_SIZE);
     }
 
