@@ -32,4 +32,12 @@ export default tseslint.config(
       "prettier/prettier": ["error", { endOfLine: "auto" }],
     },
   },
+  {
+    // Dans les tests, `expect(service.method).toHaveBeenCalled()` est l'idiome
+    // jest standard ; la règle unbound-method y produit des faux positifs.
+    files: ['**/*.spec.ts'],
+    rules: {
+      '@typescript-eslint/unbound-method': 'off',
+    },
+  },
 );

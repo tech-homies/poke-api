@@ -54,12 +54,12 @@ tests {
   
   test("Trainer name matches request", function() {
     const trainer = res.getBody();
-    expect(trainer.name).to.equal("Pierre");
+    expect(trainer.name).to.equal("Flora");
   });
-  
+
   test("Avatar URL matches request", function() {
     const trainer = res.getBody();
-    expect(trainer.avatarUrl).to.equal("https://example.com/avatars/pierre.png");
+    expect(trainer.avatarUrl).to.equal("https://example.com/avatars/flora.png");
   });
 }
 
