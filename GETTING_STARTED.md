@@ -3,33 +3,24 @@
 ## Prérequis
 
 - Node.js (version 18+)
-- Redis (local ou distant via Vercel)
-- Un fichier `.env.local` configuré
+
+> ℹ️ Aucune base de données externe n'est nécessaire. Les données sont stockées
+> dans une **base en mémoire** qui est **réinitialisée à chaque démarrage** de
+> l'application. Les données initiales (Pokémons, dresseurs, équipes, combats)
+> sont rechargées automatiquement au démarrage.
 
 ## Configuration
 
-### 1. Créer le fichier `.env.local`
-
-Copiez le fichier `.env.example` et créez un `.env.local` :
+Le projet fonctionne sans configuration. Vous pouvez éventuellement créer un
+fichier `.env.local` pour personnaliser le port :
 
 ```bash
 cp .env.example .env.local
 ```
 
-### 2. Configurer Redis
-
-Ajoutez l'URL de connexion Redis dans `.env.local` :
-
 ```env
-# Utilisez l'une de ces deux variables
-REDIS_URL=redis://localhost:6379
-# OU
-STORAGE_REDIS_URL=redis://default:password@host:port
-```
-
-Pour un Redis local avec Docker :
-```bash
-docker run -d -p 6379:6379 redis:alpine
+# Port de l'application (par défaut : 3000)
+PORT=3000
 ```
 
 ## Lancement de l'application
@@ -37,6 +28,7 @@ docker run -d -p 6379:6379 redis:alpine
 ### Mode développement (avec rechargement automatique)
 
 ```bash
+npm install
 npm run start:dev
 ```
 
@@ -58,11 +50,10 @@ npm run start:debug
 Lorsque l'application démarre, vous devriez voir dans les logs :
 
 ```
-✅ Redis connecté avec succès
-✅ Données des Pokémons chargées dans Redis
-✅ Données des dresseurs chargées dans Redis
-✅ Données des équipes chargées dans Redis
-✅ Données des combats initialisées dans Redis
+✅ Données des Pokémons chargées en mémoire
+✅ Données des dresseurs chargées en mémoire
+✅ Données des équipes chargées en mémoire
+✅ Données des combats chargées en mémoire
 [Nest] XXX - XX/XX/XXXX     LOG [NestApplication] Nest application successfully started
 ```
 
@@ -98,31 +89,15 @@ netstat -ano | findstr :3000
 taskkill /PID <PID> /F
 ```
 
-### Redis ne se connecte pas
+### Réinitialiser les données
 
-Vérifiez que :
-1. Redis est bien démarré
-2. L'URL dans `.env.local` est correcte
-3. Le firewall autorise la connexion
+Les données vivent uniquement en mémoire : il suffit de **redémarrer
+l'application** pour repartir des données initiales.
 
-### Les données ne se chargent pas
-
-Supprimez les clés Redis et redémarrez :
 ```bash
-redis-cli FLUSHALL
 npm run start:dev
 ```
 
-## Déploiement sur Vercel
-
-Le projet est configuré pour fonctionner avec Vercel et Redis :
-
-1. Ajoutez Redis à votre projet Vercel (Storage → Redis)
-2. La variable `STORAGE_REDIS_URL` sera automatiquement injectée
-3. Déployez avec `vercel deploy`
-
 ## Plus d'informations
 
-- [Documentation Redis](./REDIS_INTEGRATION.md)
 - [Tests API avec Bruno](./bruno-collection/README.md)
-

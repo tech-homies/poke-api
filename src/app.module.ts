@@ -7,11 +7,11 @@ import { DelayMiddleware } from './middlewares/delay.middleware';
 import { TrainersModule } from './trainers/trainers.module';
 import { TeamsModule } from './teams/teams.module';
 import { BattlesModule } from './battles/battles.module';
-import { RedisModule } from './redis/redis.module';
+import { StoreModule } from './store/store.module';
 
 @Module({
   imports: [
-    RedisModule,
+    StoreModule,
     PokemonTypesModule,
     PokemonsModule,
     TrainersModule,

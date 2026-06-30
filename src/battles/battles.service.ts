@@ -9,7 +9,7 @@ import { TrainerNoTeamException } from './exceptions/trainer-no-team.exception';
 import { Pokemon } from '../pokemons/entities/pokemon.entity';
 import { Battle, DuelResult } from './entities/battle.entity';
 import { TEAM_SIZE } from '../common/constants/team.constants';
-import { RedisService } from '../redis/redis.service';
+import { InMemoryStoreService } from '../store/in-memory-store.service';
 import { battles } from './battles.data';
 
 const BATTLES_INDEX_KEY = 'index:battles';
@@ -22,12 +22,12 @@ export class BattlesService implements OnModuleInit {
     private readonly teamsService: TeamsService,
     private readonly pokemonsService: PokemonsService,
     private readonly pokemonTypesService: PokemonTypesService,
-    private readonly redisService: RedisService,
+    private readonly store: InMemoryStoreService,
   ) {}
 
   async onModuleInit() {
-    // Charger les données initiales dans Redis au démarrage
-    const exists = await this.redisService.exists(BATTLES_INDEX_KEY);
+    // Charger les données initiales en mémoire au démarrage
+    const exists = await this.store.exists(BATTLES_INDEX_KEY);
     if (!exists) {
       if (battles.length > 0) {
         // Stocker chaque Battle individuellement
@@ -39,16 +39,16 @@ export class BattlesService implements OnModuleInit {
           };
         });
 
-        await this.redisService.mSet(keyValuePairs);
+        await this.store.mSet(keyValuePairs);
 
         // Maintenir un index des clés de combats existantes
         for (const battle of battles) {
           const battleKey = this.generateBattleKey(battle.datetime);
-          await this.redisService.sAdd(BATTLES_INDEX_KEY, battleKey);
+          await this.store.sAdd(BATTLES_INDEX_KEY, battleKey);
         }
       }
 
-      console.log('✅ Données des combats chargées dans Redis');
+      console.log('✅ Données des combats chargées en mémoire');
     }
   }
 
@@ -56,11 +56,11 @@ export class BattlesService implements OnModuleInit {
    * Récupère la liste de tous les combats
    */
   async findAll(): Promise<Battle[]> {
-    const battleKeys = await this.redisService.sMembers(BATTLES_INDEX_KEY);
+    const battleKeys = await this.store.sMembers(BATTLES_INDEX_KEY);
     if (battleKeys.length === 0) return [];
 
     const keys = battleKeys.map((key) => `${BATTLE_KEY_PREFIX}${key}`);
-    const battles = await this.redisService.mGet<Battle>(keys);
+    const battles = await this.store.mGet<Battle>(keys);
 
     return battles
       .filter((battle): battle is Battle => battle !== null)
@@ -184,10 +184,10 @@ export class BattlesService implements OnModuleInit {
 
     // Sauvegarder le combat avec une clé basée sur la datetime
     const battleKey = this.generateBattleKey(battle.datetime);
-    await this.redisService.set(`${BATTLE_KEY_PREFIX}${battleKey}`, battle);
+    await this.store.set(`${BATTLE_KEY_PREFIX}${battleKey}`, battle);
 
     // Ajouter la clé à l'index
-    await this.redisService.sAdd(BATTLES_INDEX_KEY, battleKey);
+    await this.store.sAdd(BATTLES_INDEX_KEY, battleKey);
 
     return battle;
   }

@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { PokemonsController } from './pokemons.controller';
 import { PokemonsService } from './pokemons.service';
-import { RedisService } from '../redis/redis.service';
+import { InMemoryStoreService } from '../store/in-memory-store.service';
 import { Pokemon } from './entities/pokemon.entity';
 import { PokemonNotFoundException } from './exceptions/pokemon-not-found.exception';
 
@@ -64,7 +64,7 @@ describe('PokemonsController', () => {
           },
         },
         {
-          provide: RedisService,
+          provide: InMemoryStoreService,
           useValue: {
             exists: jest.fn(),
             set: jest.fn(),

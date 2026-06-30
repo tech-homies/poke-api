@@ -2,7 +2,7 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { TeamsController } from './teams.controller';
 import { TeamsService } from './teams.service';
 import { TrainersService } from '../trainers/trainers.service';
-import { RedisService } from '../redis/redis.service';
+import { InMemoryStoreService } from '../store/in-memory-store.service';
 import { Team } from './entities/team.entity';
 
 describe('TeamsController', () => {
@@ -33,7 +33,7 @@ describe('TeamsController', () => {
           },
         },
         {
-          provide: RedisService,
+          provide: InMemoryStoreService,
           useValue: {
             exists: jest.fn(),
             set: jest.fn(),

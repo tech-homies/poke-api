@@ -8,7 +8,7 @@ import { TEAM_SIZE } from '../common/constants/team.constants';
 import { TrainersService } from '../trainers/trainers.service';
 import { TrainerNotFoundException } from '../trainers/exceptions/trainer-not-found.exception';
 import { teams } from './teams.data';
-import { RedisService } from '../redis/redis.service';
+import { InMemoryStoreService } from '../store/in-memory-store.service';
 
 const TEAMS_INDEX_KEY = 'index:teams';
 const TEAM_KEY_PREFIX = 'team:';
@@ -17,12 +17,12 @@ const TEAM_KEY_PREFIX = 'team:';
 export class TeamsService implements OnModuleInit {
   constructor(
     private readonly trainersService: TrainersService,
-    private readonly redisService: RedisService,
+    private readonly store: InMemoryStoreService,
   ) {}
 
   async onModuleInit() {
-    // Charger les données initiales dans Redis au démarrage
-    const exists = await this.redisService.exists(TEAMS_INDEX_KEY);
+    // Charger les données initiales en mémoire au démarrage
+    const exists = await this.store.exists(TEAMS_INDEX_KEY);
     if (!exists) {
       // Stocker chaque équipe individuellement
       const keyValuePairs = Object.entries(teams).map(
@@ -33,21 +33,21 @@ export class TeamsService implements OnModuleInit {
       );
 
       if (keyValuePairs.length > 0) {
-        await this.redisService.mSet(keyValuePairs);
+        await this.store.mSet(keyValuePairs);
 
         // Maintenir un index des trainer IDs qui ont une équipe
         for (const trainerId of Object.keys(teams)) {
-          await this.redisService.sAdd(TEAMS_INDEX_KEY, trainerId);
+          await this.store.sAdd(TEAMS_INDEX_KEY, trainerId);
         }
       }
 
-      console.log('✅ Données des équipes chargées dans Redis');
+      console.log('✅ Données des équipes chargées en mémoire');
     }
   }
 
   async deleteTeamByTrainerId(trainerId: number): Promise<void> {
-    await this.redisService.del(`${TEAM_KEY_PREFIX}${trainerId}`);
-    await this.redisService.sRem(TEAMS_INDEX_KEY, trainerId.toString());
+    await this.store.del(`${TEAM_KEY_PREFIX}${trainerId}`);
+    await this.store.sRem(TEAMS_INDEX_KEY, trainerId.toString());
   }
 
   async updateTeamByTrainerId(
@@ -70,11 +70,8 @@ export class TeamsService implements OnModuleInit {
     }
 
     // Sauvegarder l'équipe
-    await this.redisService.set(
-      `${TEAM_KEY_PREFIX}${trainerId}`,
-      teamDto.pokemons,
-    );
-    await this.redisService.sAdd(TEAMS_INDEX_KEY, trainerId.toString());
+    await this.store.set(`${TEAM_KEY_PREFIX}${trainerId}`, teamDto.pokemons);
+    await this.store.sAdd(TEAMS_INDEX_KEY, trainerId.toString());
   }
 
   async getTeamByTrainerId(trainerId: number): Promise<TeamDto> {
@@ -84,7 +81,7 @@ export class TeamsService implements OnModuleInit {
       throw new TrainerNotFoundException(trainerId);
     }
 
-    const pokemons = await this.redisService.get<Pokemon['pokedex_id'][]>(
+    const pokemons = await this.store.get<Pokemon['pokedex_id'][]>(
       `${TEAM_KEY_PREFIX}${trainerId}`,
     );
 

@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { TrainersController } from './trainers.controller';
 import { TrainersService } from './trainers.service';
-import { RedisService } from '../redis/redis.service';
+import { InMemoryStoreService } from '../store/in-memory-store.service';
 import { Trainer } from './entities/trainer.entity';
 import { TrainerNotFoundException } from './exceptions/trainer-not-found.exception';
 
@@ -34,7 +34,7 @@ describe('TrainersController', () => {
           },
         },
         {
-          provide: RedisService,
+          provide: InMemoryStoreService,
           useValue: {
             exists: jest.fn(),
             set: jest.fn(),

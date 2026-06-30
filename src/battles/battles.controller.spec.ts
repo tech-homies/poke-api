@@ -5,7 +5,7 @@ import { TrainersService } from '../trainers/trainers.service';
 import { TeamsService } from '../teams/teams.service';
 import { PokemonsService } from '../pokemons/pokemons.service';
 import { PokemonTypesService } from '../pokemon-types/pokemon-types.service';
-import { RedisService } from '../redis/redis.service';
+import { InMemoryStoreService } from '../store/in-memory-store.service';
 import { Battle } from './entities/battle.entity';
 
 describe('BattlesController', () => {
@@ -64,7 +64,7 @@ describe('BattlesController', () => {
           },
         },
         {
-          provide: RedisService,
+          provide: InMemoryStoreService,
           useValue: {
             exists: jest.fn(),
             set: jest.fn(),
