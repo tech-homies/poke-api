@@ -24,7 +24,7 @@ L'API sera accessible sur `http://localhost:3000`
 ### Tous les tests de la collection
 
 ```bash
-npm run test:api
+npm run test:e2e
 ```
 
 Cette commande exécute tous les tests de la collection Bruno et génère un fichier `results.json` avec les résultats.
@@ -33,19 +33,19 @@ Cette commande exécute tous les tests de la collection Bruno et génère un fic
 
 ```bash
 # Tests des combats
-npm run test:api:battles
+bru run "bruno-collection/Battles" --env Local
 
 # Tests des pokémons
-npm run test:api:pokemons
+bru run "bruno-collection/Pokemons" --env Local
 
 # Tests des types de pokémons
-npm run test:api:types
+bru run "bruno-collection/Pokemon Types" --env Local
 
 # Tests des dresseurs
-npm run test:api:trainers
+bru run "bruno-collection/Trainers" --env Local
 
 # Tests des équipes
-npm run test:api:teams
+bru run "bruno-collection/Teams" --env Local
 ```
 
 ### Exécution d'une requête spécifique
@@ -94,7 +94,7 @@ jobs:
       - run: npm ci
       - run: npm run start:dev &
       - run: sleep 5 # Attendre que l'API démarre
-      - run: npm run test:api
+      - run: npm run test:e2e
 ```
 
 ## Structure des tests
@@ -173,7 +173,7 @@ Les headers sont automatiquement affichés avec l'option `--verbose`.
 
 ```bash
 # Les résultats sont automatiquement sauvegardés dans results.json
-npm run test:api
+npm run test:e2e
 
 # Consulter les résultats
 cat results.json | jq '.'
@@ -205,6 +205,6 @@ find bruno-collection -name "*.bru" -type f
 find bruno-collection -name "*.bru" -type f | grep -o "bruno-collection/[^/]*" | sort | uniq -c
 
 # Exécuter les tests et afficher un résumé
-npm run test:api && echo "✅ Tests terminés"
+npm run test:e2e && echo "✅ Tests terminés"
 ```
 

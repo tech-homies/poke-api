@@ -1,4 +1,3 @@
-import { IsInt, IsNotEmpty, IsString, Min } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
 import { PokemonType } from '../../pokemon-types/entities/pokemon-type.entity';
 
@@ -28,22 +27,15 @@ export type SexeRate = {
 
 export class PokemonDto {
   @ApiProperty({ description: 'Identifiant du pokémon', example: 1 })
-  @IsInt()
-  @Min(0)
-  @IsNotEmpty()
   pokedex_id: number;
 
   @ApiProperty({ description: 'Génération du pokémon', example: 1 })
-  @IsInt()
-  @Min(1)
-  @IsNotEmpty()
   generation: number;
 
   @ApiProperty({
     description: 'Catégorie du pokémon (ex: Graine, Lézard)',
     example: 'Graine',
   })
-  @IsString()
   category: string;
 
   @ApiProperty({
@@ -67,7 +59,6 @@ export class PokemonDto {
       },
     },
   })
-  @IsNotEmpty()
   name: { fr: string; en: string; jp: string };
 
   @ApiProperty({

@@ -13,11 +13,13 @@ import {
   ApiOkResponse,
   ApiOperation,
   ApiParam,
+  ApiTags,
 } from '@nestjs/swagger';
 import { TrainerDto } from './dto/trainer.dto';
 import { TrainerNotFoundException } from './exceptions/trainer-not-found.exception';
 import { CreateTrainerDto } from './dto/create-trainer.dto';
 
+@ApiTags('Trainers')
 @Controller('trainers')
 export class TrainersController {
   constructor(private readonly trainersService: TrainersService) {}

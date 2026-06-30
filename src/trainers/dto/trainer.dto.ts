@@ -47,6 +47,7 @@ export class TrainerDto {
     type: 'string',
   })
   @IsString()
+  @IsNotEmpty()
   description: string;
 
   @ApiProperty({
@@ -87,7 +88,7 @@ export class TrainerDto {
     required: false,
   })
   @IsInt()
-  @Min(1)
+  @Min(0)
   @IsOptional()
   favoritePokemon?: number;
 }

@@ -1,4 +1,4 @@
-import { Injectable, OnModuleInit } from '@nestjs/common';
+import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
 import { TrainersService } from '../trainers/trainers.service';
 import { TeamsService } from '../teams/teams.service';
 import { PokemonsService } from '../pokemons/pokemons.service';
@@ -14,9 +14,12 @@ import { battles } from './battles.data';
 
 const BATTLES_INDEX_KEY = 'index:battles';
 const BATTLE_KEY_PREFIX = 'battle:';
+const BATTLE_COUNTER_KEY = 'counter:battle_id';
 
 @Injectable()
 export class BattlesService implements OnModuleInit {
+  private readonly logger = new Logger(BattlesService.name);
+
   constructor(
     private readonly trainersService: TrainersService,
     private readonly teamsService: TeamsService,
@@ -30,25 +33,25 @@ export class BattlesService implements OnModuleInit {
     const exists = await this.store.exists(BATTLES_INDEX_KEY);
     if (!exists) {
       if (battles.length > 0) {
-        // Stocker chaque Battle individuellement
-        const keyValuePairs = battles.map((battle) => {
-          const battleKey = this.generateBattleKey(battle.datetime);
-          return {
-            key: `${BATTLE_KEY_PREFIX}${battleKey}`,
-            value: battle,
-          };
-        });
+        // Stocker chaque Battle individuellement, identifié par un ID
+        // séquentiel (1..N)
+        const keyValuePairs = battles.map((battle, index) => ({
+          key: `${BATTLE_KEY_PREFIX}${index + 1}`,
+          value: battle,
+        }));
 
         await this.store.mSet(keyValuePairs);
 
-        // Maintenir un index des clés de combats existantes
-        for (const battle of battles) {
-          const battleKey = this.generateBattleKey(battle.datetime);
-          await this.store.sAdd(BATTLES_INDEX_KEY, battleKey);
+        // Maintenir un index des IDs de combats existants
+        for (let id = 1; id <= battles.length; id++) {
+          await this.store.sAdd(BATTLES_INDEX_KEY, id.toString());
         }
+
+        // Initialiser le compteur pour les nouveaux combats
+        await this.store.set(BATTLE_COUNTER_KEY, battles.length);
       }
 
-      console.log('✅ Données des combats chargées en mémoire');
+      this.logger.log('✅ Données des combats chargées en mémoire');
     }
   }
 
@@ -86,13 +89,6 @@ export class BattlesService implements OnModuleInit {
       (battle) =>
         battle.trainer1Id === trainerId || battle.trainer2Id === trainerId,
     );
-  }
-
-  /**
-   * Génère une clé unique basée sur la datetime
-   */
-  private generateBattleKey(datetime: Date): string {
-    return datetime.toISOString();
   }
 
   /**
@@ -182,12 +178,14 @@ export class BattlesService implements OnModuleInit {
       datetime: new Date(),
     };
 
-    // Sauvegarder le combat avec une clé basée sur la datetime
-    const battleKey = this.generateBattleKey(battle.datetime);
-    await this.store.set(`${BATTLE_KEY_PREFIX}${battleKey}`, battle);
+    // Sauvegarder le combat sous un ID unique (généré de façon atomique pour
+    // éviter toute collision entre deux combats survenant à la même
+    // milliseconde, ce qu'une clé basée sur la datetime ne garantissait pas)
+    const newId = await this.store.incr(BATTLE_COUNTER_KEY);
+    await this.store.set(`${BATTLE_KEY_PREFIX}${newId}`, battle);
 
-    // Ajouter la clé à l'index
-    await this.store.sAdd(BATTLES_INDEX_KEY, battleKey);
+    // Ajouter l'ID à l'index
+    await this.store.sAdd(BATTLES_INDEX_KEY, newId.toString());
 
     return battle;
   }

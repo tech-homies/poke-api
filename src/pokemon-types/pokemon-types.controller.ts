@@ -6,9 +6,11 @@ import {
   ApiOkResponse,
   ApiOperation,
   ApiParam,
+  ApiTags,
 } from '@nestjs/swagger';
 import { PokemonTypeNotFoundException } from './exceptions/pokemon-type-not-found.exception';
 
+@ApiTags('Pokemon Types')
 @Controller('pokemon-types')
 export class PokemonTypesController {
   constructor(private readonly pokemonTypesService: PokemonTypesService) {}

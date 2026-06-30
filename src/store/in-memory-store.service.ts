@@ -13,8 +13,13 @@ import { Injectable } from '@nestjs/common';
  */
 @Injectable()
 export class InMemoryStoreService {
-  /** Stockage clé → valeur, sérialisée en JSON (comme le faisait Redis). */
-  private readonly store = new Map<string, string>();
+  /**
+   * Stockage clé → valeur. Les valeurs sont clonées via `structuredClone` à
+   * l'écriture et à la lecture (copie défensive) : cela isole le store des
+   * mutations externes tout en préservant les types natifs (ex. `Date`),
+   * contrairement à un passage par `JSON.stringify`/`JSON.parse`.
+   */
+  private readonly store = new Map<string, unknown>();
 
   /** Stockage des ensembles (équivalent des Sets Redis, ex. `index:*`). */
   private readonly sets = new Map<string, Set<string>>();
@@ -23,7 +28,7 @@ export class InMemoryStoreService {
    * Stocke une valeur.
    */
   set(key: string, value: any): Promise<void> {
-    this.store.set(key, JSON.stringify(value));
+    this.store.set(key, structuredClone(value));
     return Promise.resolve();
   }
 
@@ -33,7 +38,7 @@ export class InMemoryStoreService {
   get<T>(key: string): Promise<T | null> {
     const value = this.store.get(key);
     return Promise.resolve(
-      value !== undefined ? (JSON.parse(value) as T) : null,
+      value !== undefined ? structuredClone(value as T) : null,
     );
   }
 
@@ -54,19 +59,17 @@ export class InMemoryStoreService {
   }
 
   /**
-   * Récupère toutes les clés correspondant à un pattern de type glob (`*`).
+   * Incrémente un compteur numérique de façon atomique et retourne sa
+   * nouvelle valeur (équivalent du `INCR` Redis). Le corps de la méthode est
+   * entièrement synchrone : il n'y a donc aucun point de suspension entre la
+   * lecture et l'écriture, ce qui garantit l'absence de race condition même
+   * en cas d'appels concurrents.
    */
-  keys(pattern: string): Promise<string[]> {
-    const regex = new RegExp(
-      '^' +
-        pattern
-          .split('*')
-          .map((part) => part.replace(/[.+?^${}()|[\]\\]/g, '\\$&'))
-          .join('.*') +
-        '$',
-    );
-    const allKeys = [...this.store.keys(), ...this.sets.keys()];
-    return Promise.resolve(allKeys.filter((key) => regex.test(key)));
+  incr(key: string): Promise<number> {
+    const current = (this.store.get(key) as number | undefined) ?? 0;
+    const next = current + 1;
+    this.store.set(key, next);
+    return Promise.resolve(next);
   }
 
   /**
@@ -101,7 +104,7 @@ export class InMemoryStoreService {
     if (keys.length === 0) return Promise.resolve([]);
     const values = keys.map((key) => {
       const value = this.store.get(key);
-      return value !== undefined ? (JSON.parse(value) as T) : null;
+      return value !== undefined ? structuredClone(value as T) : null;
     });
     return Promise.resolve(values);
   }
@@ -111,7 +114,7 @@ export class InMemoryStoreService {
    */
   mSet(keyValuePairs: { key: string; value: any }[]): Promise<void> {
     for (const { key, value } of keyValuePairs) {
-      this.store.set(key, JSON.stringify(value));
+      this.store.set(key, structuredClone(value));
     }
     return Promise.resolve();
   }

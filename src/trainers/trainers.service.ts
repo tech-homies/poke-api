@@ -1,4 +1,4 @@
-import { Injectable, OnModuleInit } from '@nestjs/common';
+import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
 import { Trainer } from './entities/trainer.entity';
 import { trainers } from './trainers.data';
 import { CreateTrainerDto } from './dto/create-trainer.dto';
@@ -10,6 +10,8 @@ const TRAINER_COUNTER_KEY = 'counter:trainer_id';
 
 @Injectable()
 export class TrainersService implements OnModuleInit {
+  private readonly logger = new Logger(TrainersService.name);
+
   constructor(private readonly store: InMemoryStoreService) {}
 
   async onModuleInit() {
@@ -35,7 +37,7 @@ export class TrainersService implements OnModuleInit {
         await this.store.set(TRAINER_COUNTER_KEY, maxId);
       }
 
-      console.log('✅ Données des dresseurs chargées en mémoire');
+      this.logger.log('✅ Données des dresseurs chargées en mémoire');
     }
   }
 
@@ -55,10 +57,9 @@ export class TrainersService implements OnModuleInit {
   }
 
   async create(createTrainerDto: CreateTrainerDto): Promise<Trainer> {
-    // Générer un nouvel ID
-    const currentCounter =
-      (await this.store.get<number>(TRAINER_COUNTER_KEY)) ?? 0;
-    const newId = currentCounter + 1;
+    // Générer un nouvel ID de façon atomique (évite toute collision en cas
+    // de requêtes concurrentes)
+    const newId = await this.store.incr(TRAINER_COUNTER_KEY);
 
     const newTrainer: Trainer = {
       id: newId,
@@ -68,9 +69,8 @@ export class TrainersService implements OnModuleInit {
     // Sauvegarder le nouveau trainer
     await this.store.set(`${TRAINER_KEY_PREFIX}${newId}`, newTrainer);
 
-    // Mettre à jour l'index et le compteur
+    // Mettre à jour l'index
     await this.store.sAdd(TRAINERS_INDEX_KEY, newId.toString());
-    await this.store.set(TRAINER_COUNTER_KEY, newId);
 
     return newTrainer;
   }

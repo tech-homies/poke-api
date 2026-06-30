@@ -4,6 +4,7 @@ import {
   ExceptionFilter,
   HttpException,
   HttpStatus,
+  Logger,
 } from '@nestjs/common';
 import { Response } from 'express';
 
@@ -15,6 +16,8 @@ import { Response } from 'express';
  */
 @Catch()
 export class AllExceptionsFilter implements ExceptionFilter {
+  private readonly logger = new Logger(AllExceptionsFilter.name);
+
   catch(exception: unknown, host: ArgumentsHost) {
     const ctx = host.switchToHttp();
     const response = ctx.getResponse<Response>();
@@ -28,14 +31,19 @@ export class AllExceptionsFilter implements ExceptionFilter {
       return;
     }
 
-    // Gestion des erreurs inattendues
+    // Gestion des erreurs inattendues : on logue la trace complète côté
+    // serveur (sans quoi un bug interne passerait totalement inaperçu), mais
+    // on ne renvoie qu'un message générique au client pour ne pas exposer de
+    // détails d'implémentation.
     const status = HttpStatus.INTERNAL_SERVER_ERROR;
-    const message =
-      exception instanceof Error ? exception.message : 'Internal server error';
+    this.logger.error(
+      exception instanceof Error ? exception.message : exception,
+      exception instanceof Error ? exception.stack : undefined,
+    );
 
     response.status(status).json({
       statusCode: status,
-      message: [message],
+      message: ['Internal server error'],
       error: 'Internal Server Error',
     });
   }

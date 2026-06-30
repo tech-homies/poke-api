@@ -17,6 +17,6 @@ export class TeamDto {
   })
   @IsNotEmpty({ each: true })
   @IsInt({ each: true })
-  @Min(1, { each: true })
+  @Min(0, { each: true })
   pokemons: PokemonDto['pokedex_id'][];
 }

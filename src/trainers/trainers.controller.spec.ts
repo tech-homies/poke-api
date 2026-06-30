@@ -1,7 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { TrainersController } from './trainers.controller';
 import { TrainersService } from './trainers.service';
-import { InMemoryStoreService } from '../store/in-memory-store.service';
 import { Trainer } from './entities/trainer.entity';
 import { TrainerNotFoundException } from './exceptions/trainer-not-found.exception';
 
@@ -31,17 +30,6 @@ describe('TrainersController', () => {
             findAll: jest.fn(),
             findOne: jest.fn(),
             create: jest.fn(),
-          },
-        },
-        {
-          provide: InMemoryStoreService,
-          useValue: {
-            exists: jest.fn(),
-            set: jest.fn(),
-            sMembers: jest.fn(),
-            mGet: jest.fn(),
-            mSet: jest.fn(),
-            sAdd: jest.fn(),
           },
         },
       ],

@@ -5,10 +5,12 @@ import {
   ApiOkResponse,
   ApiOperation,
   ApiParam,
+  ApiTags,
 } from '@nestjs/swagger';
 import { PokemonDto } from './dto/pokemon.dto';
 import { PokemonNotFoundException } from './exceptions/pokemon-not-found.exception';
 
+@ApiTags('Pokemons')
 @Controller('pokemons')
 export class PokemonsController {
   constructor(private readonly pokemonsService: PokemonsService) {}

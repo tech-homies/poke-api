@@ -1,11 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { BattlesController } from './battles.controller';
 import { BattlesService } from './battles.service';
-import { TrainersService } from '../trainers/trainers.service';
-import { TeamsService } from '../teams/teams.service';
-import { PokemonsService } from '../pokemons/pokemons.service';
-import { PokemonTypesService } from '../pokemon-types/pokemon-types.service';
-import { InMemoryStoreService } from '../store/in-memory-store.service';
 import { Battle } from './entities/battle.entity';
 
 describe('BattlesController', () => {
@@ -37,39 +32,6 @@ describe('BattlesController', () => {
             findAll: jest.fn(),
             findByTrainerId: jest.fn(),
             fight: jest.fn(),
-          },
-        },
-        {
-          provide: TrainersService,
-          useValue: {
-            findOne: jest.fn(),
-          },
-        },
-        {
-          provide: TeamsService,
-          useValue: {
-            getTeamByTrainerId: jest.fn(),
-          },
-        },
-        {
-          provide: PokemonsService,
-          useValue: {
-            findOne: jest.fn(),
-          },
-        },
-        {
-          provide: PokemonTypesService,
-          useValue: {
-            findOne: jest.fn(),
-          },
-        },
-        {
-          provide: InMemoryStoreService,
-          useValue: {
-            exists: jest.fn(),
-            set: jest.fn(),
-            sMembers: jest.fn(),
-            mGet: jest.fn(),
           },
         },
       ],

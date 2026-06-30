@@ -50,9 +50,6 @@ export class BattleDto {
     description: 'Identifiant du dresseur gagnant',
     example: 1,
   })
-  @IsInt()
-  @Min(1)
-  @IsNotEmpty()
   winnerId: number;
 
   @ApiProperty({

@@ -1,4 +1,4 @@
-import { Injectable, OnModuleInit } from '@nestjs/common';
+import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
 import { pokemons } from './pokemons.data';
 import { Pokemon } from './entities/pokemon.entity';
 import { InMemoryStoreService } from '../store/in-memory-store.service';
@@ -8,6 +8,8 @@ const POKEMON_KEY_PREFIX = 'pokemon:';
 
 @Injectable()
 export class PokemonsService implements OnModuleInit {
+  private readonly logger = new Logger(PokemonsService.name);
+
   constructor(private readonly store: InMemoryStoreService) {}
 
   async onModuleInit() {
@@ -32,7 +34,7 @@ export class PokemonsService implements OnModuleInit {
         }
       }
 
-      console.log('✅ Données des Pokémons chargées en mémoire');
+      this.logger.log('✅ Données des Pokémons chargées en mémoire');
     }
   }
 

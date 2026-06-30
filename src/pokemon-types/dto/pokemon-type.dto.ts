@@ -1,11 +1,7 @@
-import { IsArray, IsInt, IsNotEmpty, IsUrl, Min } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
 
 export class PokemonTypeDto {
   @ApiProperty({ description: 'Identifiant du type de pokémon', example: 0 })
-  @IsInt()
-  @Min(0)
-  @IsNotEmpty()
   id: number;
 
   @ApiProperty({
@@ -28,11 +24,10 @@ export class PokemonTypeDto {
         type: 'string',
         required: true,
         description: 'Nom du type de pokémon en Japonais',
-        example: '\u306f\u304c\u306d',
+        example: 'はがね',
       },
     },
   })
-  @IsNotEmpty()
   name: { fr: string; en: string; jp: string };
 
   @ApiProperty({
@@ -40,8 +35,6 @@ export class PokemonTypeDto {
     example:
       'https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/pokemon-types/acier.png',
   })
-  @IsUrl()
-  @IsNotEmpty()
   sprites: string;
 
   @ApiProperty({
@@ -67,7 +60,6 @@ export class PokemonTypeDto {
       { name: 'Eau', multiplier: 2 },
     ],
   })
-  @IsArray()
   resistances: {
     name: string;
     multiplier: number;

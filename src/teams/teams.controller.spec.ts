@@ -1,15 +1,13 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { TeamsController } from './teams.controller';
 import { TeamsService } from './teams.service';
-import { TrainersService } from '../trainers/trainers.service';
-import { InMemoryStoreService } from '../store/in-memory-store.service';
-import { Team } from './entities/team.entity';
+import { TeamDto } from './dto/team.dto';
 
 describe('TeamsController', () => {
   let controller: TeamsController;
   let service: TeamsService;
 
-  const mockTeam: Team = {
+  const mockTeam: TeamDto = {
     trainerId: 1,
     pokemons: [25, 1, 4],
   };
@@ -24,21 +22,6 @@ describe('TeamsController', () => {
             getTeamByTrainerId: jest.fn(),
             updateTeamByTrainerId: jest.fn(),
             deleteTeamByTrainerId: jest.fn(),
-          },
-        },
-        {
-          provide: TrainersService,
-          useValue: {
-            findOne: jest.fn(),
-          },
-        },
-        {
-          provide: InMemoryStoreService,
-          useValue: {
-            exists: jest.fn(),
-            set: jest.fn(),
-            get: jest.fn(),
-            del: jest.fn(),
           },
         },
       ],

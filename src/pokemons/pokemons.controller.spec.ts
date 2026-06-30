@@ -1,7 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { PokemonsController } from './pokemons.controller';
 import { PokemonsService } from './pokemons.service';
-import { InMemoryStoreService } from '../store/in-memory-store.service';
 import { Pokemon } from './entities/pokemon.entity';
 import { PokemonNotFoundException } from './exceptions/pokemon-not-found.exception';
 
@@ -61,16 +60,6 @@ describe('PokemonsController', () => {
           useValue: {
             findAll: jest.fn(),
             findOne: jest.fn(),
-          },
-        },
-        {
-          provide: InMemoryStoreService,
-          useValue: {
-            exists: jest.fn(),
-            set: jest.fn(),
-            sMembers: jest.fn(),
-            mGet: jest.fn(),
-            mSet: jest.fn(),
           },
         },
       ],

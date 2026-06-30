@@ -1,4 +1,4 @@
-import { Injectable, OnModuleInit } from '@nestjs/common';
+import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
 import { Pokemon } from '../pokemons/entities/pokemon.entity';
 import { TeamDto } from './dto/team.dto';
 import { TeamSizeExceededException } from './exceptions/team-size-exceeded.exception';
@@ -15,6 +15,8 @@ const TEAM_KEY_PREFIX = 'team:';
 
 @Injectable()
 export class TeamsService implements OnModuleInit {
+  private readonly logger = new Logger(TeamsService.name);
+
   constructor(
     private readonly trainersService: TrainersService,
     private readonly store: InMemoryStoreService,
@@ -41,11 +43,13 @@ export class TeamsService implements OnModuleInit {
         }
       }
 
-      console.log('✅ Données des équipes chargées en mémoire');
+      this.logger.log('✅ Données des équipes chargées en mémoire');
     }
   }
 
   async deleteTeamByTrainerId(trainerId: number): Promise<void> {
+    await this.ensureTrainerExists(trainerId);
+
     await this.store.del(`${TEAM_KEY_PREFIX}${trainerId}`);
     await this.store.sRem(TEAMS_INDEX_KEY, trainerId.toString());
   }
@@ -54,12 +58,17 @@ export class TeamsService implements OnModuleInit {
     trainerId: number,
     teamDto: TeamDto,
   ): Promise<void> {
+    await this.ensureTrainerExists(trainerId);
+
     // Validation: vérifier que les trainerId sont cohérents
     if (trainerId !== teamDto.trainerId) {
       throw new TrainerIdMismatchException(trainerId, teamDto.trainerId);
     }
 
-    // Validation: vérifier la taille de l'équipe (doit être exactement TEAM_SIZE)
+    // Validation: vérifier la taille de l'équipe (une équipe partielle est
+    // autorisée, par ex. pendant sa constitution, mais ne doit jamais
+    // dépasser TEAM_SIZE — seul un combat exige une équipe complète, voir
+    // BattlesService.fight)
     if (teamDto.pokemons.length > TEAM_SIZE) {
       throw new TeamSizeExceededException(TEAM_SIZE);
     }
@@ -75,11 +84,7 @@ export class TeamsService implements OnModuleInit {
   }
 
   async getTeamByTrainerId(trainerId: number): Promise<TeamDto> {
-    // Vérifier que le trainer existe
-    const trainer = await this.trainersService.findOne(trainerId);
-    if (!trainer) {
-      throw new TrainerNotFoundException(trainerId);
-    }
+    await this.ensureTrainerExists(trainerId);
 
     const pokemons = await this.store.get<Pokemon['pokedex_id'][]>(
       `${TEAM_KEY_PREFIX}${trainerId}`,
@@ -89,5 +94,12 @@ export class TeamsService implements OnModuleInit {
       trainerId,
       pokemons: pokemons ?? [],
     };
+  }
+
+  private async ensureTrainerExists(trainerId: number): Promise<void> {
+    const trainer = await this.trainersService.findOne(trainerId);
+    if (!trainer) {
+      throw new TrainerNotFoundException(trainerId);
+    }
   }
 }

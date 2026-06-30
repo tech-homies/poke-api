@@ -11,15 +11,18 @@ import {
 } from '@nestjs/common';
 import {
   ApiBadRequestResponse,
+  ApiConflictResponse,
   ApiNoContentResponse,
   ApiNotFoundResponse,
   ApiOkResponse,
   ApiOperation,
   ApiParam,
+  ApiTags,
 } from '@nestjs/swagger';
 import { TeamDto } from './dto/team.dto';
 import { TeamsService } from './teams.service';
 
+@ApiTags('Teams')
 @Controller('trainers/:trainerId/team')
 @ApiParam({
   name: 'trainerId',
@@ -48,9 +51,15 @@ export class TeamsController {
   @ApiNoContentResponse({
     description: "L'équipe du dresseur a été mise à jour avec succès",
   })
+  @ApiNotFoundResponse({
+    description: "Le dresseur demandé n'a pas été trouvé",
+  })
   @ApiBadRequestResponse({
     description:
-      "L'ID du dresseur dans l'URL ne correspond pas à l'ID dans le corps de la requête, la taille de l'équipe dépasse la limite autorisée ou des pokémons en double ont été détectés",
+      "L'ID du dresseur dans l'URL ne correspond pas à l'ID dans le corps de la requête, ou la taille de l'équipe dépasse la limite autorisée",
+  })
+  @ApiConflictResponse({
+    description: "Un pokémon est présent plusieurs fois dans l'équipe",
   })
   @HttpCode(HttpStatus.NO_CONTENT)
   @Put()
@@ -64,6 +73,9 @@ export class TeamsController {
   @ApiOperation({ summary: "Supprimer l'équipe d'un dresseur par son ID" })
   @ApiNoContentResponse({
     description: "L'équipe du dresseur a été supprimée avec succès",
+  })
+  @ApiNotFoundResponse({
+    description: "Le dresseur demandé n'a pas été trouvé",
   })
   @HttpCode(HttpStatus.NO_CONTENT)
   @Delete()
