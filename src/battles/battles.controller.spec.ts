@@ -91,7 +91,7 @@ describe('BattlesController', () => {
 
       expect(result).toEqual([mockBattle]);
       expect(result[0]).toHaveProperty('datetime');
-      expect((result[0] as typeof mockBattle).datetime).toBeInstanceOf(Date);
+      expect(result[0].datetime).toBeInstanceOf(Date);
     });
 
     it('should return battles for a specific trainer when trainerId is provided', async () => {
@@ -101,7 +101,7 @@ describe('BattlesController', () => {
 
       expect(result).toEqual([mockBattle]);
       expect(result[0]).toHaveProperty('datetime');
-      expect((result[0] as typeof mockBattle).datetime).toBeInstanceOf(Date);
+      expect(result[0].datetime).toBeInstanceOf(Date);
     });
   });
 
