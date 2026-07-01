@@ -20,6 +20,7 @@ import {
   ApiTags,
 } from '@nestjs/swagger';
 import { TeamDto } from './dto/team.dto';
+import { UpdateTeamDto } from './dto/update-team.dto';
 import { TeamsService } from './teams.service';
 
 @ApiTags('Teams')
@@ -55,8 +56,7 @@ export class TeamsController {
     description: "Le dresseur demandé n'a pas été trouvé",
   })
   @ApiBadRequestResponse({
-    description:
-      "L'ID du dresseur dans l'URL ne correspond pas à l'ID dans le corps de la requête, ou la taille de l'équipe dépasse la limite autorisée",
+    description: "La taille de l'équipe dépasse la limite autorisée",
   })
   @ApiConflictResponse({
     description: "Un pokémon est présent plusieurs fois dans l'équipe",
@@ -65,9 +65,9 @@ export class TeamsController {
   @Put()
   async updateTeamByTrainerId(
     @Param('trainerId', ParseIntPipe) trainerId: number,
-    @Body() teamDto: TeamDto,
+    @Body() updateTeamDto: UpdateTeamDto,
   ): Promise<void> {
-    return this.teamService.updateTeamByTrainerId(trainerId, teamDto);
+    return this.teamService.updateTeamByTrainerId(trainerId, updateTeamDto);
   }
 
   @ApiOperation({ summary: "Supprimer l'équipe d'un dresseur par son ID" })

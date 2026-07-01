@@ -1,9 +1,9 @@
 import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
 import { Pokemon } from '../pokemons/entities/pokemon.entity';
 import { TeamDto } from './dto/team.dto';
+import { UpdateTeamDto } from './dto/update-team.dto';
 import { TeamSizeExceededException } from './exceptions/team-size-exceeded.exception';
 import { DuplicatePokemonException } from './exceptions/duplicate-pokemon.exception';
-import { TrainerIdMismatchException } from './exceptions/trainer-id-mismatch.exception';
 import { TEAM_SIZE } from '../common/constants/team.constants';
 import { TrainersService } from '../trainers/trainers.service';
 import { TrainerNotFoundException } from '../trainers/exceptions/trainer-not-found.exception';
@@ -56,30 +56,30 @@ export class TeamsService implements OnModuleInit {
 
   async updateTeamByTrainerId(
     trainerId: number,
-    teamDto: TeamDto,
+    updateTeamDto: UpdateTeamDto,
   ): Promise<void> {
     await this.ensureTrainerExists(trainerId);
-
-    // Validation: vérifier que les trainerId sont cohérents
-    if (trainerId !== teamDto.trainerId) {
-      throw new TrainerIdMismatchException(trainerId, teamDto.trainerId);
-    }
 
     // Validation: vérifier la taille de l'équipe (une équipe partielle est
     // autorisée, par ex. pendant sa constitution, mais ne doit jamais
     // dépasser TEAM_SIZE — seul un combat exige une équipe complète, voir
     // BattlesService.fight)
-    if (teamDto.pokemons.length > TEAM_SIZE) {
+    if (updateTeamDto.pokemons.length > TEAM_SIZE) {
       throw new TeamSizeExceededException(TEAM_SIZE);
     }
 
     // Validation: vérifier qu'il n'y a pas de doublons
-    if (new Set(teamDto.pokemons).size !== teamDto.pokemons.length) {
+    if (
+      new Set(updateTeamDto.pokemons).size !== updateTeamDto.pokemons.length
+    ) {
       throw new DuplicatePokemonException();
     }
 
     // Sauvegarder l'équipe
-    await this.store.set(`${TEAM_KEY_PREFIX}${trainerId}`, teamDto.pokemons);
+    await this.store.set(
+      `${TEAM_KEY_PREFIX}${trainerId}`,
+      updateTeamDto.pokemons,
+    );
     await this.store.sAdd(TEAMS_INDEX_KEY, trainerId.toString());
   }
 

@@ -12,7 +12,6 @@ put {
 
 body:json {
   {
-    "trainerId": 1,
     "pokemons": [1, 4, 7]
   }
 }
@@ -21,7 +20,7 @@ tests {
   test("Status code is 204", function() {
     expect(res.getStatus()).to.equal(204);
   });
-  
+
   test("Response body is empty", function() {
     expect(res.getBody()).to.be.oneOf([null, undefined, ""]);
   });
@@ -29,15 +28,14 @@ tests {
 
 docs {
   Met à jour l'équipe d'un dresseur.
-  
+
   ### Paramètres
   - trainerId: ID du dresseur (dans l'URL)
-  
+
   ### Body requis
-  - trainerId: number (doit correspondre à l'URL)
   - pokemons: number[] (liste des IDs de pokémons, max 3)
-  
+
   ### Réponses attendues
   - 204 No Content: Équipe mise à jour avec succès
-  - 400 Bad Request: Taille d'équipe dépassée ou pokémons en double
+  - 400 Bad Request: Taille d'équipe dépassée, ou champ non attendu (ex. trainerId) présent dans le body
 }

@@ -3,7 +3,6 @@ import { TrainersService } from '../trainers/trainers.service';
 import { InMemoryStoreService } from '../store/in-memory-store.service';
 import { Trainer } from '../trainers/entities/trainer.entity';
 import { TrainerNotFoundException } from '../trainers/exceptions/trainer-not-found.exception';
-import { TrainerIdMismatchException } from './exceptions/trainer-id-mismatch.exception';
 import { TeamSizeExceededException } from './exceptions/team-size-exceeded.exception';
 import { DuplicatePokemonException } from './exceptions/duplicate-pokemon.exception';
 
@@ -49,23 +48,13 @@ describe('TeamsService', () => {
   describe('updateTeamByTrainerId', () => {
     it('throws TrainerNotFoundException for an unknown trainer', async () => {
       await expect(
-        service.updateTeamByTrainerId(999, { trainerId: 999, pokemons: [1] }),
+        service.updateTeamByTrainerId(999, { pokemons: [1] }),
       ).rejects.toThrow(TrainerNotFoundException);
-    });
-
-    it('throws TrainerIdMismatchException when the URL and body ids differ', async () => {
-      await expect(
-        service.updateTeamByTrainerId(trainer.id, {
-          trainerId: trainer.id + 1,
-          pokemons: [1],
-        }),
-      ).rejects.toThrow(TrainerIdMismatchException);
     });
 
     it('throws TeamSizeExceededException when the team exceeds TEAM_SIZE', async () => {
       await expect(
         service.updateTeamByTrainerId(trainer.id, {
-          trainerId: trainer.id,
           pokemons: [1, 2, 3, 4],
         }),
       ).rejects.toThrow(TeamSizeExceededException);
@@ -74,7 +63,6 @@ describe('TeamsService', () => {
     it('throws DuplicatePokemonException when a pokemon is repeated', async () => {
       await expect(
         service.updateTeamByTrainerId(trainer.id, {
-          trainerId: trainer.id,
           pokemons: [1, 1, 2],
         }),
       ).rejects.toThrow(DuplicatePokemonException);
@@ -82,7 +70,6 @@ describe('TeamsService', () => {
 
     it('accepts a partial team (fewer than TEAM_SIZE pokemons)', async () => {
       await service.updateTeamByTrainerId(trainer.id, {
-        trainerId: trainer.id,
         pokemons: [1],
       });
 
@@ -94,7 +81,6 @@ describe('TeamsService', () => {
 
     it('persists a full, valid team', async () => {
       await service.updateTeamByTrainerId(trainer.id, {
-        trainerId: trainer.id,
         pokemons: [1, 2, 3],
       });
 
@@ -114,7 +100,6 @@ describe('TeamsService', () => {
 
     it('removes a previously saved team', async () => {
       await service.updateTeamByTrainerId(trainer.id, {
-        trainerId: trainer.id,
         pokemons: [1, 2, 3],
       });
 

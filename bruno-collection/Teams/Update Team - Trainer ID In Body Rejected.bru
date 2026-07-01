@@ -1,0 +1,47 @@
+meta {
+  name: Update Team - Trainer ID In Body Rejected
+  type: http
+  seq: 7
+}
+
+put {
+  url: {{baseUrl}}/trainers/1/team
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "trainerId": 1,
+    "pokemons": [1, 4, 7]
+  }
+}
+
+docs {
+  Test du cas d'erreur 400 lorsqu'on envoie un champ trainerId dans le body :
+  l'ID du dresseur est porté uniquement par l'URL, tout champ non attendu
+  dans le body (whitelist stricte) est rejeté.
+
+  ### Paramètres
+  - trainerId: ID du dresseur (dans l'URL)
+
+  ### Body
+  - trainerId: number (non attendu, doit être rejeté)
+  - pokemons: number[]
+
+  ### Réponse attendue
+  - Status: 400 Bad Request
+  - Message: Erreur indiquant que la propriété trainerId ne devrait pas exister
+}
+
+tests {
+  test("Status code is 400", function() {
+    expect(res.getStatus()).to.equal(400);
+  });
+
+  test("Error indicates trainerId should not exist", function() {
+    const body = res.getBody();
+    expect(body.message).to.be.an('array');
+    expect(body.message.join(' ')).to.match(/trainerId/i);
+  });
+}

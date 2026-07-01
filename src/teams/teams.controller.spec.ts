@@ -48,14 +48,14 @@ describe('TeamsController', () => {
 
   describe('updateTeamByTrainerId', () => {
     it('should update a team by trainer id', async () => {
-      const updatedTeam = { ...mockTeam, pokemons: [25, 6, 9] };
+      const updateTeamDto = { pokemons: [25, 6, 9] };
       jest.spyOn(service, 'updateTeamByTrainerId').mockResolvedValue(undefined);
 
-      await controller.updateTeamByTrainerId(1, updatedTeam);
+      await controller.updateTeamByTrainerId(1, updateTeamDto);
 
       expect(service.updateTeamByTrainerId).toHaveBeenCalledWith(
         1,
-        updatedTeam,
+        updateTeamDto,
       );
     });
   });
