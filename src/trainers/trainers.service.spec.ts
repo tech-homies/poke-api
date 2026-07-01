@@ -75,6 +75,23 @@ describe('TrainersService', () => {
     });
   });
 
+  describe('remove', () => {
+    it('deletes an existing trainer', async () => {
+      const created = await service.create(makeCreateTrainerDto());
+
+      await service.remove(created.id);
+
+      await expect(service.findOne(created.id)).resolves.toBeUndefined();
+      await expect(service.findAll()).resolves.toEqual([]);
+    });
+
+    it('throws TrainerNotFoundException for an unknown id', async () => {
+      await expect(service.remove(999)).rejects.toThrow(
+        TrainerNotFoundException,
+      );
+    });
+  });
+
   describe('onModuleInit', () => {
     it('loads the static trainers dataset', async () => {
       await service.onModuleInit();

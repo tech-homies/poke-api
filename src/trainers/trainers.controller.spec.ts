@@ -31,6 +31,7 @@ describe('TrainersController', () => {
             findOne: jest.fn(),
             create: jest.fn(),
             update: jest.fn(),
+            remove: jest.fn(),
           },
         },
       ],
@@ -131,6 +132,27 @@ describe('TrainersController', () => {
           level: 'intermediate',
         }),
       ).rejects.toThrow(TrainerNotFoundException);
+    });
+  });
+
+  describe('remove', () => {
+    it('should delete the trainer', async () => {
+      jest.spyOn(service, 'remove').mockResolvedValue(undefined);
+
+      const result = await controller.remove(1);
+
+      expect(result).toBeUndefined();
+      expect(service.remove).toHaveBeenCalledWith(1);
+    });
+
+    it('should propagate TrainerNotFoundException when trainer is not found', async () => {
+      jest
+        .spyOn(service, 'remove')
+        .mockRejectedValue(new TrainerNotFoundException(999));
+
+      await expect(controller.remove(999)).rejects.toThrow(
+        TrainerNotFoundException,
+      );
     });
   });
 });

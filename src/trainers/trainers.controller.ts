@@ -1,7 +1,10 @@
 import {
   Body,
   Controller,
+  Delete,
   Get,
+  HttpCode,
+  HttpStatus,
   Param,
   ParseIntPipe,
   Post,
@@ -10,6 +13,7 @@ import {
 import { TrainersService } from './trainers.service';
 import {
   ApiCreatedResponse,
+  ApiNoContentResponse,
   ApiNotFoundResponse,
   ApiOkResponse,
   ApiOperation,
@@ -89,5 +93,23 @@ export class TrainersController {
     @Body() updateTrainerDto: UpdateTrainerDto,
   ): Promise<TrainerDto> {
     return this.trainersService.update(id, updateTrainerDto);
+  }
+
+  @ApiOperation({ summary: 'Supprimer un dresseur par son ID' })
+  @ApiNoContentResponse({
+    description: 'Dresseur supprimé avec succès',
+  })
+  @ApiNotFoundResponse({
+    description: "Le dresseur demandé n'a pas été trouvé",
+  })
+  @ApiParam({
+    name: 'id',
+    description: 'ID du dresseur',
+    example: 1,
+  })
+  @HttpCode(HttpStatus.NO_CONTENT)
+  @Delete(':id')
+  async remove(@Param('id', ParseIntPipe) id: number): Promise<void> {
+    return this.trainersService.remove(id);
   }
 }

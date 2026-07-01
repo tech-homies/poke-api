@@ -95,4 +95,14 @@ export class TrainersService implements OnModuleInit {
 
     return updatedTrainer;
   }
+
+  async remove(id: number): Promise<void> {
+    const exists = await this.findOne(id);
+    if (!exists) {
+      throw new TrainerNotFoundException(id);
+    }
+
+    await this.store.del(`${TRAINER_KEY_PREFIX}${id}`);
+    await this.store.sRem(TRAINERS_INDEX_KEY, id.toString());
+  }
 }
