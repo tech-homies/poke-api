@@ -30,6 +30,7 @@ describe('TrainersController', () => {
             findAll: jest.fn(),
             findOne: jest.fn(),
             create: jest.fn(),
+            update: jest.fn(),
           },
         },
       ],
@@ -92,6 +93,44 @@ describe('TrainersController', () => {
 
       expect(result).toEqual(newTrainer);
       expect(service.create).toHaveBeenCalledWith(createTrainerDto);
+    });
+  });
+
+  describe('update', () => {
+    it('should update and return the trainer', async () => {
+      const updateTrainerDto = {
+        name: 'Ondine (mise à jour)',
+        avatarUrl: 'https://example.com/avatar2.jpg',
+        description: "Championne d'arène spécialisée dans les Pokémon Eau.",
+        age: 12,
+        hometown: 'Azuria',
+        level: 'intermediate' as const,
+      };
+      const updatedTrainer = { ...updateTrainerDto, id: 1 };
+
+      jest.spyOn(service, 'update').mockResolvedValue(updatedTrainer);
+
+      const result = await controller.update(1, updateTrainerDto);
+
+      expect(result).toEqual(updatedTrainer);
+      expect(service.update).toHaveBeenCalledWith(1, updateTrainerDto);
+    });
+
+    it('should propagate TrainerNotFoundException when trainer is not found', async () => {
+      jest
+        .spyOn(service, 'update')
+        .mockRejectedValue(new TrainerNotFoundException(999));
+
+      await expect(
+        controller.update(999, {
+          name: 'Ondine',
+          avatarUrl: 'https://example.com/avatar2.jpg',
+          description: "Championne d'arène spécialisée dans les Pokémon Eau.",
+          age: 12,
+          hometown: 'Azuria',
+          level: 'intermediate',
+        }),
+      ).rejects.toThrow(TrainerNotFoundException);
     });
   });
 });

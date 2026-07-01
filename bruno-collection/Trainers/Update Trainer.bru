@@ -1,0 +1,61 @@
+meta {
+  name: Update Trainer
+  type: http
+  seq: 6
+}
+
+put {
+  url: {{baseUrl}}/trainers/1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Sacha (mis à jour)",
+    "avatarUrl": "https://raw.githubusercontent.com/tech-homies/poke-api/refs/heads/main/src/client/assets/trainers/1/Sacha.webp",
+    "description": "Sacha Ketchum, désormais Maître Pokémon.",
+    "age": 11,
+    "hometown": "Bourg Palette",
+    "level": "advanced",
+    "favoritePokemon": 25
+  }
+}
+
+docs {
+  Met à jour un dresseur existant (remplacement complet des champs).
+
+  ### Paramètres
+  - id: ID du dresseur (dans l'URL)
+
+  ### Body requis
+  - name: string (nom du dresseur)
+  - avatarUrl: string (URL de l'avatar)
+  - description: string (description du dresseur)
+  - age: number (âge entre 5 et 5000)
+  - hometown: string (ville d'origine)
+  - level: enum ('beginner', 'intermediate', 'advanced', 'master')
+
+  ### Body optionnel
+  - favoritePokemon: number (ID du Pokémon favori)
+
+  ### Réponse attendue
+  - Status: 200 OK
+  - Body: TrainerDto avec l'ID de l'URL et les champs mis à jour
+}
+
+tests {
+  test("Status code is 200", function() {
+    expect(res.getStatus()).to.equal(200);
+  });
+
+  test("Response has the trainer ID from the URL", function() {
+    const trainer = res.getBody();
+    expect(trainer.id).to.equal(1);
+  });
+
+  test("Trainer name matches request", function() {
+    const trainer = res.getBody();
+    expect(trainer.name).to.equal("Sacha (mis à jour)");
+  });
+}

@@ -5,6 +5,7 @@ import {
   Param,
   ParseIntPipe,
   Post,
+  Put,
 } from '@nestjs/common';
 import { TrainersService } from './trainers.service';
 import {
@@ -18,6 +19,7 @@ import {
 import { TrainerDto } from './dto/trainer.dto';
 import { TrainerNotFoundException } from './exceptions/trainer-not-found.exception';
 import { CreateTrainerDto } from './dto/create-trainer.dto';
+import { UpdateTrainerDto } from './dto/update-trainer.dto';
 
 @ApiTags('Trainers')
 @Controller('trainers')
@@ -66,5 +68,26 @@ export class TrainersController {
     @Body() createTrainerDto: CreateTrainerDto,
   ): Promise<TrainerDto> {
     return this.trainersService.create(createTrainerDto);
+  }
+
+  @ApiOperation({ summary: 'Mettre à jour un dresseur par son ID' })
+  @ApiOkResponse({
+    description: 'Dresseur mis à jour avec succès',
+    type: TrainerDto,
+  })
+  @ApiNotFoundResponse({
+    description: "Le dresseur demandé n'a pas été trouvé",
+  })
+  @ApiParam({
+    name: 'id',
+    description: 'ID du dresseur',
+    example: 1,
+  })
+  @Put(':id')
+  async update(
+    @Param('id', ParseIntPipe) id: number,
+    @Body() updateTrainerDto: UpdateTrainerDto,
+  ): Promise<TrainerDto> {
+    return this.trainersService.update(id, updateTrainerDto);
   }
 }

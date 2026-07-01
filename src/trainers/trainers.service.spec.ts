@@ -2,6 +2,8 @@ import { TrainersService } from './trainers.service';
 import { InMemoryStoreService } from '../store/in-memory-store.service';
 import { trainers } from './trainers.data';
 import { CreateTrainerDto } from './dto/create-trainer.dto';
+import { UpdateTrainerDto } from './dto/update-trainer.dto';
+import { TrainerNotFoundException } from './exceptions/trainer-not-found.exception';
 
 function makeCreateTrainerDto(
   overrides: Partial<CreateTrainerDto> = {},
@@ -50,6 +52,26 @@ describe('TrainersService', () => {
 
       await expect(service.findOne(created.id)).resolves.toEqual(created);
       await expect(service.findAll()).resolves.toEqual([created]);
+    });
+  });
+
+  describe('update', () => {
+    it('updates and persists an existing trainer', async () => {
+      const created = await service.create(makeCreateTrainerDto());
+
+      const updateTrainerDto: UpdateTrainerDto = makeCreateTrainerDto({
+        name: 'Ondine (mise à jour)',
+      });
+      const updated = await service.update(created.id, updateTrainerDto);
+
+      expect(updated).toEqual({ id: created.id, ...updateTrainerDto });
+      await expect(service.findOne(created.id)).resolves.toEqual(updated);
+    });
+
+    it('throws TrainerNotFoundException for an unknown id', async () => {
+      await expect(service.update(999, makeCreateTrainerDto())).rejects.toThrow(
+        TrainerNotFoundException,
+      );
     });
   });
 

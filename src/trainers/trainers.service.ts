@@ -2,6 +2,8 @@ import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
 import { Trainer } from './entities/trainer.entity';
 import { trainers } from './trainers.data';
 import { CreateTrainerDto } from './dto/create-trainer.dto';
+import { UpdateTrainerDto } from './dto/update-trainer.dto';
+import { TrainerNotFoundException } from './exceptions/trainer-not-found.exception';
 import { Store } from '../store/store';
 
 const TRAINERS_INDEX_KEY = 'index:trainers';
@@ -73,5 +75,24 @@ export class TrainersService implements OnModuleInit {
     await this.store.sAdd(TRAINERS_INDEX_KEY, newId.toString());
 
     return newTrainer;
+  }
+
+  async update(
+    id: number,
+    updateTrainerDto: UpdateTrainerDto,
+  ): Promise<Trainer> {
+    const exists = await this.findOne(id);
+    if (!exists) {
+      throw new TrainerNotFoundException(id);
+    }
+
+    const updatedTrainer: Trainer = {
+      id,
+      ...updateTrainerDto,
+    };
+
+    await this.store.set(`${TRAINER_KEY_PREFIX}${id}`, updatedTrainer);
+
+    return updatedTrainer;
   }
 }
