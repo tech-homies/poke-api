@@ -1,18 +1,21 @@
 import { Injectable } from '@nestjs/common';
+import { Store } from './store';
 
 /**
  * Base de données en mémoire (remplace Redis).
  *
  * Les données sont conservées dans des `Map` propres à l'instance : elles sont
- * donc automatiquement réinitialisées à chaque démarrage de l'application
- * (`npm start`). Les données initiales sont rechargées par les `onModuleInit`
- * de chaque service.
+ * donc automatiquement réinitialisées à chaque redémarrage. C'est
+ * l'implémentation utilisée par `npm run start:dev` / `start:debug`. Les
+ * données initiales sont rechargées par les `onModuleInit` de chaque service.
  *
  * L'interface (asynchrone, mêmes noms de méthodes) reproduit volontairement
- * celle de l'ancien service Redis afin de rester un remplacement transparent.
+ * celle de l'ancien service Redis afin de rester un remplacement transparent
+ * — voir aussi `FileStoreService`, qui respecte le même contrat (`Store`)
+ * mais persiste dans un fichier plat.
  */
 @Injectable()
-export class InMemoryStoreService {
+export class InMemoryStoreService extends Store {
   /**
    * Stockage clé → valeur. Les valeurs sont clonées via `structuredClone` à
    * l'écriture et à la lecture (copie défensive) : cela isole le store des

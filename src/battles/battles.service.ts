@@ -9,7 +9,7 @@ import { TrainerNoTeamException } from './exceptions/trainer-no-team.exception';
 import { Pokemon } from '../pokemons/entities/pokemon.entity';
 import { Battle, DuelResult } from './entities/battle.entity';
 import { TEAM_SIZE } from '../common/constants/team.constants';
-import { InMemoryStoreService } from '../store/in-memory-store.service';
+import { Store } from '../store/store';
 import { battles } from './battles.data';
 
 const BATTLES_INDEX_KEY = 'index:battles';
@@ -25,7 +25,7 @@ export class BattlesService implements OnModuleInit {
     private readonly teamsService: TeamsService,
     private readonly pokemonsService: PokemonsService,
     private readonly pokemonTypesService: PokemonTypesService,
-    private readonly store: InMemoryStoreService,
+    private readonly store: Store,
   ) {}
 
   async onModuleInit() {

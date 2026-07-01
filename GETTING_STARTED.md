@@ -4,10 +4,17 @@
 
 - Node.js (version 18+)
 
-> ℹ️ Aucune base de données externe n'est nécessaire. Les données sont stockées
-> dans une **base en mémoire** qui est **réinitialisée à chaque démarrage** de
-> l'application. Les données initiales (Pokémons, dresseurs, équipes, combats)
-> sont rechargées automatiquement au démarrage.
+> ℹ️ Aucune base de données externe n'est nécessaire.
+>
+> - `npm run start:dev` / `start:debug` utilisent une **base en mémoire**,
+>   réinitialisée à chaque démarrage.
+> - `npm run start` / `start:prod` persistent les données dans un **fichier
+>   plat** (`data/db.json`, via [lowdb](https://github.com/typicode/lowdb)) :
+>   elles survivent aux redémarrages.
+>
+> Dans tous les cas, les données initiales (Pokémons, dresseurs, équipes,
+> combats) sont chargées automatiquement à partir du repo au tout premier
+> démarrage (voir [Réinitialiser les données](#réinitialiser-les-données)).
 
 ## Configuration
 
@@ -70,6 +77,7 @@ Lorsque l'application démarre, vous devriez voir dans les logs :
 | `npm run start:dev` | Démarre en mode développement avec rechargement automatique |
 | `npm run start:debug` | Démarre en mode debug |
 | `npm run start:prod` | Démarre en mode production |
+| `npm run db:reset` | Supprime le fichier `data/db.json` (les données d'origine du repo sont rechargées au prochain `npm start`/`start:prod`) |
 | `npm run build` | Compile le projet |
 | `npm run lint` | Vérifie et corrige le code |
 | `npm run format` | Formate le code |
@@ -91,12 +99,17 @@ taskkill /PID <PID> /F
 
 ### Réinitialiser les données
 
-Les données vivent uniquement en mémoire : il suffit de **redémarrer
-l'application** pour repartir des données initiales.
+- En **mode développement** (`start:dev`/`start:debug`) : les données vivent
+  uniquement en mémoire, il suffit de **redémarrer l'application** pour
+  repartir des données initiales.
+- En **mode persistant** (`start`/`start:prod`) : les données survivent aux
+  redémarrages. Pour repartir des données d'origine du repo, supprimer le
+  fichier de base de données puis relancer l'application :
 
-```bash
-npm run start:dev
-```
+  ```bash
+  npm run db:reset
+  npm start
+  ```
 
 ## Plus d'informations
 

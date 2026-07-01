@@ -8,7 +8,7 @@ import { TEAM_SIZE } from '../common/constants/team.constants';
 import { TrainersService } from '../trainers/trainers.service';
 import { TrainerNotFoundException } from '../trainers/exceptions/trainer-not-found.exception';
 import { teams } from './teams.data';
-import { InMemoryStoreService } from '../store/in-memory-store.service';
+import { Store } from '../store/store';
 
 const TEAMS_INDEX_KEY = 'index:teams';
 const TEAM_KEY_PREFIX = 'team:';
@@ -19,7 +19,7 @@ export class TeamsService implements OnModuleInit {
 
   constructor(
     private readonly trainersService: TrainersService,
-    private readonly store: InMemoryStoreService,
+    private readonly store: Store,
   ) {}
 
   async onModuleInit() {

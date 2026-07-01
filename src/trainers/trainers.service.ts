@@ -2,7 +2,7 @@ import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
 import { Trainer } from './entities/trainer.entity';
 import { trainers } from './trainers.data';
 import { CreateTrainerDto } from './dto/create-trainer.dto';
-import { InMemoryStoreService } from '../store/in-memory-store.service';
+import { Store } from '../store/store';
 
 const TRAINERS_INDEX_KEY = 'index:trainers';
 const TRAINER_KEY_PREFIX = 'trainer:';
@@ -12,7 +12,7 @@ const TRAINER_COUNTER_KEY = 'counter:trainer_id';
 export class TrainersService implements OnModuleInit {
   private readonly logger = new Logger(TrainersService.name);
 
-  constructor(private readonly store: InMemoryStoreService) {}
+  constructor(private readonly store: Store) {}
 
   async onModuleInit() {
     // Charger les données initiales en mémoire au démarrage

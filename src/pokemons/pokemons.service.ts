@@ -1,7 +1,7 @@
 import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
 import { pokemons } from './pokemons.data';
 import { Pokemon } from './entities/pokemon.entity';
-import { InMemoryStoreService } from '../store/in-memory-store.service';
+import { Store } from '../store/store';
 
 const POKEMONS_INDEX_KEY = 'index:pokemons';
 const POKEMON_KEY_PREFIX = 'pokemon:';
@@ -10,7 +10,7 @@ const POKEMON_KEY_PREFIX = 'pokemon:';
 export class PokemonsService implements OnModuleInit {
   private readonly logger = new Logger(PokemonsService.name);
 
-  constructor(private readonly store: InMemoryStoreService) {}
+  constructor(private readonly store: Store) {}
 
   async onModuleInit() {
     // Charger les données initiales en mémoire au démarrage
