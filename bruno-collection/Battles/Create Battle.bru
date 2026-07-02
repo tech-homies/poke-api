@@ -23,13 +23,11 @@ script:pre-request {
 
   // Créer l'équipe pour le dresseur 1
   await axios.put(`${baseUrl}/trainers/1/team`, {
-    trainerId: 1,
     pokemons: [1, 4, 7]
   });
 
   // Créer l'équipe pour le dresseur 2
   await axios.put(`${baseUrl}/trainers/2/team`, {
-    trainerId: 2,
     pokemons: [2, 5, 8]
   });
 }
