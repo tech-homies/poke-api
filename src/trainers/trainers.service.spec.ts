@@ -4,6 +4,8 @@ import { trainers } from './trainers.data';
 import { CreateTrainerDto } from './dto/create-trainer.dto';
 import { UpdateTrainerDto } from './dto/update-trainer.dto';
 import { TrainerNotFoundException } from './exceptions/trainer-not-found.exception';
+import { TeamsService } from '../teams/teams.service';
+import { BattlesService } from '../battles/battles.service';
 
 function makeCreateTrainerDto(
   overrides: Partial<CreateTrainerDto> = {},
@@ -21,9 +23,23 @@ function makeCreateTrainerDto(
 
 describe('TrainersService', () => {
   let service: TrainersService;
+  let teamsService: TeamsService;
+  let battlesService: BattlesService;
 
   beforeEach(() => {
-    service = new TrainersService(new InMemoryStoreService());
+    teamsService = {
+      deleteTeamByTrainerId: jest.fn().mockResolvedValue(undefined),
+    } as unknown as TeamsService;
+
+    battlesService = {
+      deleteByTrainerId: jest.fn().mockResolvedValue(undefined),
+    } as unknown as BattlesService;
+
+    service = new TrainersService(
+      teamsService,
+      battlesService,
+      new InMemoryStoreService(),
+    );
   });
 
   describe('findAll / findOne (before seeding)', () => {
@@ -89,6 +105,17 @@ describe('TrainersService', () => {
       await expect(service.remove(999)).rejects.toThrow(
         TrainerNotFoundException,
       );
+    });
+
+    it('cascades to the trainer team and battle history', async () => {
+      const created = await service.create(makeCreateTrainerDto());
+
+      await service.remove(created.id);
+
+      expect(teamsService.deleteTeamByTrainerId).toHaveBeenCalledWith(
+        created.id,
+      );
+      expect(battlesService.deleteByTrainerId).toHaveBeenCalledWith(created.id);
     });
   });
 

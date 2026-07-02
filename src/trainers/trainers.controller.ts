@@ -95,9 +95,13 @@ export class TrainersController {
     return this.trainersService.update(id, updateTrainerDto);
   }
 
-  @ApiOperation({ summary: 'Supprimer un dresseur par son ID' })
+  @ApiOperation({
+    summary:
+      'Supprimer un dresseur par son ID (suppression en cascade de son équipe et de son historique de combats)',
+  })
   @ApiNoContentResponse({
-    description: 'Dresseur supprimé avec succès',
+    description:
+      'Dresseur supprimé avec succès, ainsi que son équipe et son historique de combats',
   })
   @ApiNotFoundResponse({
     description: "Le dresseur demandé n'a pas été trouvé",

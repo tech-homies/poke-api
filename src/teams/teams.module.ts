@@ -1,10 +1,10 @@
-import { Module } from '@nestjs/common';
+import { forwardRef, Module } from '@nestjs/common';
 import { TeamsController } from './teams.controller';
 import { TeamsService } from './teams.service';
 import { TrainersModule } from '../trainers/trainers.module';
 
 @Module({
-  imports: [TrainersModule],
+  imports: [forwardRef(() => TrainersModule)],
   controllers: [TeamsController],
   providers: [TeamsService],
   exports: [TeamsService],

@@ -111,6 +111,10 @@ Content-Type: application/json
 - **`SameTrainerException`** : Les deux trainers sont identiques
 - **`TrainerNoTeamException`** : L'un des trainers n'a pas une équipe de 3 Pokémon
 
+## Suppression en cascade
+
+Lorsqu'un dresseur est supprimé (`DELETE /trainers/:id`), tous les combats auxquels il a participé sont automatiquement supprimés (`BattlesService.deleteByTrainerId`, appelée en interne — il n'existe pas d'endpoint public dédié).
+
 ## Architecture
 
 ```

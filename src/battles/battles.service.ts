@@ -1,4 +1,10 @@
-import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
+import {
+  forwardRef,
+  Inject,
+  Injectable,
+  Logger,
+  OnModuleInit,
+} from '@nestjs/common';
 import { TrainersService } from '../trainers/trainers.service';
 import { TeamsService } from '../teams/teams.service';
 import { PokemonsService } from '../pokemons/pokemons.service';
@@ -21,6 +27,7 @@ export class BattlesService implements OnModuleInit {
   private readonly logger = new Logger(BattlesService.name);
 
   constructor(
+    @Inject(forwardRef(() => TrainersService))
     private readonly trainersService: TrainersService,
     private readonly teamsService: TeamsService,
     private readonly pokemonsService: PokemonsService,
@@ -88,6 +95,34 @@ export class BattlesService implements OnModuleInit {
     return battles.filter(
       (battle) =>
         battle.trainer1Id === trainerId || battle.trainer2Id === trainerId,
+    );
+  }
+
+  /**
+   * Supprime tous les combats auxquels un dresseur a participé (utilisée en
+   * interne lors de la suppression en cascade d'un dresseur, voir
+   * TrainersService.remove). Contrairement à findByTrainerId, ne vérifie pas
+   * l'existence du dresseur : la suppression reste silencieuse si celui-ci
+   * n'a jamais eu de combat.
+   */
+  async deleteByTrainerId(trainerId: number): Promise<void> {
+    const battleIds = await this.store.sMembers(BATTLES_INDEX_KEY);
+    if (battleIds.length === 0) return;
+
+    const keys = battleIds.map((id) => `${BATTLE_KEY_PREFIX}${id}`);
+    const battles = await this.store.mGet<Battle>(keys);
+
+    await Promise.all(
+      battleIds.map(async (id, index) => {
+        const battle = battles[index];
+        if (
+          battle &&
+          (battle.trainer1Id === trainerId || battle.trainer2Id === trainerId)
+        ) {
+          await this.store.del(`${BATTLE_KEY_PREFIX}${id}`);
+          await this.store.sRem(BATTLES_INDEX_KEY, id);
+        }
+      }),
     );
   }
 

@@ -1,4 +1,10 @@
-import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
+import {
+  forwardRef,
+  Inject,
+  Injectable,
+  Logger,
+  OnModuleInit,
+} from '@nestjs/common';
 import { Pokemon } from '../pokemons/entities/pokemon.entity';
 import { TeamDto } from './dto/team.dto';
 import { UpdateTeamDto } from './dto/update-team.dto';
@@ -18,6 +24,7 @@ export class TeamsService implements OnModuleInit {
   private readonly logger = new Logger(TeamsService.name);
 
   constructor(
+    @Inject(forwardRef(() => TrainersService))
     private readonly trainersService: TrainersService,
     private readonly store: Store,
   ) {}

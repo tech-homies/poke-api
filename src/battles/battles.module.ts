@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { forwardRef, Module } from '@nestjs/common';
 import { BattlesController } from './battles.controller';
 import { BattlesService } from './battles.service';
 import { TrainersModule } from '../trainers/trainers.module';
@@ -7,7 +7,12 @@ import { PokemonsModule } from '../pokemons/pokemons.module';
 import { PokemonTypesModule } from '../pokemon-types/pokemon-types.module';
 
 @Module({
-  imports: [TrainersModule, TeamsModule, PokemonsModule, PokemonTypesModule],
+  imports: [
+    forwardRef(() => TrainersModule),
+    TeamsModule,
+    PokemonsModule,
+    PokemonTypesModule,
+  ],
   controllers: [BattlesController],
   providers: [BattlesService],
   exports: [BattlesService],

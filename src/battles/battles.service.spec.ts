@@ -217,4 +217,33 @@ describe('BattlesService', () => {
       ).toBe(true);
     });
   });
+
+  describe('deleteByTrainerId', () => {
+    it('removes only the battles that involve the given trainer', async () => {
+      await service.fight(trainer1.id, trainer2.id);
+
+      const trainer3 = makeTrainer({ id: 3, name: 'Trainer Bystander' });
+      trainersById.set(trainer3.id, trainer3);
+      teamsByTrainerId.set(
+        trainer3.id,
+        grassPokemons.map((p) => p.pokedex_id),
+      );
+      await service.fight(trainer1.id, trainer3.id);
+
+      await service.deleteByTrainerId(trainer2.id);
+
+      const remaining = await service.findAll();
+      expect(remaining).toHaveLength(1);
+      expect(
+        remaining.every(
+          (b) => b.trainer1Id !== trainer2.id && b.trainer2Id !== trainer2.id,
+        ),
+      ).toBe(true);
+    });
+
+    it('does nothing when the trainer has no battles', async () => {
+      await expect(service.deleteByTrainerId(999)).resolves.toBeUndefined();
+      await expect(service.findAll()).resolves.toEqual([]);
+    });
+  });
 });

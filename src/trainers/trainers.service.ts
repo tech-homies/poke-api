@@ -1,10 +1,18 @@
-import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
+import {
+  forwardRef,
+  Inject,
+  Injectable,
+  Logger,
+  OnModuleInit,
+} from '@nestjs/common';
 import { Trainer } from './entities/trainer.entity';
 import { trainers } from './trainers.data';
 import { CreateTrainerDto } from './dto/create-trainer.dto';
 import { UpdateTrainerDto } from './dto/update-trainer.dto';
 import { TrainerNotFoundException } from './exceptions/trainer-not-found.exception';
 import { Store } from '../store/store';
+import { TeamsService } from '../teams/teams.service';
+import { BattlesService } from '../battles/battles.service';
 
 const TRAINERS_INDEX_KEY = 'index:trainers';
 const TRAINER_KEY_PREFIX = 'trainer:';
@@ -14,7 +22,13 @@ const TRAINER_COUNTER_KEY = 'counter:trainer_id';
 export class TrainersService implements OnModuleInit {
   private readonly logger = new Logger(TrainersService.name);
 
-  constructor(private readonly store: Store) {}
+  constructor(
+    @Inject(forwardRef(() => TeamsService))
+    private readonly teamsService: TeamsService,
+    @Inject(forwardRef(() => BattlesService))
+    private readonly battlesService: BattlesService,
+    private readonly store: Store,
+  ) {}
 
   async onModuleInit() {
     // Charger les données initiales en mémoire au démarrage
@@ -101,6 +115,14 @@ export class TrainersService implements OnModuleInit {
     if (!exists) {
       throw new TrainerNotFoundException(id);
     }
+
+    // Suppression en cascade : l'équipe et l'historique de combats d'un
+    // dresseur n'ont plus de raison d'exister une fois celui-ci supprimé.
+    // Le dresseur doit encore exister au moment de ces deux appels (ils
+    // vérifient eux-mêmes son existence), d'où l'ordre : cascade d'abord,
+    // suppression du dresseur en dernier.
+    await this.battlesService.deleteByTrainerId(id);
+    await this.teamsService.deleteTeamByTrainerId(id);
 
     await this.store.del(`${TRAINER_KEY_PREFIX}${id}`);
     await this.store.sRem(TRAINERS_INDEX_KEY, id.toString());

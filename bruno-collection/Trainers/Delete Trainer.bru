@@ -10,8 +10,38 @@ delete {
   auth: none
 }
 
+script:pre-request {
+  const axios = require('axios');
+  const baseUrl = bru.getEnvVar('baseUrl');
+
+  // Cette requête doit rester significative même si elle est exécutée
+  // isolément (par ex. via "Run Folder" sur "Trainers" uniquement), c'est
+  // pourquoi on fabrique ici notre propre combat impliquant le dresseur 1
+  // plutôt que de dépendre de Battles/Create Battle.bru qui vit dans un
+  // autre dossier.
+  await axios.put(`${baseUrl}/trainers/1/team`, {
+    pokemons: [1, 4, 7]
+  });
+  await axios.put(`${baseUrl}/trainers/3/team`, {
+    pokemons: [3, 6, 9]
+  });
+  await axios.post(`${baseUrl}/battles`, {
+    trainer1Id: 1,
+    trainer2Id: 3
+  });
+}
+
+script:post-response {
+  const axios = require('axios');
+  const baseUrl = bru.getEnvVar('baseUrl');
+
+  const battlesRes = await axios.get(`${baseUrl}/battles`);
+  bru.setVar('remainingBattlesAfterTrainerDelete', battlesRes.data);
+}
+
 docs {
-  Supprime un dresseur par son ID.
+  Supprime un dresseur par son ID, ainsi que son équipe et son historique de
+  combats (suppression en cascade).
 
   ### Paramètres
   - id: ID du dresseur (dans l'URL)
@@ -28,5 +58,13 @@ tests {
   test("Response body is empty", function() {
     const body = res.getBody();
     expect(body).to.be.oneOf([null, undefined, ""]);
+  });
+
+  test("Cascade: no remaining battle references the deleted trainer", function() {
+    const remainingBattles = bru.getVar('remainingBattlesAfterTrainerDelete') || [];
+    const hasOrphanBattle = remainingBattles.some(
+      (battle) => battle.trainer1Id === 1 || battle.trainer2Id === 1
+    );
+    expect(hasOrphanBattle).to.be.false;
   });
 }
